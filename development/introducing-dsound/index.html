@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+
+    
+
+    
+    <title>Introducing DSound | DECENTRAWISE</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="keywords" content="projects,dsound,music,ipfs,steem">
+    
+    <meta name="description" content="Original post on Steem A decentralized sound platform using STEEM and IPFSAround tow months ago I joined STEEM community, and since I started to know more about it I understood that this was the place">
+<meta name="keywords" content="projects,dsound,music,ipfs,steem">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Introducing DSound">
+<meta property="og:url" content="https://decentrawise.com/development/introducing-dsound/index.html">
+<meta property="og:site_name" content="DECENTRAWISE">
+<meta property="og:description" content="Original post on Steem A decentralized sound platform using STEEM and IPFSAround tow months ago I joined STEEM community, and since I started to know more about it I understood that this was the place">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://decentrawise.com/images/dsound-logo-big.png">
+<meta property="og:updated_time" content="2020-07-22T11:03:49.939Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Introducing DSound">
+<meta name="twitter:description" content="Original post on Steem A decentralized sound platform using STEEM and IPFSAround tow months ago I joined STEEM community, and since I started to know more about it I understood that this was the place">
+<meta name="twitter:image" content="https://decentrawise.com/images/dsound-logo-big.png">
+    
+
+    
+        <link rel="alternate" href="/rss.xml" title="DECENTRAWISE" type="application/atom+xml">
+    
+
+    
+        <link rel="icon" href="/favicon.ico">
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/3.5.0/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
+
+
+</head>
+</html>
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                        <h2 class="subtitle-wrap">
+                            <p class="subtitle">Building blockchains, smart-contracts, dapps and changing the world as we know it...</p>
+                        </h2>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/development">Development</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/audit">Audit</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/infrastructure">Infrastructure</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/projects">Projects</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/team">Team</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/contact">Contact</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search">
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something...">
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/development/">development</a>
+    </h1>
+</div>
+
+                        <div class="main-body-content">
+                            <article id="post-introducing-dsound" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        Introducing DSound
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+  <div class="article-date">
+    <i class="fa fa-calendar"></i>
+    <a href="/development/introducing-dsound/" class="article-date">
+       <time datetime="2017-09-07T23:00:00.000Z" itemprop="datePublished">2017-09-08</time>
+    </a>
+  </div>
+
+
+                
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/dsound/">dsound</a>, <a class="tag-link" href="/tags/ipfs/">ipfs</a>, <a class="tag-link" href="/tags/music/">music</a>, <a class="tag-link" href="/tags/projects/">projects</a>, <a class="tag-link" href="/tags/steem/">steem</a>
+    </div>
+
+                
+
+                
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+
+            
+
+            
+
+            <p><sup><sub><a href="https://steemit.com/music/@prc/introducing-dsound-a-decentralized-sound-platform-using-steem-and-ipfs" target="_blank" rel="noopener">Original post on Steem</a></sub></sup></p>
+<h1 id="A-decentralized-sound-platform-using-STEEM-and-IPFS"><a href="#A-decentralized-sound-platform-using-STEEM-and-IPFS" class="headerlink" title="A decentralized sound platform using STEEM and IPFS"></a>A decentralized sound platform using STEEM and IPFS</h1><p>Around tow months ago I joined STEEM community, and since I started to know more about it I understood that this was the place I wanted to be. Then later I saw DTube being announced and my head was going around in waves about this mix of technologies that made it possible… I met @heimindanger and chatted about his project and absorbed some of the details and ideology, of which I share the same vision. And it got my engine running, so I dived in and started implementing my own vision of what I wanted as a platform for publishing music and sounds in general. And now I am proud to introduce you all to…</p>
+<p><img src="/images/dsound-logo-big.png" alt></p>
+<h1 id="DSOUND-AUDIO"><a href="#DSOUND-AUDIO" class="headerlink" title="DSOUND.AUDIO"></a><a href="https://dsound.audio" target="_blank" rel="noopener">DSOUND.AUDIO</a></h1><h1 id="What-is-DSound"><a href="#What-is-DSound" class="headerlink" title="What is DSound?"></a>What is DSound?</h1><p>DSound is a web application that I developed in Javascript, that allows us to upload, listen and discover music and other sounds stored on top of the IPFS Network. It uses STEEM blockchain as a decentralized database, which allows authors to earn rewards in STEEM Dollars cryptocurrency, which can be exchanged directly to US Dollars or any other currency, when other users like or repost our content, in the same way as Steemit.com for blog posts.</p>
+<p>I decided to follow the same approach as @heimindanger and develop first and talk after. And I worked almost non-stop until I have this first alpha version to share with you! It is only a minimum viable product of what can become the platform of reference for musicians to publish their songs, promos and recordings and be rewarded for their work immediately, without any publishing and/or distribution involved.</p>
+<p>As a musician and DJ as well I deeply understand the music industry and my only aim is to create a platform where I would love to publish my own works, to receive the feedback from the community and earn few bucks with it… And if you also are in the industry, you know how difficult it is to make any money with our creations in the music business these days!</p>
+<p>There are some platforms that allow it, if you are signed with a big label, like SoundCloud, YouTube, Apple Music or Spotify, but if you are an indie like myself, you get lucky if you can publish any of your own creations on these channels without being taken down! I had my own creations (without any sampled materials) being taken down for copyright infringement, just because they can.</p>
+<p>Even worse for other kinds of creations, which constitute fair use of the copyrighted materials, like remixes, mashups or DJ sets. If you want to share any of these with your fans, nowadays you can’t! If you upload these works to YouTube or SoundCloud in a matter of seconds they are taken down for copyright infringement. This is not acceptable. These are derivative works of the original ones, which serve to promote the authors or give them a different use, like a remix makes people dance to an undanceable song, or a DJ set which mixes and blends together several tracks to produce a completely different sound vibe. These creations deserve to be published and their authors deserve to earn their bucks if people like it!</p>
+<p>So, the copyright law is broken and needs fixing. But in these last cases, besides being fair use, the industry is abusing the small creators with their super-powers making it impossible for them to survive without working other jobs to put food to their tables, instead of focusing on creating and spreading love! But this is about to change with DSound!!! :)</p>
+<h1 id="How-to-use-DSound"><a href="#How-to-use-DSound" class="headerlink" title="How to use DSound"></a>How to use DSound</h1><ol>
+<li><p>Logging in<br>Create a STEEM account on Steemit.com, if you don’t have one already, then enter your STEEM username:<br><img src="/images/dsound-LoginBox.png" alt></p>
+</li>
+<li><p>Enter your Private Posting Key, you can find it here:<br><img src="/images/dsound-GetPrivKey.png" alt></p>
+</li>
+</ol>
+<h1 id="Multi-user-login"><a href="#Multi-user-login" class="headerlink" title="Multi-user login"></a>Multi-user login</h1><p><img src="/images/dsound-MultiUser.png" alt></p>
+<p>If you are an artist as well, it is common to have your artistic names, which leads to having multiple accounts on the social networks and usually makes it a real pain to always being logging-out and logging-in to use your different pseudonyms. Youtube and Facebook have this feature allowing you to switch between them easily. So, I followed the same idea as @heimindanger and implemented it on DSound as well, letting users log in with as many accounts as they want, and switch between them.</p>
+<h1 id="IPFS-Settings"><a href="#IPFS-Settings" class="headerlink" title="IPFS Settings"></a>IPFS Settings</h1><p><img src="/images/dsound-IPFSoffline.png" alt></p>
+<p>DSound manages all IPFS settings for you right now. Maybe in the future it will have a way to fine tune them, but for now it is all taken care. It shows if you are running a local IPFS node or not, and if you do DSound will happily use it, otherwise it will connect to other IPFS nodes on the network to upload and store your content.</p>
+<p><img src="/images/dsound-IPFSonline.png" alt></p>
+<h1 id="Uploading"><a href="#Uploading" class="headerlink" title="Uploading"></a>Uploading</h1><p><img src="/images/dsound-Upload.png" alt></p>
+<p>First, you need to be logged-in to be able to access the upload page.<br>Then just simply upload the audio file, the cover art (not required but much appreciated by your listeners, like a part of your sound that fills the eyes), and finally fill the texts for the blockchain and publish!</p>
+<p>If all goes well, you should be taken to the new sounds feed where your sound should be sitting, waiting to be played by your fans. The process can take between 0 and 30 seconds, depending on the IPFS network status and your connection speed. This is where having a local IPFS node installed helps a lot, and if you upload regularly you should definitely think about it.</p>
+<p>I will be developing a desktop app, together with @heimindanger from DTube, to allow non tech users to install the IPFS and configure it correctly for use with both DTube and DSound, but until then you can always try it out with the instructions found on the IPFS website (not very easy for non tech savvy people…)</p>
+<h1 id="Browsing-and-Discovering-Sounds"><a href="#Browsing-and-Discovering-Sounds" class="headerlink" title="Browsing and Discovering Sounds"></a>Browsing and Discovering Sounds</h1><p>Here I tried to replicate the way Steemit.com works, with the exception of the home page where you view the feed of sounds that had any recent interactions, like comments or upvotes. Then you have the regular Trending, Hot and New main sections. They work the same as in Steemit.</p>
+<p><img src="/images/dsound-Browsing.png" alt></p>
+<p>If you click on a sound (title or cover) you will get to the sound page:</p>
+<p><img src="/images/dsound-SoundPage.png" alt></p>
+<p>If you click on a ‘#tag’ on any page, you can discover sounds only on that category, even if you select the new, hot or trending sections you will be seeing that category on the chosen section. By clicking on the logo to go to your feed or exiting the browsing to any other page you will exit the category mode. When browsing in category mode you’ll see the category ‘#tag’ at the top:</p>
+<p><img src="/images/dsound-TagPage.png" alt></p>
+<p>Anywhere on the application you can click on an ‘@user’ to view that user’s publications alone at the user page:</p>
+<p><img src="/images/dsound-UserPage.png" alt></p>
+<p>Yes, you can see the new profile cover picture of Steemit at the cover of DSound user profile page! :)</p>
+<p>And anywhere you see a track player with the play button and a waveform of the sound, you can play that sound and navigate in it by clicking on the waveform as you do on SoundCloud.</p>
+<p>Also, throughout the app you see the player at the lower part of your screen and that player plays music even when you navigate through the application, knowing your last feed selection of songs and playing them in sequence or shuffle them for you!</p>
+<p>This is all based on STEEM blockchain, so naturally you can like sounds by clicking on the ‘heart’ icon, republish them on the ‘repost’ icon, download the sounds on the Download button (if enabled by the author) or otherwise the author may activate a Buy button with a link directly to that sound on any music store of his choice or even his website.</p>
+<p>By disabling the download link, the author is only not giving his permission for you to download the sound directly on DSound, but through IPFS network, everything in it is naturally available to download, so don’t think your content will not be downloadable if you disable the download button when uploading! As with SoundCloud, YouTube, Spotify or any other content sharing, if you can stream it you can download it, one way or the other…</p>
+<p>The following parts of this article are mostly technical and maybe not so interesting to some people not on the tech side, but if you are curious about the internals of DSound you can continue, as I’ll try to explain how it works with simple common words,  when possible… ;)</p>
+<h1 id="How-DSound-works"><a href="#How-DSound-works" class="headerlink" title="How DSound works"></a>How DSound works</h1><h1 id="STEEM-Blockchain-as-database"><a href="#STEEM-Blockchain-as-database" class="headerlink" title="STEEM Blockchain as database"></a>STEEM Blockchain as database</h1><p><img src="/images/steem.png" alt></p>
+<p>What makes DSound so special is its decentralized nature. Using a blockchain for it was my idea for ages. STEEM has many advantages over other blockchains. It is fast (3 sec blocks). It is free, anyone can use it without having to deposit some form of currency, and transactions have no fees.</p>
+<p>Other projects are already there that implement some kind of Music Currency, that you can use to buy access to music content, like Musicoin or Resonate. I wanted to build something that works the other way around, and to reward music creation by the community, in the same way that STEEM blockchain already implements its reward-earning mechanism for blog posts.</p>
+<p>Similar to DTube, any sound uploaded on DSound becomes a STEEM content, that can earn rewards for 7 days. DSound doesn’t use either the title or the body of the STEEM post to store information, therefore if you don’t want your sound to appear in your Steemit feed, you can edit or delete it. The sound will stay intact on DSound while it will be invisible on other applications like steemit.com or busy.org. I believe the current behavior to be correct and that it contributes to platform growth and users rewards increase.</p>
+<h1 id="IPFS-as-static-file-storage"><a href="#IPFS-as-static-file-storage" class="headerlink" title="IPFS as static file storage"></a>IPFS as static file storage</h1><p><img src="/images/ipfs.png" alt></p>
+<p>This was actually the final ingredient that I got from DTube and @heimindanger… When I saw the initial DTube post I was thrilled! I had found the missing piece that I needed to finally build DSound!</p>
+<p>In his article @heimindanger describes perfectly the IPFS protocol at a high level, so I include the following paragraph from his post that generically describes it all:</p>
+<blockquote>
+<p>“IPFS is a protocol that enables decentralized file storage. The principle behind it is called Distributed Hash Tables (DHT). The same principle also powers the BitTorrent network. Just like how cryptocurrency uses asymmetric cryptography, DHT networks will hash contents in order to be able to identify a file. The hash becomes the identifier of a file, and it’s as easy as re-hashing a file and making sure the hashes match to ensure the file that was sent to us is the original.”</p>
+</blockquote>
+<p>IPFS is young, open-source, and actively being developed, with many bright minds working on the project. I believe it has a great future ahead. Using it as the main means of storage for this project was incredibly easy, even with such a young project.</p>
+<h1 id="IPFS-Storage-Cost"><a href="#IPFS-Storage-Cost" class="headerlink" title="IPFS Storage Cost"></a>IPFS Storage Cost</h1><p>Here I faced the same difficulties as DTube. There is no magic, someone needs to seed the files, and the browser is unable to permanently store large files (local storage is limited to 50MB on most browsers), so in-browser seeding is not a solution.</p>
+<p>My first idea was to require users to run their IPFS node locally in their computer, but it became clear after a few chats and brainstormings that this wouldn’t be a solution, as IPFS is still not easy to set up for a regular user, and there are a few open source apps that attempt to provide an easier path but they are too unstable even for testing purposes…</p>
+<p>I still believe this solution to be the right one for DSound, and possibly DTube as well, but I would clearly need to build a desktop application, for Windows, OSX and Linux, to ease this setup process to the point that even my grandma would do it, so that it will be a plausible solution to the storage part of the equation.</p>
+<p>But for now I needed a way for DSound to store the contents without a local IPFS node, a requirement that will not disappear and possibly will even grow as many users don’t like installing stuff, so I asked @heimindanger of DTube about it and got to chat with the owner of IPFS Store as well, which as been a great help even in trying out DSound and bug reporting. Great guy this @nannal (steem, twitter/etc), recommended!</p>
+<p>So I ended up with the same approach as DTube, created a @dsound account and this account will be used to collect 25% of the DSound author rewards. The rates of storage are the same, but historically in STEEM video content more than doubles the rewards on music content, so I think it is fair to go with the same percentage of the author rewards, basically due to the probability that the storage / reward ratio will be probably identical.</p>
+<p>Also part of these rewards will be used to finance the continuation of the project development, if the community finds it useful, and hire a project team if it all turns out really well.</p>
+<p>Should one day the project is done and it may survive on it’s own without much effort in development and maintenance, and a large user base have their own IPFS nodes, then my contribution to the project will not be needed so often and the project will be open sourced and the reward sharing percentage removed.</p>
+<h1 id="Design-and-User-Experience"><a href="#Design-and-User-Experience" class="headerlink" title="Design and User Experience"></a>Design and User Experience</h1><p>Here I decided to have a simpler but equally intuitive approach, inspired by the leading sound sharing platform SoundCloud, as the potential users are already used to it.</p>
+<p>I tried to have the design as clean as possible without distractions, but still showing what users care about and facilitate the usages that they require, like waveform navigation, commenting, republish and like content. Another main requirement was to make it easy to discover new music, as that is really important for DJs like myself, thus the browsing by tags and merging with top sections. I think I did fine on this for this first version, but still a lot to improve and new features to implement, as described in the roadmap below. </p>
+<h1 id="Browser-stored-data"><a href="#Browser-stored-data" class="headerlink" title="Browser stored data"></a>Browser stored data</h1><p>DSound will use your browser local storage to store your user accounts and posting keys encrypted, so that you don’t have to login every time. If you clean your browser stored data, you will have to login again in all accounts on DSound.</p>
+<h1 id="Why-can’t-I-log-in-with-my-master-password-or-active-key"><a href="#Why-can’t-I-log-in-with-my-master-password-or-active-key" class="headerlink" title="Why can’t I log in with my master password or active key?"></a>Why can’t I log in with my master password or active key?</h1><p>Because you simply shouldn’t do it! Steemit.com allows it solely because they also have a wallet in the application, but you shouldn’t login on Steemit.com with your password anyway, it is a bad practice. I think the worse thing a developer can deal with is sentiment of guilt cause by their users losing their money and accounts due to a security breach in his application or on a specific browser. Instead, it is much safer to only allow the use of the private posting key and limit the risks.</p>
+<p>If you want to manage your STEEM rewards, I invite you to use Vessel. And start using only the posting key on any online platform such as Steemit.com, Busy.org, etc.</p>
+<h1 id="Sound-processing-on-upload"><a href="#Sound-processing-on-upload" class="headerlink" title="Sound processing on upload"></a>Sound processing on upload</h1><p>DSound already do some needed sound processing on upload. This is required to be able to display the waveforms of sounds before downloading them from IPFS network. A typical good quality song file is around 10MB, so it could take as much as 30 seconds to display a sound waveform on the screen. This multiplied by 6 sounds per page would be insane due to the time it took and the bandwidth required for just displaying files that the user didn’t necessarily want to play anyway.</p>
+<p>So on DSound I implemented it the other way around: at upload time DSound reads the contents of the sound file and processes it to generate the peak values for that file that will feed the waveform display. That peak data is then uploaded to the IPFS network, alongside with the original media, thus generating 2 files uploaded per sound published, not counting the cover art image.</p>
+<p>Then downloading a 15KB peaks file is almost instantaneous, and it will only download the media file if the user wants to play it! Cool isn’t it? </p>
+<h1 id="Integration-with-other-platforms"><a href="#Integration-with-other-platforms" class="headerlink" title="Integration with other platforms"></a>Integration with other platforms</h1><p>Any other STEEM based platform can easily integrate sounds posted on DSound. The sound and cover IPFS hashes are stored inside the <code>json_metadata</code> of the post. Then it is as easy as doing:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;video src=”https://ipfs.io/ipfs/soundhash” poster=”https://ipfs.io/ipfs/coverhash” controls&gt;&lt;/video&gt;</span><br></pre></td></tr></table></figure></p>
+<p>or<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;audio src=”https://ipfs.io/ipfs/soundhash”&gt;&lt;/audio&gt;</span><br></pre></td></tr></table></figure></p>
+<h1 id="Known-Issues"><a href="#Known-Issues" class="headerlink" title="Known Issues"></a>Known Issues</h1><ul>
+<li>Problematic behavior in iPad</li>
+<li>Some weird event race on drag over the sound upload area</li>
+<li>Found another? Please get to me on steemit.chat</li>
+</ul>
+<h1 id="Roadmap-missing-features"><a href="#Roadmap-missing-features" class="headerlink" title="Roadmap (missing features)"></a>Roadmap (missing features)</h1><ul>
+<li>Search (in a decentralized way - not possible now)</li>
+<li>Playlist sharing and playback</li>
+<li>Playback goodies like cross-fade </li>
+<li>Mobile app for iOS and Android</li>
+<li>Custom Player for Social Networks integration</li>
+<li>Sharing to Facebook, Twitter, and others</li>
+</ul>
+<p>I believe the current state of the DSound is viable, even without these missing features. I will add them, slowly. Please let me know what you want to be implemented first, or other feature suggestions in the comments…</p>
+<h1 id="App-Dependencies"><a href="#App-Dependencies" class="headerlink" title="App Dependencies"></a>App Dependencies</h1><p>DSound is built with React, and uses many open-source packages from NPM. DSound wouldn’t exist without them, so they deserve some credits:</p>
+<ul>
+<li>js-ipfs-api - Communication with the IPFS Network</li>
+<li>SteemJS - Communicating with the STEEM Blockchain</li>
+<li>autolinker - Adding links to descriptions / comments</li>
+<li>moment - Displaying times</li>
+<li>XSS - For displaying untrusted texts and preventing XSS attacks</li>
+</ul>
+<h1 id="Last-words"><a href="#Last-words" class="headerlink" title="Last words"></a>Last words</h1><p>The same way as @heimindanger, I am a true believer that decentralization is the future and I am trying to contribute with my share to change the world.</p>
+<p>But I know that I will have a hard time here because competing with SoundCloud will not be an easy task! DSound will be decentralized the most I can, in order to get the project out of my direct control leaving only the domain as single centralized dependency for now.</p>
+<p>Also I expect to have even more pressure from the Labels due to copyright infringement, although you didn’t read a single word from me about building DSound to circumvent or facilitate sharing of copyrighted materials illegally, as I am a musician and DJ myself and I comply with all copyright laws all the time.</p>
+<p>On the other hand, I defend that the copyright laws are being misinterpreted by labels in their favor, allowing them to use their huge economic power to impoverishing 99% of the music creators, while monopolizing the 1% that they enslave with their 100 pages contracts and 360º deals and making huge profits out of those, in times that publishing is MP3 and distribution is Internet. So, labels are now marketing companies that sell their brands, and fight all others that attempt to bring something new to the world, that is not own by them!</p>
+<p>I will never encourage the use of music without any kind of contribution to the actual guy that put in the time and creativity to turn that into a music that we enjoy! Authors also need to buy stuff on supermarkets, they don’t survive out of nothing and without them the world would be so less interesting…</p>
+<p>What I don’t agree with is the abuse of the same laws that had in their true heart the need to defend the rights of those who make our world more entertaining, to enforce the enrichment of few and prevent us from hearing all the music created that we possibly can and enjoy it all!<br>For example, do you that the music of this century is based on electronic instruments and sampling? All music in the tops contains some kind of sample or sampled instrument! And the labels go after remixers and take down their content while they publish and make fortunes with other sampled songs as well?!</p>
+<p>Also go after the small DJs and take down their work, because they are using music that they bought legally to make their sets, prohibiting them of having their work shared and get noticed by what they do best… How the heck should a DJ make a set to share without any copyrighted material in it? Does this sound sane at all?!</p>
+<p>So DSound is NOT about facilitating the sharing of copyrighted material, but it is all about freeing the authors of the pressures of the major labels and giving them a tool that enables them to make decent living out of their creations without having to be signed to a label and enslaved their lives.</p>
+<p>If I can help to make this happen, I will be the happiest man on this planet, because…</p>
+<p>“Music is what feelings sound like”</p>
+<p>Cheers,</p>
+<p>PRC</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://decentrawise.com/development/introducing-dsound/" data-id="ckcxuwvw5003rre04t86tectr" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "DECENTRAWISE"
+        },
+        "headline": "Introducing DSound",
+        "image": "https://decentrawise.com/images/dsound-logo-big.png",
+        "keywords": "projects dsound music ipfs steem",
+        "genre": "development",
+        "datePublished": "2017-09-08",
+        "dateCreated": "2017-09-08",
+        "dateModified": "2020-07-22",
+        "url": "https://decentrawise.com/development/introducing-dsound/",
+        "description": "Original post on Steem
+A decentralized sound platform using STEEM and IPFSAround tow months ago I joined STEEM community, and since I started to know more about it I understood that this was the place",
+        "wordCount": 3565
+    }
+</script>
+
+</article>
+
+    <section id="comments">
+    
+    </section>
+
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="telegram" href="https://t.me/decentrawise" target="_blank" rel="noopener">
+                        <i class="icon fa fa-telegram"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="https://twitter.com/decentrawise" target="_blank" rel="noopener">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+            
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/decentrawise" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/rss.xml" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/development/dsound-the-launch/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">newer</strong>
+        <p class="article-nav-title">
+        
+            DSound, the launch
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/team/decentrawise-presentation/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">DecentraWise presentation</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/development/dsound-v0-4-3/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/dsound-hive.png)" alt="DSound v0.4.3" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/development/">development</a></p>
+                            <p class="item-title"><a href="/development/dsound-v0-4-3/" class="title">DSound v0.4.3</a></p>
+                            <p class="item-date"><time datetime="2020-03-30T23:00:00.000Z" itemprop="datePublished">2020-03-31</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/infrastructure/supporting-hive-fork/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/hive-logo.jpg)" alt="Supporting Hive fork" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/infrastructure/">infrastructure</a></p>
+                            <p class="item-title"><a href="/infrastructure/supporting-hive-fork/" class="title">Supporting Hive fork</a></p>
+                            <p class="item-date"><time datetime="2020-03-20T00:00:00.000Z" itemprop="datePublished">2020-03-20</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/infrastructure/steem-protection-soft-fork/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/steem.png)" alt="Steem Protection soft fork" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/infrastructure/">infrastructure</a></p>
+                            <p class="item-title"><a href="/infrastructure/steem-protection-soft-fork/" class="title">Steem Protection soft fork</a></p>
+                            <p class="item-date"><time datetime="2020-02-26T00:00:00.000Z" itemprop="datePublished">2020-02-26</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/market/dtube-token-sale/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/dtube-logo-big.png)" alt="DTube token sale" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/market/">market</a></p>
+                            <p class="item-title"><a href="/market/dtube-token-sale/" class="title">DTube token sale</a></p>
+                            <p class="item-date"><time datetime="2019-09-28T23:00:00.000Z" itemprop="datePublished">2019-09-29</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/development/dsound-v0-4-1/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/dsound-logo-full.png)" alt="DSound v0.4.1" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/development/">development</a></p>
+                            <p class="item-title"><a href="/development/dsound-v0-4-1/" class="title">DSound v0.4.1</a></p>
+                            <p class="item-date"><time datetime="2018-12-08T00:00:00.000Z" itemprop="datePublished">2018-12-08</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/development/">development</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/infrastructure/">infrastructure</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/market/">market</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/presentations/">presentations</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/team/">team</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">tags</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/beginning/">beginning</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/bp/">bp</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/decentrawise/">decentrawise</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dpos/">dpos</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dsound/">dsound</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dtube/">dtube</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hive/">hive</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ipfs/">ipfs</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/music/">music</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/projects/">projects</a><span class="tag-list-count">13</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/steem/">steem</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/token/">token</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/witness/">witness</a><span class="tag-list-count">3</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/beginning/" style="font-size: 10px;">beginning</a> <a href="/tags/bp/" style="font-size: 14px;">bp</a> <a href="/tags/decentrawise/" style="font-size: 10px;">decentrawise</a> <a href="/tags/dpos/" style="font-size: 14px;">dpos</a> <a href="/tags/dsound/" style="font-size: 16px;">dsound</a> <a href="/tags/dtube/" style="font-size: 10px;">dtube</a> <a href="/tags/hive/" style="font-size: 12px;">hive</a> <a href="/tags/ipfs/" style="font-size: 16px;">ipfs</a> <a href="/tags/music/" style="font-size: 16px;">music</a> <a href="/tags/projects/" style="font-size: 20px;">projects</a> <a href="/tags/steem/" style="font-size: 18px;">steem</a> <a href="/tags/token/" style="font-size: 10px;">token</a> <a href="/tags/witness/" style="font-size: 14px;">witness</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="https://dsound.io/new">DSound</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://eos.io">EOSIO</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/decentrawise">GitHub</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2016 - 2020 DECENTRAWISE</p>
+                
+            </div>
+            <div class="footer-plugins">
+              
+    
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+    
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+</body>
+</html>

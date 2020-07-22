@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DECENTRAWISE</title>
+    <link>https://decentrawise.com/</link>
+    
+    <image>
+      <url>https://decentrawise.com/images/logo.png</url>
+      <title>DECENTRAWISE</title>
+      <link>https://decentrawise.com/</link>
+    </image>
+    
+    <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Wed, 22 Jul 2020 20:47:07 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>DSound v0.4.3</title>
+      <link>https://decentrawise.com/development/dsound-v0-4-3/</link>
+      <guid>https://decentrawise.com/development/dsound-v0-4-3/</guid>
+      <pubDate>Mon, 30 Mar 2020 23:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://hive.blog/hive-129959/@dsound/dsound-v0-4-3-hello-hive-new-features-and-strategy&quot; target=&quot;_blank&quot;
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/development/dsound-v0-4-3/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Supporting Hive fork</title>
+      <link>https://decentrawise.com/infrastructure/supporting-hive-fork/</link>
+      <guid>https://decentrawise.com/infrastructure/supporting-hive-fork/</guid>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/witness-category/@prc/update-witness-nodes-updated-to-v0-23-0-hello-hive-family&quot; target=&quot;_blank&quot;
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/infrastructure/supporting-hive-fork/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Steem Protection soft fork</title>
+      <link>https://decentrawise.com/infrastructure/steem-protection-soft-fork/</link>
+      <guid>https://decentrawise.com/infrastructure/steem-protection-soft-fork/</guid>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/witness-category/@prc/update-witness-nodes-updated-to-v0-22-2&quot; target=&quot;_blank&quot;
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/infrastructure/steem-protection-soft-fork/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>DTube token sale</title>
+      <link>https://decentrawise.com/market/dtube-token-sale/</link>
+      <guid>https://decentrawise.com/market/dtube-token-sale/</guid>
+      <pubDate>Sat, 28 Sep 2019 23:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/dtube/@prc/d-tube-token-sale-why-i-decided-to-buy-some-dtc-in-this-1st-sale-round&quot;
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/market/dtube-token-sale/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>DSound v0.4.1</title>
+      <link>https://decentrawise.com/development/dsound-v0-4-1/</link>
+      <guid>https://decentrawise.com/development/dsound-v0-4-1/</guid>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/dsound/@prc/dsound-v0-4-1-update-to-hivemind-api-and-several-bug-fixes-and-much-more-to-come&quot;
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/development/dsound-v0-4-1/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>DSound presentation at SteemFest 3</title>
+      <link>https://decentrawise.com/presentations/dsound-steemfest3/</link>
+      <guid>https://decentrawise.com/presentations/dsound-steemfest3/</guid>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h3 id=&quot;Krakow-November-2018&quot;&gt;&lt;a href=&quot;#Krakow-November-2018&quot; class=&quot;headerlink&quot; title=&quot;Kraków, November 2018&quot;&gt;&lt;/a&gt;Kraków, November
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/presentations/dsound-steemfest3/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>DSound v0.4</title>
+      <link>https://decentrawise.com/development/dsound-v0-4/</link>
+      <guid>https://decentrawise.com/development/dsound-v0-4/</guid>
+      <pubDate>Sun, 04 Nov 2018 00:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/development/dsound-v0-4/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>DSound v0.3</title>
+      <link>https://decentrawise.com/development/dsound-v0-3/</link>
+      <guid>https://decentrawise.com/development/dsound-v0-3/</guid>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/development/dsound-v0-3/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>DSound presentation at SteemFest 2</title>
+      <link>https://decentrawise.com/presentations/dsound-steemfest2/</link>
+      <guid>https://decentrawise.com/presentations/dsound-steemfest2/</guid>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://d.tube/#!/v/prc/1v7tgnwk&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Original post on DTube&lt;/a&gt;&lt;/sub&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/presentations/dsound-steemfest2/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Steem @prc witness proposal</title>
+      <link>https://decentrawise.com/infrastructure/steem-prc-witness-proposal/</link>
+      <guid>https://decentrawise.com/infrastructure/steem-prc-witness-proposal/</guid>
+      <pubDate>Tue, 28 Nov 2017 00:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/infrastructure/steem-prc-witness-proposal/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>DSound v0.2</title>
+      <link>https://decentrawise.com/development/dsound-v0-2/</link>
+      <guid>https://decentrawise.com/development/dsound-v0-2/</guid>
+      <pubDate>Tue, 10 Oct 2017 23:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/development/dsound-v0-2/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>DSound, the launch</title>
+      <link>https://decentrawise.com/development/dsound-the-launch/</link>
+      <guid>https://decentrawise.com/development/dsound-the-launch/</guid>
+      <pubDate>Thu, 14 Sep 2017 23:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/development/dsound-the-launch/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Introducing DSound</title>
+      <link>https://decentrawise.com/development/introducing-dsound/</link>
+      <guid>https://decentrawise.com/development/introducing-dsound/</guid>
+      <pubDate>Thu, 07 Sep 2017 23:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/music/@prc/introducing-dsound-a-decentralized-sound-platform-using-steem-and-ipfs&quot;
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/development/introducing-dsound/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>DecentraWise presentation</title>
+      <link>https://decentrawise.com/team/decentrawise-presentation/</link>
+      <guid>https://decentrawise.com/team/decentrawise-presentation/</guid>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;&lt;img src=&quot;/images/november2016.jpg&quot; alt&gt;&lt;/p&gt;
+&lt;p&gt;It’s November and blockchain technology has long evolved since 2009 Halloween and the
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/team/decentrawise-presentation/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+
+    
+
+    
+    <title>DSound v0.4.3 | DECENTRAWISE</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="keywords" content="projects,dsound,music,ipfs,hive">
+    
+    <meta name="description" content="Original post on Hive Hello HIVE! New features and strategyDSound has a few announcements to make and also moved to HIVE, so you can now experience the new chain with DSound as well! But this is not t">
+<meta name="keywords" content="projects,dsound,music,ipfs,hive">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DSound v0.4.3">
+<meta property="og:url" content="https://decentrawise.com/development/dsound-v0-4-3/index.html">
+<meta property="og:site_name" content="DECENTRAWISE">
+<meta property="og:description" content="Original post on Hive Hello HIVE! New features and strategyDSound has a few announcements to make and also moved to HIVE, so you can now experience the new chain with DSound as well! But this is not t">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://decentrawise.com/images/dsound-hive.png">
+<meta property="og:updated_time" content="2020-07-22T20:47:07.848Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="DSound v0.4.3">
+<meta name="twitter:description" content="Original post on Hive Hello HIVE! New features and strategyDSound has a few announcements to make and also moved to HIVE, so you can now experience the new chain with DSound as well! But this is not t">
+<meta name="twitter:image" content="https://decentrawise.com/images/dsound-hive.png">
+    
+
+    
+        <link rel="alternate" href="/rss.xml" title="DECENTRAWISE" type="application/atom+xml">
+    
+
+    
+        <link rel="icon" href="/favicon.ico">
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/3.5.0/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+    
+
+
+</head>
+</html>
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                        <h2 class="subtitle-wrap">
+                            <p class="subtitle">Building blockchains, smart-contracts, dapps and changing the world as we know it...</p>
+                        </h2>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/development">Development</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/audit">Audit</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/infrastructure">Infrastructure</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/projects">Projects</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/team">Team</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item">
+                                    <a class="main-nav-list-link" href="/contact">Contact</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search">
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something...">
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/development/">development</a>
+    </h1>
+</div>
+
+                        <div class="main-body-content">
+                            <article id="post-dsound-v0-4-3" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        DSound v0.4.3
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+  <div class="article-date">
+    <i class="fa fa-calendar"></i>
+    <a href="/development/dsound-v0-4-3/" class="article-date">
+       <time datetime="2020-03-30T23:00:00.000Z" itemprop="datePublished">2020-03-31</time>
+    </a>
+  </div>
+
+
+                
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/dsound/">dsound</a>, <a class="tag-link" href="/tags/hive/">hive</a>, <a class="tag-link" href="/tags/ipfs/">ipfs</a>, <a class="tag-link" href="/tags/music/">music</a>, <a class="tag-link" href="/tags/projects/">projects</a>
+    </div>
+
+                
+
+                
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+
+            
+
+            
+
+            <p><sup><sub><a href="https://hive.blog/hive-129959/@dsound/dsound-v0-4-3-hello-hive-new-features-and-strategy" target="_blank" rel="noopener">Original post on Hive</a></sub></sup></p>
+<h1 id="Hello-HIVE-New-features-and-strategy"><a href="#Hello-HIVE-New-features-and-strategy" class="headerlink" title="Hello HIVE! New features and strategy"></a>Hello HIVE! New features and strategy</h1><p>DSound has a few announcements to make and also moved to HIVE, so you can now experience the new chain with DSound as well! But this is not the only thing that is new on DSound, so please read on… :)</p>
+<p><img src="/images/dsound-hive.png" alt></p>
+<h1 id="What’s-new-in-DSound-version-0-4-3"><a href="#What’s-new-in-DSound-version-0-4-3" class="headerlink" title="What’s new in DSound version 0.4.3?"></a>What’s new in DSound version 0.4.3?</h1><p>Well, so much… but let’s start with the more apparent things…</p>
+<h3 id="DSound-new-domain-dsound-io"><a href="#DSound-new-domain-dsound-io" class="headerlink" title="DSound new domain dsound.io"></a>DSound new domain <code>dsound.io</code></h3><p>This will be the new home for DSound from now on. All the new things DSound will happen here!</p>
+<p>Everything has been ported, besides the few things that occurred from March 20th til today. But all accounts will need to log back in, as this domain is new…</p>
+<h3 id="Old-dsound-audio-domain-deprecation"><a href="#Old-dsound-audio-domain-deprecation" class="headerlink" title="Old dsound.audio domain deprecation"></a>Old <code>dsound.audio</code> domain deprecation</h3><p>That’s right, the old domain <a href="https://dsound.audio/" target="_blank" rel="noopener"><code>dsound.audio</code></a> still contains the old app and is still connected to STEEM blockchain. <strong>The use of this domain and app is deprecated</strong> - you should move as soon as possible to the new DSound on <code>dsound.io</code>, as the old app will be shutdown after April 15th, and will begin pointing to the new DSound from there on…</p>
+<h3 id="HIVE-as-the-new-Blockchain-behind-DSound"><a href="#HIVE-as-the-new-Blockchain-behind-DSound" class="headerlink" title="HIVE as the new Blockchain behind DSound"></a>HIVE as the new Blockchain behind DSound</h3><p>This was a very difficult decision to be made… We all lost a bit of us with this departure from STEEM! :(</p>
+<p>But, what really made us put things in perspective and move on was DSound name: the letter <code>D</code> of DSound means <strong>decentralized</strong> and since its inception back in 2017 DSound has been the most decentralized sound media platform in the world!</p>
+<p>With the latest developments of the STEEM takeover, which we don’t want to even start a convo on, it has shown that a single party had taken the control of a significant part of the chain, by placing most of the “elected” witnesses under their control.</p>
+<p>This situation has shown that DPOS chains have a degree of resilience never tested before: <strong>Hard fork the hell out of centralization!</strong> :D</p>
+<p>As most of the STEEM stakeholders, we also were very worried about the outcome of such an event, but now we have proof that it was a success! We don’t mean that HIVE will be more valuable or less then STEEM, that is not the question. What is really important is that <strong>there’s no network capable of keeping its community hostage for long!</strong></p>
+<p>As of now, STEEM has maintained this degree of centralization, and even made it worse, so DSound doesn’t fit that network. Let’s see what that community brings to the table in the future, but for now we moved on to the place that our community created as a consequence, and that so far has exceeded our expectations, and this is HIVE!</p>
+<h3 id="DSound-HIVE-Community"><a href="#DSound-HIVE-Community" class="headerlink" title="DSound HIVE Community"></a>DSound HIVE Community</h3><p>DSound HIVE Community has been created, with all bees and dsounders in our mind! :)</p>
+<p>Please check it out here: <a href="https://hive.blog/trending/hive-129959" target="_blank" rel="noopener">DSound Community</a></p>
+<p>You can also subscribe to stay in the loop about all new things DSound will bring…</p>
+<p>All content published in DSound can be posted on the DSound Community or on the author Profile Page or blog.</p>
+<p>Of course, a content published in DSound Community will reach more people and attract more curation, so we also enabled author repost that content on his blog, if he so wishes by pushing the repost button on the published content.</p>
+<p>We will be integrating other communities that will be evolving in the future, as long as they bring more value and recognition to our users, but for now this communities HIVE feature is too recent to evaluate, so DSound only supports it’s own community for now. If you represent a community, reach out to us and we can start a chat about that integration…</p>
+<h3 id="Post-to-DSound-Community-or-User-Profile"><a href="#Post-to-DSound-Community-or-User-Profile" class="headerlink" title="Post to DSound Community or User Profile"></a>Post to DSound Community or User Profile</h3><p>You already know, no more bloat to your blog if you have many other blog posts that are not music or audio related! But if you want to you can still post to your profile…</p>
+<p>The default is to post on the DSound Community, but just change the drop-down selection next to the publish button when posting on DSound.</p>
+<h3 id="Better-SEO-Search-Engine-Optimisation-for-DSound-content"><a href="#Better-SEO-Search-Engine-Optimisation-for-DSound-content" class="headerlink" title="Better SEO (Search Engine Optimisation) for DSound content"></a>Better SEO (Search Engine Optimisation) for DSound content</h3><p>Since the DSound focus will be user acquisition and retention, it makes sense that DSound turns more SEO friendly. No more strange URLs with <strong>#!</strong> in them…</p>
+<p>But this is only the beginning, many other improvements will follow to bring DSound to the masses. Many documentation and marketing assets will be added to DSound platform to make it more usable and make new users more “at home” with crypto.</p>
+<h3 id="Fixes-to-Sound-Engine-and-better-playback-on-devices"><a href="#Fixes-to-Sound-Engine-and-better-playback-on-devices" class="headerlink" title="Fixes to Sound Engine and better playback on devices"></a>Fixes to Sound Engine and better playback on devices</h3><p>The DSound native sound engine has evolved and is now capable of cope with more restrictive browsers, like iOS, and even continue playback when the browser is not in foreground. Still some work to improve the usability, but if you used iOS you’ll notice the difference!</p>
+<p>Even in Chrome if you placed a tab in background, when the current track ended the next would refuse to start… not anymore. :)</p>
+<h3 id="Author-keeps-more-rewards-now"><a href="#Author-keeps-more-rewards-now" class="headerlink" title="Author keeps more rewards now"></a>Author keeps more rewards now</h3><p>DSound takes a share of the post revenue, it has been like that since day one. It has been part of DSound business model, but today we announce that this will not be 25% anymore!</p>
+<p><strong>From today on, the fee taken by DSound on any post is capped at 5%!</strong></p>
+<p>But there’s more! We now have communities and DSound will grant it’s community or any other approved community a 2.5% revenue share as well.</p>
+<p>So, to clarify, here is a table of how the revenue will be shared:</p>
+<table>
+<thead>
+<tr>
+<th>Post Type</th>
+<th>Author/Curation</th>
+<th>Community</th>
+<th>DSound</th>
+<th>Poster</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DSound Community</td>
+<td>92.5%</td>
+<td>2.5%</td>
+<td>5%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Approved Communities</td>
+<td>92.5%</td>
+<td>2.5%</td>
+<td>5%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>User Profile</td>
+<td>95%</td>
+<td>0%</td>
+<td>5%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cross-post</td>
+<td>90%</td>
+<td>5%</td>
+<td>0%</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>Repost</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>So our artists, content creators, communities and curators will have more room to build their strategies and DSound team will concentrate more on the development side and less on curation.</p>
+<h3 id="DSound-new-business-strategy"><a href="#DSound-new-business-strategy" class="headerlink" title="DSound new business strategy"></a>DSound new business strategy</h3><p>The business strategy of DSound will be more on the front of bringing more people to DSound, by leveraging social media integration and building more features to ease the new user on-boarding.</p>
+<p>The user attention is the currency on DSound, and our focus with the new IPFS network is to evolve DSound into a platform where that attention is incentivised to the max potential.</p>
+<p>Also by reinvesting in the community we envision that a positive feedback loop can be created and all incentives will be aligned to discover more great content and make it more available to more consumers.</p>
+<p>We’ve been experimenting with many strategies and we’ll start to deploy those that we felt that had the potential to bring more value to DSound platform and its users in the long run. We’re not here to make a quick buck. Our passion is to change the music industry for good, not just implement the same industry over blockchain! We think that we know how to do that, and it will be a lot of work, but that’s what makes us get up in the morning anyway! :) </p>
+<h3 id="DSound-Community-Witness"><a href="#DSound-Community-Witness" class="headerlink" title="DSound Community Witness"></a>DSound Community Witness</h3><p>The <code>@dsound</code> witness was ported to HIVE and is already producing and validating blocks on HIVE blockchain since the beginning of the fork.</p>
+<p>This witness effort is comparable as other community initiatives that launch a witness node to promote network security and generate revenue.</p>
+<p>In <code>@dsound</code> witness <strong>100% of the rewards will be kept in <code>@dsound</code> account</strong> and used to vote the best rated posts in the DSound Community. The mechanism of evaluation will be based on attention generated by each post, and is still in design along with other DSound features, but the important thing is that <strong>0 HIVE will move out of the <code>@dsound</code> account</strong> or power down - all revenue generated will be reinvested in the community by curation, either direct or through other approved music communities.</p>
+<p>Please check below how to vote for the Community witness…</p>
+<h3 id="Start-of-the-rollout-of-the-new-DSound-IPFS-network"><a href="#Start-of-the-rollout-of-the-new-DSound-IPFS-network" class="headerlink" title="Start of the rollout of the new DSound IPFS network"></a>Start of the rollout of the new DSound IPFS network</h3><p>The most important thing that we’ve been working on during this crypto winter has been the <strong>new DSound IPFS network</strong>. This version includes the basis for the rollout of the new network, and will be happening in the following months…</p>
+<p>This new network will continue and improve the DSound ethos, as a 100% decentralized sound media sharing network, and expand its capabilities to things never thought possible. Stay tuned for the next versions… ;)</p>
+<h2 id="What-is-in-the-roadmap-for-DSound-future"><a href="#What-is-in-the-roadmap-for-DSound-future" class="headerlink" title="What is in the roadmap for DSound future?"></a>What is in the roadmap for DSound future?</h2><ul>
+<li>New IPFS network</li>
+<li>Distributed streaming of content</li>
+<li>Integrate other music curation communities</li>
+<li>Cross-post feature for other communities</li>
+<li>Account-less on-boarding</li>
+<li>Integrate with the best signer technology</li>
+<li>Integrate other blockchains and monetization strategies</li>
+<li>Post content from other sources</li>
+<li>UI improvements and mobile first</li>
+<li>Improvements to listening experience</li>
+<li>Playlists and playlist monetization</li>
+<li>Instant tips for artists while listening</li>
+<li>and many, many more…</li>
+</ul>
+<p>the order of this list is not related to time at all… features will come out as they become stable and there is a demand for them. This is just a snapshot of some things that might be coming to DSound…</p>
+<h2 id="But-still-don’t-know-what-DSound-is"><a href="#But-still-don’t-know-what-DSound-is" class="headerlink" title="But, still don’t know what DSound is?"></a>But, still don’t know what DSound is?</h2><p>It’s ok… You are at the right place!</p>
+<p>Let’s share what it is with you right now…</p>
+<p><img src="/images/dsound.io-logo-full.png" alt></p>
+<h2 id="What-is-DSound"><a href="#What-is-DSound" class="headerlink" title="What is DSound?"></a>What is DSound?</h2><p>DSound is a decentralized web application that allows anyone to upload, listen and discover music and other sounds stored on top of the IPFS Network. </p>
+<p>It uses HIVE blockchain as a persistent database, so by posting their sounds the authors can earn rewards in cryptocurrency when other users like their content, which can be exchanged easily to US Dollars, Euros or any other currency, with a look and feel very similar to Soundcloud.</p>
+<h4 id="Check-DSound-Intro-post-for-more-details"><a href="#Check-DSound-Intro-post-for-more-details" class="headerlink" title="Check DSound Intro post for more details"></a><a href="https://hive.blog/music/@prc/introducing-dsound-a-decentralized-sound-platform-using-steem-and-ipfs" target="_blank" rel="noopener">Check DSound Intro post for more details</a></h4><h2 id="DSound-Discord-Server"><a href="#DSound-Discord-Server" class="headerlink" title="DSound Discord Server"></a>DSound Discord Server</h2><p>The <strong>DSound discord server is being discontinued</strong> in favour of DSound HIVE Community!</p>
+<p>We’ll be using our <a href="https://hive.blog/trending/hive-129959" target="_blank" rel="noopener">DSound Community</a> for concentrating all DSound communication in the same place now…</p>
+<p>If you need any help, please post in our community and any other members or our moderators will guide you…</p>
+<p>@prc<br>@juliakponsford<br>@jeffandhisguitar<br>@darrenclaxton</p>
+<h2 id="DSound-Telegram"><a href="#DSound-Telegram" class="headerlink" title="DSound Telegram"></a>DSound Telegram</h2><p>If you need to chat with us or with other DSound users, please join us at our <a href="https://t.me/dsoundio" target="_blank" rel="noopener">DSound.io Telegram</a></p>
+<p>We are very happy to chat there and our community will also be there to help anyone out…</p>
+<p>DSound is this! &lt;3</p>
+<p>“Music is what feelings sound like”<br>DSound &lt;3 Music</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://decentrawise.com/development/dsound-v0-4-3/" data-id="ckcxuwvvg0038re047ev5rpq8" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "DECENTRAWISE"
+        },
+        "headline": "DSound v0.4.3",
+        "image": "https://decentrawise.com/images/dsound-hive.png",
+        "keywords": "projects dsound music ipfs hive",
+        "genre": "development",
+        "datePublished": "2020-03-31",
+        "dateCreated": "2020-03-31",
+        "dateModified": "2020-07-22",
+        "url": "https://decentrawise.com/development/dsound-v0-4-3/",
+        "description": "Original post on Hive
+Hello HIVE! New features and strategyDSound has a few announcements to make and also moved to HIVE, so you can now experience the new chain with DSound as well! But this is not t",
+        "wordCount": 1804
+    }
+</script>
+
+</article>
+
+    <section id="comments">
+    
+    </section>
+
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="telegram" href="https://t.me/decentrawise" target="_blank" rel="noopener">
+                        <i class="icon fa fa-telegram"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="https://twitter.com/decentrawise" target="_blank" rel="noopener">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+            
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/decentrawise" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/rss.xml" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/infrastructure/supporting-hive-fork/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">Supporting Hive fork</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/development/dsound-v0-4-3/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/dsound-hive.png)" alt="DSound v0.4.3" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/development/">development</a></p>
+                            <p class="item-title"><a href="/development/dsound-v0-4-3/" class="title">DSound v0.4.3</a></p>
+                            <p class="item-date"><time datetime="2020-03-30T23:00:00.000Z" itemprop="datePublished">2020-03-31</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/infrastructure/supporting-hive-fork/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/hive-logo.jpg)" alt="Supporting Hive fork" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/infrastructure/">infrastructure</a></p>
+                            <p class="item-title"><a href="/infrastructure/supporting-hive-fork/" class="title">Supporting Hive fork</a></p>
+                            <p class="item-date"><time datetime="2020-03-20T00:00:00.000Z" itemprop="datePublished">2020-03-20</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/infrastructure/steem-protection-soft-fork/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/steem.png)" alt="Steem Protection soft fork" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/infrastructure/">infrastructure</a></p>
+                            <p class="item-title"><a href="/infrastructure/steem-protection-soft-fork/" class="title">Steem Protection soft fork</a></p>
+                            <p class="item-date"><time datetime="2020-02-26T00:00:00.000Z" itemprop="datePublished">2020-02-26</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/market/dtube-token-sale/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/dtube-logo-big.png)" alt="DTube token sale" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/market/">market</a></p>
+                            <p class="item-title"><a href="/market/dtube-token-sale/" class="title">DTube token sale</a></p>
+                            <p class="item-date"><time datetime="2019-09-28T23:00:00.000Z" itemprop="datePublished">2019-09-29</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/development/dsound-v0-4-1/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/dsound-logo-full.png)" alt="DSound v0.4.1" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/development/">development</a></p>
+                            <p class="item-title"><a href="/development/dsound-v0-4-1/" class="title">DSound v0.4.1</a></p>
+                            <p class="item-date"><time datetime="2018-12-08T00:00:00.000Z" itemprop="datePublished">2018-12-08</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/development/">development</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/infrastructure/">infrastructure</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/market/">market</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/presentations/">presentations</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/team/">team</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">tags</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/beginning/">beginning</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/bp/">bp</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/decentrawise/">decentrawise</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dpos/">dpos</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dsound/">dsound</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dtube/">dtube</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hive/">hive</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ipfs/">ipfs</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/music/">music</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/projects/">projects</a><span class="tag-list-count">13</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/steem/">steem</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/token/">token</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/witness/">witness</a><span class="tag-list-count">3</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/beginning/" style="font-size: 10px;">beginning</a> <a href="/tags/bp/" style="font-size: 14px;">bp</a> <a href="/tags/decentrawise/" style="font-size: 10px;">decentrawise</a> <a href="/tags/dpos/" style="font-size: 14px;">dpos</a> <a href="/tags/dsound/" style="font-size: 16px;">dsound</a> <a href="/tags/dtube/" style="font-size: 10px;">dtube</a> <a href="/tags/hive/" style="font-size: 12px;">hive</a> <a href="/tags/ipfs/" style="font-size: 16px;">ipfs</a> <a href="/tags/music/" style="font-size: 16px;">music</a> <a href="/tags/projects/" style="font-size: 20px;">projects</a> <a href="/tags/steem/" style="font-size: 18px;">steem</a> <a href="/tags/token/" style="font-size: 10px;">token</a> <a href="/tags/witness/" style="font-size: 14px;">witness</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="https://dsound.io/new">DSound</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://eos.io">EOSIO</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/decentrawise">GitHub</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2016 - 2020 DECENTRAWISE</p>
+                
+            </div>
+            <div class="footer-plugins">
+              
+    
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+    
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+</body>
+</html>
