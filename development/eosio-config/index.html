@@ -6,21 +6,24 @@
     
 
     
-    <title>Tag: panel | DECENTRAWISE</title>
+    <title>EOSIO Config handler for contracts | DECENTRAWISE</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="keywords" content="decentralization,decentralisation,experts,blockchain,dlt,p2p,peer,peer to peer,development,smart contract,smart-contract,smart,contract,dpos,bitcoin,ethereum,solidity,steem,hive,eosio,witness,block producer,block,producer">
-    <meta name="description" content="Decentralization Experts">
-<meta name="keywords" content="decentralization,decentralisation,experts,blockchain,dlt,p2p,peer,peer to peer,development,smart contract,smart-contract,smart,contract,dpos,bitcoin,ethereum,solidity,steem,hive,eosio,witness,block producer,block,producer">
-<meta property="og:type" content="website">
-<meta property="og:title" content="DECENTRAWISE">
-<meta property="og:url" content="https://decentrawise.com/tags/panel/index.html">
+    <meta name="description" content="EOSIO Configuration handler pluggable into any contract A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code. How it worksThe only thing needed is t">
+<meta name="keywords" content="eosio,smart-contract,experiment,open-source">
+<meta property="og:type" content="article">
+<meta property="og:title" content="EOSIO Config handler for contracts">
+<meta property="og:url" content="https://decentrawise.com/development/eosio-config/index.html">
 <meta property="og:site_name" content="DECENTRAWISE">
-<meta property="og:description" content="Decentralization Experts">
+<meta property="og:description" content="EOSIO Configuration handler pluggable into any contract A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code. How it worksThe only thing needed is t">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https://decentrawise.com/images/eosio.png">
+<meta property="og:updated_time" content="2020-07-25T17:04:15.142Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="DECENTRAWISE">
-<meta name="twitter:description" content="Decentralization Experts">
+<meta name="twitter:title" content="EOSIO Config handler for contracts">
+<meta name="twitter:description" content="EOSIO Configuration handler pluggable into any contract A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code. How it worksThe only thing needed is t">
+<meta name="twitter:image" content="https://decentrawise.com/images/eosio.png">
     
 
     
@@ -158,66 +161,161 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-tag"></i>Tag: <em>panel</em>
+    <a class="page-title-link" href="/categories/development/">development</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-eosio-config" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2018" class="archive-year"><i class="icon fa fa-calendar-o"></i>2018</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/talks/imshare-2018-conf/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/imshare-2018.jpg)" alt="IMSHARE 2018 conference" class="thumbnail-image"></span>
-    
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/talks/">talks</a>
-            </div>
-            <div class="date"><time datetime="2018-06-04T23:00:00.000Z" itemprop="datePublished">2018-06-05</time></div>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/talks/imshare-2018-conf/">IMSHARE 2018 conference</a>
+        EOSIO Config handler for contracts
         </h1>
     
 
-        <p class="article-excerpt">
-            Lisbon, June 2018
+            </header>
+        
+        
+            <div class="article-meta">
+                
+  <div class="article-date">
+    <i class="fa fa-calendar"></i>
+    <a href="/development/eosio-config/" class="article-date">
+       <time datetime="2020-04-09T23:00:00.000Z" itemprop="datePublished">2020-04-10</time>
+    </a>
+  </div>
 
-Pedro Reis Colaço (aka prc) panel chat about blockchain technology and decentralization. If you were not there, then you can watch a bit here…
-You can check out the entire conferenc
-        </p>
+
+                
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/eosio/">eosio</a>, <a class="tag-link" href="/tags/experiment/">experiment</a>, <a class="tag-link" href="/tags/open-source/">open-source</a>, <a class="tag-link" href="/tags/smart-contract/">smart-contract</a>
     </div>
-</article>
-    
+
+                
+
+                
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+
+            
+
+            
+
+            <h1 id="EOSIO-Configuration-handler-pluggable-into-any-contract"><a href="#EOSIO-Configuration-handler-pluggable-into-any-contract" class="headerlink" title="EOSIO Configuration handler pluggable into any contract"></a>EOSIO Configuration handler pluggable into any contract</h1><p><img src="/images/eosio.png" alt></p>
+<p>A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code.</p>
+<h2 id="How-it-works"><a href="#How-it-works" class="headerlink" title="How it works"></a>How it works</h2><p>The only thing needed is to plug the config header file. Then on your contract constructor load the singleton config data and on the destructor save it.</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"config.hpp"</span></span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> [[<span class="title">eosio</span>:</span>:contract]] profile: <span class="keyword">public</span> eosio::contract &#123;</span><br><span class="line"></span><br><span class="line">  config_singleton <span class="built_in">config</span>;  <span class="comment">// the configuration singleton, do not use directly</span></span><br><span class="line">  config_data cfg;</span><br><span class="line"></span><br><span class="line">  ...</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"></span><br><span class="line">  profile(eosio::name receiver, eosio::name code, eosio::datastream&lt;<span class="keyword">const</span> <span class="keyword">char</span>*&gt; ds) :</span><br><span class="line">    contract(receiver, code, ds),</span><br><span class="line">    <span class="built_in">config</span>(receiver, receiver.value)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="comment">// load config</span></span><br><span class="line">    cfg = <span class="built_in">config</span>.get_or_create(receiver);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  ~profile() &#123;</span><br><span class="line">    <span class="comment">// save configuration</span></span><br><span class="line">    <span class="built_in">config</span>.<span class="built_in">set</span>(cfg, eosio::same_payer);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  [[eosio::action]]</span><br><span class="line">  <span class="keyword">void</span> ...</span><br></pre></td></tr></table></figure>
+<p>Then you just need to add the action to configure your contract… Please refer to the included test contract for a complete working example, like:</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[[eosio::action]]</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">configure</span><span class="params">(eosio::name key, <span class="built_in">std</span>::<span class="built_in">string</span> value)</span> </span>&#123;</span><br><span class="line">  <span class="comment">// <span class="doctag">TODO:</span> define who has access to perform configuration, ideally a msig account</span></span><br><span class="line">  <span class="comment">// require_auth(controlling_account);</span></span><br><span class="line"></span><br><span class="line">  cfg.<span class="built_in">set</span>(key, value);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Throughout the code all configuration is accessible through the <code>cfg</code> member variable…</p>
+
         </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://decentrawise.com/development/eosio-config/" data-id="ckd1wnzu0000e4l04iyuuc11b" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "DECENTRAWISE"
+        },
+        "headline": "EOSIO Config handler for contracts",
+        "image": "https://decentrawise.com/images/eosio.png",
+        "keywords": "eosio smart-contract experiment open-source",
+        "genre": "development",
+        "datePublished": "2020-04-10",
+        "dateCreated": "2020-04-10",
+        "dateModified": "2020-07-25",
+        "url": "https://decentrawise.com/development/eosio-config/",
+        "description": "EOSIO Configuration handler pluggable into any contract
+A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code.
+How it worksThe only thing needed is t",
+        "wordCount": 311
+    }
+</script>
+
+</article>
+
+    <section id="comments">
     
-
-
-    </div></section>
+    </section>
 
 
 
@@ -279,6 +377,19 @@ You can check out the entire conferenc
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/development/eosio-scheduler/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">EOSIO Scheduler for contracts</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         

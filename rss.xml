@@ -15,8 +15,29 @@
     <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Sat, 25 Jul 2020 16:51:31 GMT</pubDate>
+    <pubDate>Sat, 25 Jul 2020 17:04:15 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>EOSIO Config handler for contracts</title>
+      <link>https://decentrawise.com/development/eosio-config/</link>
+      <guid>https://decentrawise.com/development/eosio-config/</guid>
+      <pubDate>Thu, 09 Apr 2020 23:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h1 id=&quot;EOSIO-Configuration-handler-pluggable-into-any-contract&quot;&gt;&lt;a href=&quot;#EOSIO-Configuration-handler-pluggable-into-any-contract&quot;
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/development/eosio-config/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>EOSIO Scheduler for contracts</title>
