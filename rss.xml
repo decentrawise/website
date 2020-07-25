@@ -15,8 +15,29 @@
     <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Sat, 25 Jul 2020 16:17:54 GMT</pubDate>
+    <pubDate>Sat, 25 Jul 2020 16:51:31 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>EOSIO Scheduler for contracts</title>
+      <link>https://decentrawise.com/development/eosio-scheduler/</link>
+      <guid>https://decentrawise.com/development/eosio-scheduler/</guid>
+      <pubDate>Sat, 04 Apr 2020 23:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h1 id=&quot;Plug-and-play-code-that-you-can-plug-to-any-contract&quot;&gt;&lt;a href=&quot;#Plug-and-play-code-that-you-can-plug-to-any-contract&quot;
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/development/eosio-scheduler/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>DSound v0.4.3</title>
