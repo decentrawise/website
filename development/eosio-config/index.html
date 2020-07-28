@@ -10,19 +10,19 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="keywords" content="decentralization,decentralisation,experts,blockchain,dlt,p2p,peer,peer to peer,development,smart contract,smart-contract,smart,contract,dpos,bitcoin,ethereum,solidity,steem,hive,eosio,witness,block producer,block,producer">
-    <meta name="description" content="EOSIO Configuration handler pluggable into any contract A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code. How it worksThe only thing needed is t">
+    <meta name="description" content="EOSIO Configuration handler pluggable into any contract A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code. Check the code at eosio-config repo Ho">
 <meta name="keywords" content="eosio,smart-contract,experiment,open-source">
 <meta property="og:type" content="article">
 <meta property="og:title" content="EOSIO Config handler for contracts">
 <meta property="og:url" content="https://decentrawise.com/development/eosio-config/index.html">
 <meta property="og:site_name" content="DECENTRAWISE">
-<meta property="og:description" content="EOSIO Configuration handler pluggable into any contract A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code. How it worksThe only thing needed is t">
+<meta property="og:description" content="EOSIO Configuration handler pluggable into any contract A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code. Check the code at eosio-config repo Ho">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://decentrawise.com/images/eosio.png">
-<meta property="og:updated_time" content="2020-07-25T17:04:15.142Z">
+<meta property="og:updated_time" content="2020-07-28T19:54:34.830Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="EOSIO Config handler for contracts">
-<meta name="twitter:description" content="EOSIO Configuration handler pluggable into any contract A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code. How it worksThe only thing needed is t">
+<meta name="twitter:description" content="EOSIO Configuration handler pluggable into any contract A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code. Check the code at eosio-config repo Ho">
 <meta name="twitter:image" content="https://decentrawise.com/images/eosio.png">
     
 
@@ -214,6 +214,7 @@
 
             <h1 id="EOSIO-Configuration-handler-pluggable-into-any-contract"><a href="#EOSIO-Configuration-handler-pluggable-into-any-contract" class="headerlink" title="EOSIO Configuration handler pluggable into any contract"></a>EOSIO Configuration handler pluggable into any contract</h1><p><img src="/images/eosio.png" alt></p>
 <p>A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code.</p>
+<p>Check the code at <a href="https://github.com/decentrawise/eosio-config" target="_blank" rel="noopener">eosio-config repo</a></p>
 <h2 id="How-it-works"><a href="#How-it-works" class="headerlink" title="How it works"></a>How it works</h2><p>The only thing needed is to plug the config header file. Then on your contract constructor load the singleton config data and on the destructor save it.</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"config.hpp"</span></span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> [[<span class="title">eosio</span>:</span>:contract]] profile: <span class="keyword">public</span> eosio::contract &#123;</span><br><span class="line"></span><br><span class="line">  config_singleton <span class="built_in">config</span>;  <span class="comment">// the configuration singleton, do not use directly</span></span><br><span class="line">  config_data cfg;</span><br><span class="line"></span><br><span class="line">  ...</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"></span><br><span class="line">  profile(eosio::name receiver, eosio::name code, eosio::datastream&lt;<span class="keyword">const</span> <span class="keyword">char</span>*&gt; ds) :</span><br><span class="line">    contract(receiver, code, ds),</span><br><span class="line">    <span class="built_in">config</span>(receiver, receiver.value)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="comment">// load config</span></span><br><span class="line">    cfg = <span class="built_in">config</span>.get_or_create(receiver);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  ~profile() &#123;</span><br><span class="line">    <span class="comment">// save configuration</span></span><br><span class="line">    <span class="built_in">config</span>.<span class="built_in">set</span>(cfg, eosio::same_payer);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  [[eosio::action]]</span><br><span class="line">  <span class="keyword">void</span> ...</span><br></pre></td></tr></table></figure>
 <p>Then you just need to add the action to configure your contract… Please refer to the included test contract for a complete working example, like:</p>
@@ -226,7 +227,7 @@
 
 
 
-    <a data-url="https://decentrawise.com/development/eosio-config/" data-id="ckd1wnzu0000e4l04iyuuc11b" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://decentrawise.com/development/eosio-config/" data-id="ckd6d18h5000exos9gedn6ri9" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -302,12 +303,13 @@
         "genre": "development",
         "datePublished": "2020-04-10",
         "dateCreated": "2020-04-10",
-        "dateModified": "2020-07-25",
+        "dateModified": "2020-07-28",
         "url": "https://decentrawise.com/development/eosio-config/",
         "description": "EOSIO Configuration handler pluggable into any contract
 A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code.
-How it worksThe only thing needed is t",
-        "wordCount": 311
+Check the code at eosio-config repo
+Ho",
+        "wordCount": 319
     }
 </script>
 
