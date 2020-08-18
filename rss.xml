@@ -15,8 +15,29 @@
     <atom:link href="/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Tue, 28 Jul 2020 19:54:34 GMT</pubDate>
+    <pubDate>Tue, 18 Aug 2020 02:43:52 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Block Producer Candidate Announcement</title>
+      <link>https://decentrawise.com/infrastructure/block-producer-candidate/</link>
+      <guid>https://decentrawise.com/infrastructure/block-producer-candidate/</guid>
+      <pubDate>Sun, 16 Aug 2020 23:00:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h1 id=&quot;EOS-Mainnet-and-other-side-sister-chains-Block-Producer-Candidate&quot;&gt;&lt;a
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://decentrawise.com/infrastructure/block-producer-candidate/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>EOSIO Config handler for contracts</title>
@@ -416,28 +437,6 @@
       
       
       <comments>https://decentrawise.com/projects/introducing-dsound/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>DecentraWise presentation</title>
-      <link>https://decentrawise.com/team/decentrawise-presentation/</link>
-      <guid>https://decentrawise.com/team/decentrawise-presentation/</guid>
-      <pubDate>Wed, 16 Nov 2016 00:00:00 GMT</pubDate>
-      <description>
-      
-        
-        
-          
-          
-            &lt;p&gt;&lt;img src=&quot;/images/november2016.jpg&quot; alt&gt;&lt;/p&gt;
-&lt;p&gt;It’s November and blockchain technology has long evolved since 2009 Halloween and the
-          
-        
-      
-      </description>
-      
-      
-      <comments>https://decentrawise.com/team/decentrawise-presentation/#disqus_thread</comments>
     </item>
     
   </channel>
