@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DECENTRAWISE</title>
+    <link>https://decentrawise.com/</link>
+    
+    <image>
+      <url>https://decentrawise.com/images/logo.png</url>
+      <title>DECENTRAWISE</title>
+      <link>https://decentrawise.com/</link>
+    </image>
+    
+    <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>Decentralization Experts</description>
+    <pubDate>Fri, 08 Apr 2022 14:51:54 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Block Producer Candidate Announcement</title>
+      <link>https://decentrawise.com/infrastructure/block-producer-candidate/</link>
+      <guid>https://decentrawise.com/infrastructure/block-producer-candidate/</guid>
+      <pubDate>Sun, 16 Aug 2020 23:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;EOS-Mainnet-and-other-side-x2F-sister-chains-Block-Producer-Candidate&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/infrastructure/">infrastructure</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/bp/">bp</category>
+      
+      <category domain="https://decentrawise.com/tags/dpos/">dpos</category>
+      
+      <category domain="https://decentrawise.com/tags/eos/">eos</category>
+      
+      <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
+      
+      
+      <comments>https://decentrawise.com/infrastructure/block-producer-candidate/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>EOSIO Config handler for contracts</title>
+      <link>https://decentrawise.com/development/eosio-config/</link>
+      <guid>https://decentrawise.com/development/eosio-config/</guid>
+      <pubDate>Thu, 09 Apr 2020 23:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;EOSIO-Configuration-handler-pluggable-into-any-contract&quot;&gt;&lt;a href=&quot;#EOSIO-Configuration-handler-pluggable-into-any-contract&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/development/">development</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
+      
+      <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
+      
+      
+      <comments>https://decentrawise.com/development/eosio-config/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>EOSIO Scheduler for contracts</title>
+      <link>https://decentrawise.com/development/eosio-scheduler/</link>
+      <guid>https://decentrawise.com/development/eosio-scheduler/</guid>
+      <pubDate>Sat, 04 Apr 2020 23:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;Plug-and-play-code-that-you-can-plug-to-any-contract&quot;&gt;&lt;a href=&quot;#Plug-and-play-code-that-you-can-plug-to-any-contract&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/development/">development</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
+      
+      <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
+      
+      
+      <comments>https://decentrawise.com/development/eosio-scheduler/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DSound v0.4.3</title>
+      <link>https://decentrawise.com/projects/dsound-v0-4-3/</link>
+      <guid>https://decentrawise.com/projects/dsound-v0-4-3/</guid>
+      <pubDate>Mon, 30 Mar 2020 23:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://hive.blog/hive-129959/@dsound/dsound-v0-4-3-hello-hive-new-features-and-strategy&quot;&gt;Original post on</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/projects/">projects</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
+      
+      <category domain="https://decentrawise.com/tags/music/">music</category>
+      
+      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
+      
+      <category domain="https://decentrawise.com/tags/hive/">hive</category>
+      
+      
+      <comments>https://decentrawise.com/projects/dsound-v0-4-3/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Supporting Hive fork</title>
+      <link>https://decentrawise.com/infrastructure/supporting-hive-fork/</link>
+      <guid>https://decentrawise.com/infrastructure/supporting-hive-fork/</guid>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/witness-category/@prc/update-witness-nodes-updated-to-v0-23-0-hello-hive-family&quot;&gt;Original post on</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/infrastructure/">infrastructure</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/bp/">bp</category>
+      
+      <category domain="https://decentrawise.com/tags/dpos/">dpos</category>
+      
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
+      <category domain="https://decentrawise.com/tags/hive/">hive</category>
+      
+      <category domain="https://decentrawise.com/tags/witness/">witness</category>
+      
+      
+      <comments>https://decentrawise.com/infrastructure/supporting-hive-fork/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Steem Protection soft fork</title>
+      <link>https://decentrawise.com/infrastructure/steem-protection-soft-fork/</link>
+      <guid>https://decentrawise.com/infrastructure/steem-protection-soft-fork/</guid>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/witness-category/@prc/update-witness-nodes-updated-to-v0-22-2&quot;&gt;Original post on</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/infrastructure/">infrastructure</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/bp/">bp</category>
+      
+      <category domain="https://decentrawise.com/tags/dpos/">dpos</category>
+      
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
+      <category domain="https://decentrawise.com/tags/witness/">witness</category>
+      
+      
+      <comments>https://decentrawise.com/infrastructure/steem-protection-soft-fork/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>EOSIO efficiency experiments</title>
+      <link>https://decentrawise.com/development/eosio-efficiency-experiments/</link>
+      <guid>https://decentrawise.com/development/eosio-efficiency-experiments/</guid>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;Minimizing-impact-in-CPU-usage-of-multi-index-modify-in-cycles&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/development/">development</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
+      
+      <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
+      
+      <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
+      
+      
+      <comments>https://decentrawise.com/development/eosio-efficiency-experiments/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Finalists of Liquidapps global hackathon 2019</title>
+      <link>https://decentrawise.com/development/finalists-liquidapps-hackathon-2019/</link>
+      <guid>https://decentrawise.com/development/finalists-liquidapps-hackathon-2019/</guid>
+      <pubDate>Mon, 25 Nov 2019 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;We-participated-with-VIGORish-team-and-were-among-the-5-finalists-November-2019&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/development/">development</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
+      
+      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
+      
+      <category domain="https://decentrawise.com/tags/liquidapps/">liquidapps</category>
+      
+      
+      <comments>https://decentrawise.com/development/finalists-liquidapps-hackathon-2019/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DTube token sale</title>
+      <link>https://decentrawise.com/projects/dtube-token-sale/</link>
+      <guid>https://decentrawise.com/projects/dtube-token-sale/</guid>
+      <pubDate>Sat, 28 Sep 2019 23:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/dtube/@prc/d-tube-token-sale-why-i-decided-to-buy-some-dtc-in-this-1st-sale-round&quot;&gt;Original post</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/projects/">projects</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/dtube/">dtube</category>
+      
+      <category domain="https://decentrawise.com/tags/token/">token</category>
+      
+      
+      <comments>https://decentrawise.com/projects/dtube-token-sale/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DSound v0.4.1</title>
+      <link>https://decentrawise.com/projects/dsound-v0-4-1/</link>
+      <guid>https://decentrawise.com/projects/dsound-v0-4-1/</guid>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/projects/">projects</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
+      
+      <category domain="https://decentrawise.com/tags/music/">music</category>
+      
+      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
+      
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
+      
+      <comments>https://decentrawise.com/projects/dsound-v0-4-1/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DSound presentation at SteemFest 3</title>
+      <link>https://decentrawise.com/talks/dsound-steemfest3/</link>
+      <guid>https://decentrawise.com/talks/dsound-steemfest3/</guid>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;Krakow-November-2018&quot;&gt;&lt;a href=&quot;#Krakow-November-2018&quot; class=&quot;headerlink&quot; title=&quot;Kraków, November 2018&quot;&gt;&lt;/a&gt;Kraków, November</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/talks/">talks</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
+      
+      <category domain="https://decentrawise.com/tags/music/">music</category>
+      
+      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
+      
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
+      
+      <comments>https://decentrawise.com/talks/dsound-steemfest3/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DSound v0.4</title>
+      <link>https://decentrawise.com/projects/dsound-v0-4/</link>
+      <guid>https://decentrawise.com/projects/dsound-v0-4/</guid>
+      <pubDate>Sun, 04 Nov 2018 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/projects/">projects</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
+      
+      <category domain="https://decentrawise.com/tags/music/">music</category>
+      
+      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
+      
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
+      
+      <comments>https://decentrawise.com/projects/dsound-v0-4/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>EOSIO London Hackathon 2018 participation</title>
+      <link>https://decentrawise.com/development/eosio-london-hackathon-2018/</link>
+      <guid>https://decentrawise.com/development/eosio-london-hackathon-2018/</guid>
+      <pubDate>Fri, 21 Sep 2018 23:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;We-participated-had-a-lot-of-fun-September-2018&quot;&gt;&lt;a href=&quot;#We-participated-had-a-lot-of-fun-September-2018&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/development/">development</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
+      
+      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
+      
+      
+      <comments>https://decentrawise.com/development/eosio-london-hackathon-2018/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>IMSHARE 2018 conference</title>
+      <link>https://decentrawise.com/talks/imshare-2018-conf/</link>
+      <guid>https://decentrawise.com/talks/imshare-2018-conf/</guid>
+      <pubDate>Mon, 04 Jun 2018 23:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;Lisbon-June-2018&quot;&gt;&lt;a href=&quot;#Lisbon-June-2018&quot; class=&quot;headerlink&quot; title=&quot;Lisbon, June 2018&quot;&gt;&lt;/a&gt;Lisbon, June 2018&lt;/h1&gt;&lt;div</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/talks/">talks</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
+      
+      <category domain="https://decentrawise.com/tags/blockchain/">blockchain</category>
+      
+      <category domain="https://decentrawise.com/tags/panel/">panel</category>
+      
+      <category domain="https://decentrawise.com/tags/decentralization/">decentralization</category>
+      
+      
+      <comments>https://decentrawise.com/talks/imshare-2018-conf/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DSound v0.3</title>
+      <link>https://decentrawise.com/projects/dsound-v0-3/</link>
+      <guid>https://decentrawise.com/projects/dsound-v0-3/</guid>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/projects/">projects</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
+      
+      <category domain="https://decentrawise.com/tags/music/">music</category>
+      
+      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
+      
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
+      
+      <comments>https://decentrawise.com/projects/dsound-v0-3/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DSound presentation at SteemFest 2</title>
+      <link>https://decentrawise.com/talks/dsound-steemfest2/</link>
+      <guid>https://decentrawise.com/talks/dsound-steemfest2/</guid>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://d.tube/#!/v/prc/1v7tgnwk&quot;&gt;Original post on DTube&lt;/a&gt;&lt;/sub&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Lisbon-November-2017&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/talks/">talks</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
+      
+      <category domain="https://decentrawise.com/tags/music/">music</category>
+      
+      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
+      
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
+      
+      <comments>https://decentrawise.com/talks/dsound-steemfest2/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Steem @prc witness proposal</title>
+      <link>https://decentrawise.com/infrastructure/steem-prc-witness-proposal/</link>
+      <guid>https://decentrawise.com/infrastructure/steem-prc-witness-proposal/</guid>
+      <pubDate>Tue, 28 Nov 2017 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/infrastructure/">infrastructure</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/bp/">bp</category>
+      
+      <category domain="https://decentrawise.com/tags/dpos/">dpos</category>
+      
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
+      <category domain="https://decentrawise.com/tags/witness/">witness</category>
+      
+      
+      <comments>https://decentrawise.com/infrastructure/steem-prc-witness-proposal/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DSound v0.2</title>
+      <link>https://decentrawise.com/projects/dsound-v0-2/</link>
+      <guid>https://decentrawise.com/projects/dsound-v0-2/</guid>
+      <pubDate>Tue, 10 Oct 2017 23:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/projects/">projects</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
+      
+      <category domain="https://decentrawise.com/tags/music/">music</category>
+      
+      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
+      
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
+      
+      <comments>https://decentrawise.com/projects/dsound-v0-2/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>DSound, the launch</title>
+      <link>https://decentrawise.com/projects/dsound-the-launch/</link>
+      <guid>https://decentrawise.com/projects/dsound-the-launch/</guid>
+      <pubDate>Thu, 14 Sep 2017 23:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/projects/">projects</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
+      
+      <category domain="https://decentrawise.com/tags/music/">music</category>
+      
+      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
+      
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
+      
+      <comments>https://decentrawise.com/projects/dsound-the-launch/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Introducing DSound</title>
+      <link>https://decentrawise.com/projects/introducing-dsound/</link>
+      <guid>https://decentrawise.com/projects/introducing-dsound/</guid>
+      <pubDate>Thu, 07 Sep 2017 23:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/music/@prc/introducing-dsound-a-decentralized-sound-platform-using-steem-and-ipfs&quot;&gt;Original post</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/projects/">projects</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
+      
+      <category domain="https://decentrawise.com/tags/music/">music</category>
+      
+      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
+      
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
+      
+      <comments>https://decentrawise.com/projects/introducing-dsound/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>

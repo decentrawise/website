@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    
+
+    
+    <title>DSound v0.3 | DECENTRAWISE</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="decentralization,decentralisation,experts,blockchain,dlt,p2p,peer,peer to peer,development,smart contract,smart-contract,smart,contract,dpos,bitcoin,ethereum,solidity,steem,hive,eosio,witness,block producer,block,producer" />
+    <meta name="description" content="Original post on Steem Fixes to upload, Improved validations, New IPFS gateway, Tags without prefix, easy IPFS local node and much more!You waited patiently for DSound new version and here it is the f">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DSound v0.3">
+<meta property="og:url" content="https://decentrawise.com/projects/dsound-v0-3/index.html">
+<meta property="og:site_name" content="DECENTRAWISE">
+<meta property="og:description" content="Original post on Steem Fixes to upload, Improved validations, New IPFS gateway, Tags without prefix, easy IPFS local node and much more!You waited patiently for DSound new version and here it is the f">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://decentrawise.com/images/dsound-logo-big.png">
+<meta property="article:published_time" content="2018-02-22T00:00:00.000Z">
+<meta property="article:modified_time" content="2022-04-08T14:51:54.000Z">
+<meta property="article:author" content="DECENTRAWISE">
+<meta property="article:tag" content="dsound">
+<meta property="article:tag" content="music">
+<meta property="article:tag" content="ipfs">
+<meta property="article:tag" content="steem">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://decentrawise.com/images/dsound-logo-big.png">
+    
+
+    
+        <link rel="alternate" href="/rss.xml" title="DECENTRAWISE" type="application/atom+xml" />
+    
+
+    
+        <link rel="icon" href="/favicon.ico" />
+    
+
+    
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/libs/titillium-web/styles.css">
+
+    
+<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+<script src="/libs/jquery/3.5.0/jquery.min.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/podcasts">Podcasts</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/development">Development</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/audit">Audit</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/projects">Projects</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/talks">Talks</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/team">Team</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/contact">Contact</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    <a class="page-title-link" href="/categories/projects/">projects</a>
+    </h1>
+</div>
+
+                        <div class="main-body-content">
+                            <article id="post-dsound-v0-3" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        DSound v0.3
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+  <div class="article-date">
+    <i class="fa fa-calendar"></i>
+    <a href="/projects/dsound-v0-3/" class="article-date">
+       <time datetime="2018-02-22T00:00:00.000Z" itemprop="datePublished">2018-02-22</time>
+    </a>
+  </div>
+
+
+                
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link-link" href="/tags/dsound/" rel="tag">dsound</a>, <a class="tag-link-link" href="/tags/ipfs/" rel="tag">ipfs</a>, <a class="tag-link-link" href="/tags/music/" rel="tag">music</a>, <a class="tag-link-link" href="/tags/steem/" rel="tag">steem</a>
+    </div>
+
+                
+
+                
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+
+            
+
+            
+
+            <p><sup><sub><a target="_blank" rel="noopener" href="https://steemit.com/dsound/@prc/dsound-v0-3-fixes-to-upload-improved-validations-new-ipfs-gateway-tags-without-prefix-easy-ipfs-local-node-and-much-more">Original post on Steem</a></sub></sup></p>
+<h1 id="Fixes-to-upload-Improved-validations-New-IPFS-gateway-Tags-without-prefix-easy-IPFS-local-node-and-much-more"><a href="#Fixes-to-upload-Improved-validations-New-IPFS-gateway-Tags-without-prefix-easy-IPFS-local-node-and-much-more" class="headerlink" title="Fixes to upload, Improved validations, New IPFS gateway, Tags without prefix, easy IPFS local node and much more!"></a>Fixes to upload, Improved validations, New IPFS gateway, Tags without prefix, easy IPFS local node and much more!</h1><p>You waited patiently for DSound new version and here it is the first release of 2018 packed with cool stuff! :)</p>
+<p><img src="/images/dsound-logo-big.png"></p>
+<h1 id="HTTPS-DSOUND-AUDIO"><a href="#HTTPS-DSOUND-AUDIO" class="headerlink" title="HTTPS://DSOUND.AUDIO"></a><a target="_blank" rel="noopener" href="https://dsound.audio/">HTTPS://DSOUND.AUDIO</a></h1><h1 id="What-is-DSound"><a href="#What-is-DSound" class="headerlink" title="What is DSound?"></a>What is DSound?</h1><p>DSound is a decentralized web application, developed in Javascript and React, that allows anyone to upload, listen and discover music and other sounds stored on top of the IPFS Network. It uses STEEM blockchain as a persistent database, and by posting the sounds the authors can earn rewards in STEEM cryptocurrency, when other users like their content, which can be exchanged easily to US Dollars, Euros or any other currency, similar to Steemit.com for blog posts.</p>
+<h4 id="Check-DSound-Intro-post-for-more-details"><a href="#Check-DSound-Intro-post-for-more-details" class="headerlink" title="Check DSound Intro post for more details"></a><a href="/development/introducing-dsound/">Check DSound Intro post for more details</a></h4><h1 id="About-dsound-delegations-and-curation"><a href="#About-dsound-delegations-and-curation" class="headerlink" title="About @dsound delegations and curation"></a>About <code>@dsound</code> delegations and curation</h1><p>My huge thank you to everybody who delegated to <code>@dsound</code>! It makes a huge deal for the curation effort! :)</p>
+<p>As most of you certainly noticed <code>@dsound</code> account lost a major delegator, this augmented by the losses in value of STEEM resulted in the much lower payout of the great content in our loved platform…</p>
+<p>But we managed to strengthen the curation team, now counting with 3 curators and myself, which has resulted in more than 300 artists being rewarded properly in DSound, and this number growing everyday! :)</p>
+<p>It is such a big deal for us, as curators in the platform, to get to the Trending or Hot pages and see only great content coming out of DSound, with such proportionate and interesting payouts. We’re really proud of the achievements of curation in only 1 month!</p>
+<p>In this first month <code>@dsound</code>curation effort was able to distribute near 26K STEEM, spread to an average of more than 200 artists daily of the more than 700 daily sounds published. This is a huge deal for our 5000+ users and community!</p>
+<h3 id="The-Top-Delegators"><a href="#The-Top-Delegators" class="headerlink" title="The Top Delegators"></a>The Top Delegators</h3><ol>
+<li>@misterdelegation</li>
+<li>@soundlegion</li>
+<li>@freetousesounds</li>
+<li>@harrisonmir</li>
+<li>@humanabstract</li>
+<li>@kemal13</li>
+<li>@justlibby</li>
+<li>@talhadogan</li>
+<li>@frew</li>
+<li>@svetoruss</li>
+</ol>
+<p>Please go check out these guys! Most of them are artists in DSound that want to support the curation effort… Thanks a lot guys for giving back to the platform! :)</p>
+<p>And to all the other people that didn’t delegate yet, please do so… It is very important to build a strong curation account to build up our power to keep this platform with great incentives to our artists and sound creators!</p>
+<p>It’s phrases like these that make me wake up everyday and give the best of me to this project:</p>
+<blockquote>
+<p>Hey friend! I don’t know if you know me , but I am one of your biggest fan! You changed my life few weeks ago when I started actively posting on dsound every day.<br>It really enabled me to create more content , to dedicate myself to your platform and more importantly to believe in myself in a way that I haven’t for years , I can feed my children doing what I love, so a big thank you to you my brother from Lisbon.<br>Hopefully one day I can meet you in real and shake your hand or buy you a beer :)</p>
+</blockquote>
+<p>DSound is this! &lt;3</p>
+<h1 id="DSound-Discord-Server-the-tribe-gets-connected"><a href="#DSound-Discord-Server-the-tribe-gets-connected" class="headerlink" title="DSound Discord Server (the tribe gets connected)"></a>DSound Discord Server (the tribe gets connected)</h1><p>Please join our Discord server at:</p>
+<p><a target="_blank" rel="noopener" href="https://discord.gg/hSsBw3b">https://discord.gg/hSsBw3b</a></p>
+<p>There you’ll find a few channels to have everybody from our growing community getting together and making DSound even better.</p>
+<p>We invested a significant effort in organizing this community server and now we have rules, a set of channels where people have great chats, or support and suggestion of features… Thanks to all participants! It was tough at the beginning but paid out in the end. Now we’ll add few moderators to help curators with  normal day to day activities of the server, stay tuned for the announcements…</p>
+<p>The steemit.chat channels will continue but will be less checked from now on…</p>
+<h1 id="What’s-new-in-DSound-v0-3"><a href="#What’s-new-in-DSound-v0-3" class="headerlink" title="What’s new in DSound v0.3?"></a>What’s new in DSound v0.3?</h1><p>Ready to find out what else is packed in this new release? Come on, grab a cup of coffee, sit down and relax…</p>
+<h3 id="Active-discovery-of-public-IPFS-gateways"><a href="#Active-discovery-of-public-IPFS-gateways" class="headerlink" title="Active discovery of public IPFS gateways"></a>Active discovery of public IPFS gateways</h3><p>In order to make DSound streaming and content delivery faster, it now starts with a predefined gateway and then initiates a connection with each of the available gateways to identify the faster one, with lower latency.</p>
+<p>This means that DSound should be more responsive and it will be less frequent to see missing cover art or sound waves.</p>
+<h3 id="Extra-error-checking-and-fixes-on-Upload"><a href="#Extra-error-checking-and-fixes-on-Upload" class="headerlink" title="Extra error checking and fixes on Upload"></a>Extra error checking and fixes on Upload</h3><p>There were a few of you that didn’t get their tracks uploaded, and I worked with a few to figure out the problems and correct them. Thanks a lot to the folks that had the patience to send me all the information I needed to correct this and implement extra error checking on this important part of DSound. </p>
+<h3 id="New-DSound-IPFS-upload-gateway"><a href="#New-DSound-IPFS-upload-gateway" class="headerlink" title="New DSound IPFS upload gateway"></a>New DSound IPFS upload gateway</h3><p>Yes, probably you remember last Saturday, that DSound was left without upload for a period of 10 hours…</p>
+<p>Well, DSound supplier of IPFS gateway told us that he would go to shutdown the gateway in 5 days on Friday. So I was planning to use those days to deploy my own gateways exclusive to DSound instead, reducing the friction for whenever some management operation was needed.</p>
+<p>So, during my sleep from Friday to Saturday, the gateways were shutdown and I woke up with a huge list of messages in Discord with problems with upload. It was already out of service for around 5 hours and I had to configure the new server, the IPFS and all those tricks to make it work, the fastest I could!</p>
+<p>And so I did… It took around 5 hours to put up, and now we’re back to uploading craziness! :)</p>
+<h3 id="SEO-friendly-URLs-and-Page-Title"><a href="#SEO-friendly-URLs-and-Page-Title" class="headerlink" title="SEO friendly URLs and Page Title"></a>SEO friendly URLs and Page Title</h3><p>Now DSound uses #! (hashbang) instead of only # (hash) enabling web crawlers to still find their way in DSound pages, even so that the content is rendered in Browser in Javascript.</p>
+<p>All the pages have also relevant information in the title. So if you are on your feed, then your username or name will appear or if you are at a track page the track title will show up on the page title.</p>
+<p>This seams to be such a useless one, but it really makes a difference when it comes to bookmarking pages of artists you like, so you wouldn’t end up with a bunch of pages with the same title in your favorites… Now you can see what it links to!</p>
+<h3 id="Extra-Tags-without-the-dsound-prefix"><a href="#Extra-Tags-without-the-dsound-prefix" class="headerlink" title="Extra Tags without the dsound- prefix"></a>Extra Tags without the <code>dsound-</code> prefix</h3><p>This one was highly wanted, so I got it done. Now the only tags that are processed internally by DSound are the content type and the genre&#x2F;main tag. So it you want to publish a cover of a pop song (yes, now there is also a Cover song type), then you would choose <code>Cover song</code> for type and <code>pop</code> for genre, and this will result in <code>dsound</code>, <code>music</code>, <code>dsound-cover</code> and <code>dsound-pop</code>. But now if you upload a Podcast episode, then you will not get <code>music</code>, but <code>podcast</code> instead!</p>
+<p>So now remains the extra tags field where you put tags separated by <code>,</code> and those now are placed in your sound post without any prefix! So you can control on which tags your content will appear.</p>
+<p>It is important that you don’t remove the <code>dsound-type</code> and <code>dsound-genre</code> tags, because they are needed to be able to click a genre and those sounds get listed under that genre, for instance…</p>
+<p>This change forced that the extra tags, that appear on the bottom of the description on the entire post view page, stopped being navigable by clicking them. These tags are now only relevant for Steemit and friends, but not for DSound. The sound type and the genre are still navigable by clicking, opening a special view showing only sounds that share that sound type or genre.</p>
+<h3 id="New-convention-for-sound-generated-links"><a href="#New-convention-for-sound-generated-links" class="headerlink" title="New convention for sound generated links"></a>New convention for sound generated links</h3><p>Now you may notice that your sounds link has some big number at the beginning, right after the category, and then the regular striped title without spaces.</p>
+<p>This has many advantages, one of which is to be able to publish the same title for a track as the post describing the process of your song, for instance… Another even bigger possibility is to be able to publish the same track multiple times, to be able to monetize your catalog in a better way, since good music is timeless!</p>
+<p>Please be careful with this. Don’t spam your audience. if you have a small catalog, then don’t overuse this…</p>
+<p>Also the various feeds of content now only show the last publication of a certain title. This prevents your feed from getting too stuffed if you use the previous feature.</p>
+<h3 id="Login-form-with-extra-verifications"><a href="#Login-form-with-extra-verifications" class="headerlink" title="Login form with extra verifications"></a>Login form with extra verifications</h3><p>One of the most common errors preventing the users from logging in was that some guys wanted to put the <code>@</code> sign on the username… Another was to get the wrong key, like the public key instead of the private.</p>
+<p>So now the username field removes automatically any characters that are not valid for a username, validating as well the username conventions: at least 3 characters in each segment, that can be separated with <code>.</code> and only using letters, numbers or the <code>-</code> symbol.</p>
+<p>The key is also now tested if it fits the rules for a STEEM private key.</p>
+<p>So if the orange triangle at the right of these fields doesn’t go away when you input your data, then probably the data is wrong… Copy it again or double check it.</p>
+<h3 id="Minor-internal-fixes"><a href="#Minor-internal-fixes" class="headerlink" title="Minor internal fixes"></a>Minor internal fixes</h3><p>Minor fixes here and there. Also improvement in flow from a sound to the next. And configuration now is reloaded from time to time to allow faster update of parameters and also stored locally for faster access…</p>
+<h3 id="Improvements-in-switching-to-local-IPFS-node-and-back"><a href="#Improvements-in-switching-to-local-IPFS-node-and-back" class="headerlink" title="Improvements in switching to local IPFS node and back"></a>Improvements in switching to local IPFS node and back</h3><p>Now this process is almost unnoticeable. if you switch your local IPFS on, then after a bit DSound will switch to it automatically and all connections are routed through that node.</p>
+<p>Similarly, when you switch your local node off, then DSound will also switch back to public gateway mode and will run the check again to use the best available gateway with the lowest latency.</p>
+<h3 id="House-cleaner-compliance"><a href="#House-cleaner-compliance" class="headerlink" title="House cleaner compliance"></a>House cleaner compliance</h3><p>Yes, there are a few (dozens…) of copycats in the DSound arena… And we all want them out of out eyes, so now DSound only shows content that has positive weighted votes. This way, if the curation team or any other users flag some of the bad guys, they will not show up in any feed anymore. </p>
+<h1 id="What’s-not-in-DSound-v0-3"><a href="#What’s-not-in-DSound-v0-3" class="headerlink" title="What’s not in DSound v0.3?"></a>What’s not in DSound v0.3?</h1><p>Yes, there is something that I wanted so much to include, but the test phase got some major problems that need addressing, so the migration of DSound to use DSound processing and uploading nodes has to wait for the next release… </p>
+<p>This will be the major upgrade to facilitate DSound upload but it better come out vibrant and strong!</p>
+<p>So my apologies to all of you, but couldn’t keep you waiting longer for all the cool things that were already developed just because of this one. So broke this bundle into two and enhanced this version with the next topic, which is of major coolness!</p>
+<h1 id="Local-IPFS-node-the-easy-way"><a href="#Local-IPFS-node-the-easy-way" class="headerlink" title="Local IPFS node the easy way"></a>Local IPFS node the easy way</h1><p>It’s a pleasure to announce to all of you that wanted to install your local IPFS node for some time but struggled with the configuration, that now your problem is solved! And wasn’t me who did it… I just figured out the way to finalize the easy configuration to make it work with DSound.</p>
+<p><img src="/images/dsound-ipfs-desktop.png"></p>
+<h3 id="IPFS-DESKTOP"><a href="#IPFS-DESKTOP" class="headerlink" title="IPFS DESKTOP"></a><a target="_blank" rel="noopener" href="https://github.com/dsound/ipfs-desktop">IPFS DESKTOP</a></h3><p>DSound forked this project but for now it is exactly as developed by the guys from IPFS team. But I think that there are some features that may see their way to mix up in this project, because a local node may as well be a processing node, right?</p>
+<p>So the idea is to have you playing around with this project. On my Mac it setup really easy. Just needed to change a small bit in the configuration file… Of course this will be the first thing to change for DSound fork of this project, but for now I will tell you how to do it the hard way… ;)</p>
+<h3 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h3><p>Please click the link above and you’ll see on GitHub page below the file browser an “Install” heading, below it you see:</p>
+<p>“Go to the <a target="_blank" rel="noopener" href="https://github.com/ipfs-shipyard/ipfs-desktop/releases/latest">latest release</a> …”</p>
+<p>click there, or here because it will link to the same page… There you’ll find installation packages for Linux (rpm and deb), Mac OSX (dmg) and Windows (exe), so feel free to download the right one for your platform and install it.</p>
+<p>When you run it for the first time you’ll see the screen below, and here you better click the “Advanced Options” button to check out where it will install the IPFS data directory in your platform. In Mac and Linux it will be in “.ipfs” directory under your home directory by default, in Windows I don’t know because I don’t use it…</p>
+<p><img src="/images/dsound-ipfs-install.png"></p>
+<p>Then note it down and continue the installation. It should be quite fast.</p>
+<p><strong>IMPORTANT NOTE</strong>: For those who already installed IPFS before in your computer, please delete the installation data directory, and then perform this installation. Most probably IPFS Desktop will not even ask you to install in the first run.</p>
+<p>Next just quit the application and go to that directory you noted down. There you should find a file named “config”. Open it with your favorite text editor.</p>
+<p>In this file you’ll read somewhere:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line"></span><br><span class="line">&quot;API&quot;: &#123;</span><br><span class="line">  &quot;HTTPHeaders&quot;: null</span><br><span class="line">&#125;,</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>and you need to change it so that it looks like this:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line"></span><br><span class="line">&quot;API&quot;: &#123;</span><br><span class="line">  &quot;HTTPHeaders&quot;: &#123;</span><br><span class="line">    &quot;Access-Control-Allow-Credentials&quot;: [</span><br><span class="line">      &quot;true&quot;</span><br><span class="line">    ],</span><br><span class="line">    &quot;Access-Control-Allow-Methods&quot;: [</span><br><span class="line">      &quot;PUT&quot;,</span><br><span class="line">      &quot;GET&quot;,</span><br><span class="line">      &quot;POST&quot;</span><br><span class="line">    ],</span><br><span class="line">    &quot;Access-Control-Allow-Origin&quot;: [</span><br><span class="line">      &quot;*&quot;</span><br><span class="line">    ]</span><br><span class="line">  &#125;</span><br><span class="line">&#125;,</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>Then start up the IPFS Desktop app again and you should be good to go! This easy! :)</p>
+<p>Your node will be configured and running and you’ll see in DSound that the node is online in the IPFS Settings.</p>
+<p>Please note that this is early stage software that might have some bugs and be in active development so don’t rely too much on it, but besides that it worked with me so far and it is a simpler way of starting and stopping the IPFS node when we need it.</p>
+<p>If you use it to upload, then please give it some time after the upload to sync up with the network, so that the contents of your sound get spread through caches of other nodes. One good way to make sure is to open the content in another computer running DSound without IPFS, or just wait for people to start watching your content and commenting it, then you know that your content already have a live of its own! :)</p>
+<p>DSound will try to pin your own files in your IPFS node, so that if the network “forgets” your content, then you can just connect the IPFS node and access the files again and they will spread again through the network…</p>
+<h1 id="What’s-next"><a href="#What’s-next" class="headerlink" title="What’s next?"></a>What’s next?</h1><p>Well, need to finish the processing and uploading nodes, solving those issues that prevented it to be done by now.</p>
+<p>Then will continue down the path of the roadmap by priority…</p>
+<p>Another thing that I want to get started with is to put out some marketing effort to bring more people to the platform. When we have the upload resolved and more nodes to make the network scalable infinitely, then the only thing that is missing is more people! And now is the time to do it… :)</p>
+<h1 id="Final-words"><a href="#Final-words" class="headerlink" title="Final words"></a>Final words</h1><p>Once again DSound one step closer to be the platform that frees us all and allows us to do what we love: music, sound design, recording, remixing, mashups, podcasts, or whatever is your thing… :)</p>
+<p>I am positive about this curation incentive, as the needed fuel to bring DSound to the masses. Please pass the word to your friends! If they produce great content, they will produce even better in this platform…</p>
+<p>Together we’ll see DSound get to the next level, tribe! :)</p>
+<h1 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL;DR"></a>TL;DR</h1><p>DSound curation initiative has done a huge impact this first month. More than 300 artist voted and 26K STEEM distributed. An average 200+ daily votes over 700+ daily uploads, from 5000+ users. </p>
+<p>DSound v0.3 brings: Active discovery of public IPFS gateways, Extra error checking and fixes on Upload, New DSound IPFS upload gateway, SEO friendly URLs and Page Title, Extra Tags without the <code>dsound-</code> prefix, New convention for sound generated links, Login form with extra verifications, Minor internal fixes, Improvements in switching to local IPFS node and back, House cleaner compliance.</p>
+<p>And also easy instructions on how to install IPFS Desktop from IPFS team to manage your local IPFS node easily!</p>
+<hr>
+
+<p>Thanks a lot to all fellow members of DSound tribe, all steemians, developers and music addicts like me for your support and encouragement on this project!</p>
+<p>Peace! :)</p>
+<p>“Music is what feelings sound like”<br>DSound &lt;3 Music</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://decentrawise.com/projects/dsound-v0-3/" data-id="cln35nnst000mqlqjg1zggz9d" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "DECENTRAWISE"
+        },
+        "headline": "DSound v0.3",
+        "image": "https://decentrawise.com/images/dsound-logo-big.png",
+        "keywords": "dsound music ipfs steem",
+        "genre": "projects",
+        "datePublished": "2018-02-22",
+        "dateCreated": "2018-02-22",
+        "dateModified": "2022-04-08",
+        "url": "https://decentrawise.com/projects/dsound-v0-3/",
+        "description": "Original post on Steem
+Fixes to upload, Improved validations, New IPFS gateway, Tags without prefix, easy IPFS local node and much more!You waited patiently for DSound new version and here it is the f",
+        "wordCount": 3035
+    }
+</script>
+
+</article>
+
+    <section id="comments">
+    
+    </section>
+
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="telegram" href="https://t.me/decentrawise" target="_blank" rel="noopener">
+                        <i class="icon fa fa-telegram"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="https://twitter.com/decentrawise" target="_blank" rel="noopener">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="youtube" href="https://www.youtube.com/@decentrawise" target="_blank" rel="noopener">
+                        <i class="icon fa fa-youtube"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="linkedin" href="https://www.linkedin.com/company/decentrawise/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-linkedin"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/decentrawise" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/rss.xml" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/talks/imshare-2018-conf/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">newer</strong>
+        <p class="article-nav-title">
+        
+            IMSHARE 2018 conference
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/talks/dsound-steemfest2/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">DSound presentation at SteemFest 2</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/development/">development</a><span class="category-list-count">5</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/infrastructure/">infrastructure</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/projects/">projects</a><span class="category-list-count">8</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/talks/">talks</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/team/">team</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">tags</h3>
+        <div class="widget">
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/blockchain/" rel="tag">blockchain</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/bp/" rel="tag">bp</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dapp/" rel="tag">dapp</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/decentralization/" rel="tag">decentralization</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dpos/" rel="tag">dpos</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dsound/" rel="tag">dsound</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dtube/" rel="tag">dtube</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/efficiency/" rel="tag">efficiency</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/eos/" rel="tag">eos</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/eosio/" rel="tag">eosio</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/experiment/" rel="tag">experiment</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hackathon/" rel="tag">hackathon</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hive/" rel="tag">hive</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ipfs/" rel="tag">ipfs</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/liquidapps/" rel="tag">liquidapps</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/music/" rel="tag">music</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/open-source/" rel="tag">open-source</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/panel/" rel="tag">panel</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/smart-contract/" rel="tag">smart-contract</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/steem/" rel="tag">steem</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/token/" rel="tag">token</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/witness/" rel="tag">witness</a><span class="tag-list-count">3</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/blockchain/" style="font-size: 10px;">blockchain</a> <a href="/tags/bp/" style="font-size: 14.29px;">bp</a> <a href="/tags/dapp/" style="font-size: 12.86px;">dapp</a> <a href="/tags/decentralization/" style="font-size: 10px;">decentralization</a> <a href="/tags/dpos/" style="font-size: 14.29px;">dpos</a> <a href="/tags/dsound/" style="font-size: 18.57px;">dsound</a> <a href="/tags/dtube/" style="font-size: 10px;">dtube</a> <a href="/tags/efficiency/" style="font-size: 10px;">efficiency</a> <a href="/tags/eos/" style="font-size: 10px;">eos</a> <a href="/tags/eosio/" style="font-size: 17.14px;">eosio</a> <a href="/tags/experiment/" style="font-size: 12.86px;">experiment</a> <a href="/tags/hackathon/" style="font-size: 11.43px;">hackathon</a> <a href="/tags/hive/" style="font-size: 11.43px;">hive</a> <a href="/tags/ipfs/" style="font-size: 18.57px;">ipfs</a> <a href="/tags/liquidapps/" style="font-size: 10px;">liquidapps</a> <a href="/tags/music/" style="font-size: 18.57px;">music</a> <a href="/tags/open-source/" style="font-size: 12.86px;">open-source</a> <a href="/tags/panel/" style="font-size: 10px;">panel</a> <a href="/tags/smart-contract/" style="font-size: 15.71px;">smart-contract</a> <a href="/tags/steem/" style="font-size: 20px;">steem</a> <a href="/tags/token/" style="font-size: 10px;">token</a> <a href="/tags/witness/" style="font-size: 12.86px;">witness</a>
+        </div>
+    </div>
+
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="https://dsound.io/new">DSound</a>
+                    </li>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="https://eos.io">EOSIO</a>
+                    </li>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="https://github.com/decentrawise">GitHub</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2016 - 2023 DECENTRAWISE</p>
+                
+            </div>
+            <div class="footer-plugins">
+              
+    
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    
+
+
+    
+        
+<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+
+    
+    
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/js/main.js"></script>
+
+
+</body>
+</html>
