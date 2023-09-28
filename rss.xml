@@ -15,8 +15,119 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Fri, 08 Apr 2022 14:51:54 GMT</pubDate>
+    <pubDate>Thu, 28 Sep 2023 20:45:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Participation at ETHGlobal Lisbon Hackathon 2023</title>
+      <link>https://decentrawise.com/development/ethglobal-lisbon-hackathon-2023/</link>
+      <guid>https://decentrawise.com/development/ethglobal-lisbon-hackathon-2023/</guid>
+      <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;We-participated-and-had-a-lot-of-fun-May-2023&quot;&gt;&lt;a href=&quot;#We-participated-and-had-a-lot-of-fun-May-2023&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/development/">development</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
+      
+      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
+      
+      <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
+      
+      <category domain="https://decentrawise.com/tags/lens/">lens</category>
+      
+      <category domain="https://decentrawise.com/tags/nft/">nft</category>
+      
+      
+      <comments>https://decentrawise.com/development/ethglobal-lisbon-hackathon-2023/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Winners of prize at UniCode Hackathon 2021</title>
+      <link>https://decentrawise.com/development/unicode-hackathon-2021/</link>
+      <guid>https://decentrawise.com/development/unicode-hackathon-2021/</guid>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;We-participated-and-had-a-lot-of-fun-August-2021&quot;&gt;&lt;a href=&quot;#We-participated-and-had-a-lot-of-fun-August-2021&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/development/">development</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
+      
+      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
+      
+      <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
+      
+      <category domain="https://decentrawise.com/tags/uniswap/">uniswap</category>
+      
+      <category domain="https://decentrawise.com/tags/github/">github</category>
+      
+      
+      <comments>https://decentrawise.com/development/unicode-hackathon-2021/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Winners of prize at HackFS Hackathon 2021</title>
+      <link>https://decentrawise.com/development/hackfs-hackathon-2021/</link>
+      <guid>https://decentrawise.com/development/hackfs-hackathon-2021/</guid>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;We-participated-and-had-a-lot-of-fun-August-2021&quot;&gt;&lt;a href=&quot;#We-participated-and-had-a-lot-of-fun-August-2021&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/development/">development</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
+      
+      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
+      
+      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
+      
+      <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
+      
+      
+      <comments>https://decentrawise.com/development/hackfs-hackathon-2021/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Block Producer Candidate Announcement</title>
@@ -242,11 +353,11 @@
       
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
-      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
-      
       <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
       
       <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
+      
+      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
       
       
       <comments>https://decentrawise.com/development/eosio-efficiency-experiments/#disqus_thread</comments>
@@ -275,9 +386,9 @@
       
       <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
       
-      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
-      
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
       <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
@@ -438,9 +549,9 @@
       
       <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
       
-      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
-      
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
       <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
@@ -579,105 +690,6 @@
       
       
       <comments>https://decentrawise.com/infrastructure/steem-prc-witness-proposal/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>DSound v0.2</title>
-      <link>https://decentrawise.com/projects/dsound-v0-2/</link>
-      <guid>https://decentrawise.com/projects/dsound-v0-2/</guid>
-      <pubDate>Wed, 11 Oct 2017 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/projects/">projects</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
-      
-      <category domain="https://decentrawise.com/tags/music/">music</category>
-      
-      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
-      
-      <category domain="https://decentrawise.com/tags/steem/">steem</category>
-      
-      
-      <comments>https://decentrawise.com/projects/dsound-v0-2/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>DSound, the launch</title>
-      <link>https://decentrawise.com/projects/dsound-the-launch/</link>
-      <guid>https://decentrawise.com/projects/dsound-the-launch/</guid>
-      <pubDate>Fri, 15 Sep 2017 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/projects/">projects</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
-      
-      <category domain="https://decentrawise.com/tags/music/">music</category>
-      
-      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
-      
-      <category domain="https://decentrawise.com/tags/steem/">steem</category>
-      
-      
-      <comments>https://decentrawise.com/projects/dsound-the-launch/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Introducing DSound</title>
-      <link>https://decentrawise.com/projects/introducing-dsound/</link>
-      <guid>https://decentrawise.com/projects/introducing-dsound/</guid>
-      <pubDate>Fri, 08 Sep 2017 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/music/@prc/introducing-dsound-a-decentralized-sound-platform-using-steem-and-ipfs&quot;&gt;Original post</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/projects/">projects</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
-      
-      <category domain="https://decentrawise.com/tags/music/">music</category>
-      
-      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
-      
-      <category domain="https://decentrawise.com/tags/steem/">steem</category>
-      
-      
-      <comments>https://decentrawise.com/projects/introducing-dsound/#disqus_thread</comments>
       
     </item>
     

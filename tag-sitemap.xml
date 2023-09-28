@@ -3,6 +3,76 @@
 
 
     <url>
+        <loc>https://decentrawise.com/tags/nft/</loc>
+        <lastmod>2023-09-28T20:45:59.081Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/lens/</loc>
+        <lastmod>2023-09-28T20:45:59.081Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/solidity/</loc>
+        <lastmod>2023-09-28T20:45:59.081Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/ethereum/</loc>
+        <lastmod>2023-09-28T20:45:59.081Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/hackathon/</loc>
+        <lastmod>2023-09-28T20:45:59.081Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/smart-contract/</loc>
+        <lastmod>2023-09-28T20:45:59.081Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/github/</loc>
+        <lastmod>2023-09-28T20:29:31.113Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/uniswap/</loc>
+        <lastmod>2023-09-28T20:29:31.113Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/dapp/</loc>
+        <lastmod>2023-09-28T20:21:08.215Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/ipfs/</loc>
+        <lastmod>2023-09-28T20:21:08.215Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://decentrawise.com/tags/witness/</loc>
         <lastmod>2022-04-08T14:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -38,6 +108,13 @@
     </url>
 
     <url>
+        <loc>https://decentrawise.com/tags/efficiency/</loc>
+        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://decentrawise.com/tags/open-source/</loc>
         <lastmod>2022-04-08T14:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -46,34 +123,6 @@
 
     <url>
         <loc>https://decentrawise.com/tags/experiment/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/efficiency/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/dapp/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/smart-contract/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/hackathon/</loc>
         <lastmod>2022-04-08T14:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -102,13 +151,6 @@
 
     <url>
         <loc>https://decentrawise.com/tags/steem/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/ipfs/</loc>
         <lastmod>2022-04-08T14:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
