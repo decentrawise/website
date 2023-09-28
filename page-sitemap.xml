@@ -10,6 +10,15 @@
     
     
     <url>
+        <loc>https://decentrawise.com/team/</loc>
+        <lastmod>2023-09-28T20:52:41.100Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
         <loc>https://decentrawise.com/podcasts/</loc>
         <lastmod>2023-09-28T15:01:50.350Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -57,15 +66,6 @@
     <url>
         <loc>https://decentrawise.com/development/</loc>
         <lastmod>2023-09-28T13:49:24.196Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://decentrawise.com/team/</loc>
-        <lastmod>2023-09-28T13:49:00.219Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

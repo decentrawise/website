@@ -23,6 +23,13 @@
     </url>
 
     <url>
+        <loc>https://decentrawise.com/categories/infrastructure/</loc>
+        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://decentrawise.com/categories/talks/</loc>
         <lastmod>2022-04-08T14:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -31,13 +38,6 @@
 
     <url>
         <loc>https://decentrawise.com/categories/team/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/categories/infrastructure/</loc>
         <lastmod>2022-04-08T14:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
