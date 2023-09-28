@@ -10,13 +10,6 @@
     </url>
 
     <url>
-        <loc>https://decentrawise.com/tags/liquidapps/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://decentrawise.com/tags/decentralization/</loc>
         <lastmod>2022-04-08T14:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -38,14 +31,7 @@
     </url>
 
     <url>
-        <loc>https://decentrawise.com/tags/token/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/dtube/</loc>
+        <loc>https://decentrawise.com/tags/liquidapps/</loc>
         <lastmod>2022-04-08T14:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -60,34 +46,6 @@
 
     <url>
         <loc>https://decentrawise.com/tags/hackathon/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/eos/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/dpos/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/bp/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/hive/</loc>
         <lastmod>2022-04-08T14:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -122,7 +80,49 @@
     </url>
 
     <url>
+        <loc>https://decentrawise.com/tags/token/</loc>
+        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/dtube/</loc>
+        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/hive/</loc>
+        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://decentrawise.com/tags/eosio/</loc>
+        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/eos/</loc>
+        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/dpos/</loc>
+        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/bp/</loc>
         <lastmod>2022-04-08T14:51:54.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
