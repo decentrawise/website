@@ -10,35 +10,35 @@
 
     <url>
         <loc>https://decentrawise.com/categories/infrastructure/</loc>
-        <lastmod>2023-09-28T21:53:51.475Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/categories/development/</loc>
-        <lastmod>2023-09-28T21:53:30.609Z</lastmod>
+        <lastmod>2023-09-28T22:31:31.360Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/categories/projects/</loc>
-        <lastmod>2023-09-28T21:52:54.137Z</lastmod>
+        <lastmod>2023-09-28T22:30:34.168Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://decentrawise.com/categories/talks/</loc>
-        <lastmod>2023-09-28T21:52:05.732Z</lastmod>
+        <loc>https://decentrawise.com/categories/development/</loc>
+        <lastmod>2023-09-28T22:29:59.639Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/categories/team/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
+        <lastmod>2023-09-28T22:22:01.529Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/categories/talks/</loc>
+        <lastmod>2023-09-28T22:19:38.368Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

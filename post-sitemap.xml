@@ -9,176 +9,16 @@
 
 
     <url>
-        <loc>https://decentrawise.com/infrastructure/steem-protection-soft-fork/</loc>
-        <lastmod>2023-09-28T21:53:51.475Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/development/finalists-liquidapps-hackathon-2019/</loc>
-        <lastmod>2023-09-28T21:53:30.609Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/development/eosio-london-hackathon-2018/</loc>
-        <lastmod>2023-09-28T21:53:13.881Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/projects/dsound-v0-4-1/</loc>
-        <lastmod>2023-09-28T21:52:54.137Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/talks/dsound-steemfest3/</loc>
-        <lastmod>2023-09-28T21:52:05.732Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/talks/dsound-steemfest2/</loc>
-        <lastmod>2023-09-28T21:50:57.179Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/talks/imshare-2018-conf/</loc>
-        <lastmod>2023-09-28T21:49:57.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/development/ethglobal-lisbon-hackathon-2023/</loc>
-        <lastmod>2023-09-28T20:45:59.081Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/development/unicode-hackathon-2021/</loc>
-        <lastmod>2023-09-28T20:29:31.113Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/development/hackfs-hackathon-2021/</loc>
-        <lastmod>2023-09-28T20:21:08.215Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/team/decentrawise-presentation/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/infrastructure/block-producer-candidate/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/projects/dsound-the-launch/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/projects/dsound-v0-2/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/projects/dsound-v0-3/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/projects/dsound-v0-4/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/development/eosio-config/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/projects/dsound-v0-4-3/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/projects/dtube-token-sale/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/development/eosio-efficiency-experiments/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/projects/introducing-dsound/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://decentrawise.com/infrastructure/supporting-hive-fork/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
+        <lastmod>2023-09-28T22:31:31.360Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/infrastructure/steem-protection-soft-fork/</loc>
+        <lastmod>2023-09-28T22:31:04.338Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -186,7 +26,39 @@
 
     <url>
         <loc>https://decentrawise.com/infrastructure/steem-prc-witness-proposal/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
+        <lastmod>2023-09-28T22:30:50.040Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/projects/introducing-dsound/</loc>
+        <lastmod>2023-09-28T22:30:34.168Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/development/unicode-hackathon-2021/</loc>
+        <lastmod>2023-09-28T22:29:59.639Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/development/hackfs-hackathon-2021/</loc>
+        <lastmod>2023-09-28T22:28:51.031Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/development/ethglobal-lisbon-hackathon-2023/</loc>
+        <lastmod>2023-09-28T22:28:33.994Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -194,7 +66,135 @@
 
     <url>
         <loc>https://decentrawise.com/development/eosio-scheduler/</loc>
-        <lastmod>2022-04-08T14:51:54.000Z</lastmod>
+        <lastmod>2023-09-28T22:27:59.051Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/development/eosio-efficiency-experiments/</loc>
+        <lastmod>2023-09-28T22:27:50.642Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/development/eosio-config/</loc>
+        <lastmod>2023-09-28T22:27:12.566Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/projects/dtube-token-sale/</loc>
+        <lastmod>2023-09-28T22:26:43.407Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/projects/dsound-v0-4/</loc>
+        <lastmod>2023-09-28T22:26:18.495Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/projects/dsound-v0-4-3/</loc>
+        <lastmod>2023-09-28T22:26:01.226Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/projects/dsound-v0-4-1/</loc>
+        <lastmod>2023-09-28T22:25:07.042Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/projects/dsound-v0-3/</loc>
+        <lastmod>2023-09-28T22:23:49.880Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/projects/dsound-v0-2/</loc>
+        <lastmod>2023-09-28T22:23:37.369Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/projects/dsound-the-launch/</loc>
+        <lastmod>2023-09-28T22:22:31.420Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/team/decentrawise-presentation/</loc>
+        <lastmod>2023-09-28T22:22:01.529Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/infrastructure/block-producer-candidate/</loc>
+        <lastmod>2023-09-28T22:21:19.587Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/talks/imshare-2018-conf/</loc>
+        <lastmod>2023-09-28T22:19:38.368Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/development/finalists-liquidapps-hackathon-2019/</loc>
+        <lastmod>2023-09-28T22:18:49.829Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/development/eosio-london-hackathon-2018/</loc>
+        <lastmod>2023-09-28T22:17:53.978Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/talks/dsound-steemfest3/</loc>
+        <lastmod>2023-09-28T22:17:15.472Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/talks/dsound-steemfest2/</loc>
+        <lastmod>2023-09-28T22:15:41.846Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
