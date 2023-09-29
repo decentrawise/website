@@ -15,8 +15,39 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Fri, 29 Sep 2023 07:51:48 GMT</pubDate>
+    <pubDate>Fri, 29 Sep 2023 17:25:15 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>decentrawise-podcast-001</title>
+      <link>https://decentrawise.com/uncategorized/decentrawise-podcast-001/</link>
+      <guid>https://decentrawise.com/uncategorized/decentrawise-podcast-001/</guid>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;DecentraWise-Podcast-Introduction&quot;&gt;&lt;a href=&quot;#DecentraWise-Podcast-Introduction&quot; class=&quot;headerlink&quot; title=&quot;DecentraWise Podcast</description>
+          
+        
+      
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/tags/podcast/">podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+      <comments>https://decentrawise.com/uncategorized/decentrawise-podcast-001/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Participation at ETHGlobal Lisbon Hackathon 2023</title>
@@ -118,11 +149,11 @@
       
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
+      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
+      
       <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
       <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
-      
-      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
       
       <comments>https://decentrawise.com/hackathons/hackfs-hackathon-2021/#disqus_thread</comments>
@@ -390,9 +421,9 @@
       
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
-      <category domain="https://decentrawise.com/tags/liquidapps/">liquidapps</category>
-      
       <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
+      
+      <category domain="https://decentrawise.com/tags/liquidapps/">liquidapps</category>
       
       
       <comments>https://decentrawise.com/hackathons/finalists-liquidapps-hackathon-2019/#disqus_thread</comments>
@@ -657,39 +688,6 @@
       
       
       <comments>https://decentrawise.com/talks/dsound-steemfest2/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Steem @prc witness proposal</title>
-      <link>https://decentrawise.com/infrastructure/steem-prc-witness-proposal/</link>
-      <guid>https://decentrawise.com/infrastructure/steem-prc-witness-proposal/</guid>
-      <pubDate>Tue, 28 Nov 2017 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/infrastructure/">infrastructure</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/bp/">bp</category>
-      
-      <category domain="https://decentrawise.com/tags/dpos/">dpos</category>
-      
-      <category domain="https://decentrawise.com/tags/steem/">steem</category>
-      
-      <category domain="https://decentrawise.com/tags/witness/">witness</category>
-      
-      
-      <comments>https://decentrawise.com/infrastructure/steem-prc-witness-proposal/#disqus_thread</comments>
       
     </item>
     

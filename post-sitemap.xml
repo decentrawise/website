@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://decentrawise.com/uncategorized/decentrawise-podcast-001/</loc>
+        <lastmod>2023-09-29T17:25:15.291Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://decentrawise.com/hackathons/eosio-london-hackathon-2018/</loc>
         <lastmod>2023-09-29T07:52:34.626Z</lastmod>
         <changefreq>weekly</changefreq>
