@@ -15,13 +15,13 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Fri, 29 Sep 2023 17:25:15 GMT</pubDate>
+    <pubDate>Fri, 29 Sep 2023 17:27:49 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>decentrawise-podcast-001</title>
-      <link>https://decentrawise.com/uncategorized/decentrawise-podcast-001/</link>
-      <guid>https://decentrawise.com/uncategorized/decentrawise-podcast-001/</guid>
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-001/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-001/</guid>
       <pubDate>Fri, 29 Sep 2023 00:00:00 GMT</pubDate>
       
         
@@ -35,6 +35,8 @@
       
       
       
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
       
       <category domain="https://decentrawise.com/tags/podcast/">podcast</category>
       
@@ -45,7 +47,7 @@
       <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
       
       
-      <comments>https://decentrawise.com/uncategorized/decentrawise-podcast-001/#disqus_thread</comments>
+      <comments>https://decentrawise.com/podcasts/decentrawise-podcast-001/#disqus_thread</comments>
       
     </item>
     
@@ -149,11 +151,11 @@
       
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
-      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
-      
       <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
       <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
+      
+      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
       
       <comments>https://decentrawise.com/hackathons/hackfs-hackathon-2021/#disqus_thread</comments>
