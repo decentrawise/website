@@ -9,24 +9,40 @@
 
 
     <url>
-        <loc>https://decentrawise.com/development/hackfs-hackathon-2021/</loc>
-        <lastmod>2023-09-29T07:47:57.701Z</lastmod>
+        <loc>https://decentrawise.com/hackathons/eosio-london-hackathon-2018/</loc>
+        <lastmod>2023-09-29T07:52:34.626Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://decentrawise.com/development/ethglobal-lisbon-hackathon-2023/</loc>
-        <lastmod>2023-09-29T07:47:04.132Z</lastmod>
+        <loc>https://decentrawise.com/hackathons/finalists-liquidapps-hackathon-2019/</loc>
+        <lastmod>2023-09-29T07:52:19.764Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://decentrawise.com/development/unicode-hackathon-2021/</loc>
-        <lastmod>2023-09-29T07:46:39.651Z</lastmod>
+        <loc>https://decentrawise.com/hackathons/unicode-hackathon-2021/</loc>
+        <lastmod>2023-09-29T07:51:59.481Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/hackathons/hackfs-hackathon-2021/</loc>
+        <lastmod>2023-09-29T07:51:52.202Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/hackathons/ethglobal-lisbon-hackathon-2023/</loc>
+        <lastmod>2023-09-29T07:51:48.349Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -163,22 +179,6 @@
     <url>
         <loc>https://decentrawise.com/talks/imshare-2018-conf/</loc>
         <lastmod>2023-09-28T22:19:38.368Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/development/finalists-liquidapps-hackathon-2019/</loc>
-        <lastmod>2023-09-28T22:18:49.829Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/development/eosio-london-hackathon-2018/</loc>
-        <lastmod>2023-09-28T22:17:53.978Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
