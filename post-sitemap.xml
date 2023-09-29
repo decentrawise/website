@@ -9,6 +9,30 @@
 
 
     <url>
+        <loc>https://decentrawise.com/development/hackfs-hackathon-2021/</loc>
+        <lastmod>2023-09-29T07:47:57.701Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/development/ethglobal-lisbon-hackathon-2023/</loc>
+        <lastmod>2023-09-29T07:47:04.132Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/development/unicode-hackathon-2021/</loc>
+        <lastmod>2023-09-29T07:46:39.651Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://decentrawise.com/infrastructure/supporting-hive-fork/</loc>
         <lastmod>2023-09-28T22:31:31.360Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -35,30 +59,6 @@
     <url>
         <loc>https://decentrawise.com/projects/introducing-dsound/</loc>
         <lastmod>2023-09-28T22:30:34.168Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/development/unicode-hackathon-2021/</loc>
-        <lastmod>2023-09-28T22:29:59.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/development/hackfs-hackathon-2021/</loc>
-        <lastmod>2023-09-28T22:28:51.031Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/development/ethglobal-lisbon-hackathon-2023/</loc>
-        <lastmod>2023-09-28T22:28:33.994Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

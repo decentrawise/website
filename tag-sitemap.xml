@@ -3,6 +3,76 @@
 
 
     <url>
+        <loc>https://decentrawise.com/tags/solidity/</loc>
+        <lastmod>2023-09-29T07:47:57.701Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/ethereum/</loc>
+        <lastmod>2023-09-29T07:47:57.701Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/dapp/</loc>
+        <lastmod>2023-09-29T07:47:57.701Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/hackathon/</loc>
+        <lastmod>2023-09-29T07:47:57.701Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/smart-contract/</loc>
+        <lastmod>2023-09-29T07:47:57.701Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/ipfs/</loc>
+        <lastmod>2023-09-29T07:47:57.701Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/nft/</loc>
+        <lastmod>2023-09-29T07:47:04.132Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/lens/</loc>
+        <lastmod>2023-09-29T07:47:04.132Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/github/</loc>
+        <lastmod>2023-09-29T07:46:39.651Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/uniswap/</loc>
+        <lastmod>2023-09-29T07:46:39.651Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://decentrawise.com/tags/witness/</loc>
         <lastmod>2023-09-28T22:31:31.360Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -38,13 +108,6 @@
     </url>
 
     <url>
-        <loc>https://decentrawise.com/tags/ipfs/</loc>
-        <lastmod>2023-09-28T22:30:34.168Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://decentrawise.com/tags/music/</loc>
         <lastmod>2023-09-28T22:30:34.168Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -54,69 +117,6 @@
     <url>
         <loc>https://decentrawise.com/tags/dsound/</loc>
         <lastmod>2023-09-28T22:30:34.168Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/github/</loc>
-        <lastmod>2023-09-28T22:29:59.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/uniswap/</loc>
-        <lastmod>2023-09-28T22:29:59.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/solidity/</loc>
-        <lastmod>2023-09-28T22:29:59.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/ethereum/</loc>
-        <lastmod>2023-09-28T22:29:59.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/hackathon/</loc>
-        <lastmod>2023-09-28T22:29:59.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/smart-contract/</loc>
-        <lastmod>2023-09-28T22:29:59.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/dapp/</loc>
-        <lastmod>2023-09-28T22:28:51.031Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/nft/</loc>
-        <lastmod>2023-09-28T22:28:33.994Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/lens/</loc>
-        <lastmod>2023-09-28T22:28:33.994Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
