@@ -15,11 +15,11 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Fri, 29 Sep 2023 17:32:34 GMT</pubDate>
+    <pubDate>Fri, 29 Sep 2023 17:35:05 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>Decentrawise Podcast</title>
+      <title>Decentrawise Podcast Introduction</title>
       <link>https://decentrawise.com/podcasts/decentrawise-podcast-001/</link>
       <guid>https://decentrawise.com/podcasts/decentrawise-podcast-001/</guid>
       <pubDate>Fri, 29 Sep 2023 00:00:00 GMT</pubDate>
@@ -28,7 +28,7 @@
         
           
           
-      <description>&lt;h1 id=&quot;DecentraWise-Podcast-Introduction&quot;&gt;&lt;a href=&quot;#DecentraWise-Podcast-Introduction&quot; class=&quot;headerlink&quot; title=&quot;DecentraWise Podcast</description>
+      <description>&lt;h1 id=&quot;DecentraWise-Podcast-001-Introduction&quot;&gt;&lt;a href=&quot;#DecentraWise-Podcast-001-Introduction&quot; class=&quot;headerlink&quot; title=&quot;DecentraWise</description>
           
         
       
@@ -314,11 +314,11 @@
       <category domain="https://decentrawise.com/categories/infrastructure/">infrastructure</category>
       
       
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
       <category domain="https://decentrawise.com/tags/bp/">bp</category>
       
       <category domain="https://decentrawise.com/tags/dpos/">dpos</category>
-      
-      <category domain="https://decentrawise.com/tags/steem/">steem</category>
       
       <category domain="https://decentrawise.com/tags/hive/">hive</category>
       
@@ -349,11 +349,11 @@
       <category domain="https://decentrawise.com/categories/infrastructure/">infrastructure</category>
       
       
+      <category domain="https://decentrawise.com/tags/steem/">steem</category>
+      
       <category domain="https://decentrawise.com/tags/bp/">bp</category>
       
       <category domain="https://decentrawise.com/tags/dpos/">dpos</category>
-      
-      <category domain="https://decentrawise.com/tags/steem/">steem</category>
       
       <category domain="https://decentrawise.com/tags/witness/">witness</category>
       

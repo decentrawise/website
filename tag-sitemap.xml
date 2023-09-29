@@ -4,28 +4,28 @@
 
     <url>
         <loc>https://decentrawise.com/tags/live-stream/</loc>
-        <lastmod>2023-09-29T17:32:34.740Z</lastmod>
+        <lastmod>2023-09-29T17:35:05.044Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/tags/video/</loc>
-        <lastmod>2023-09-29T17:32:34.740Z</lastmod>
+        <lastmod>2023-09-29T17:35:05.044Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/tags/youtube/</loc>
-        <lastmod>2023-09-29T17:32:34.740Z</lastmod>
+        <lastmod>2023-09-29T17:35:05.044Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/tags/decentrawise-podcast/</loc>
-        <lastmod>2023-09-29T17:32:34.740Z</lastmod>
+        <lastmod>2023-09-29T17:35:05.044Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -129,13 +129,6 @@
     </url>
 
     <url>
-        <loc>https://decentrawise.com/tags/steem/</loc>
-        <lastmod>2023-09-28T22:31:31.360Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://decentrawise.com/tags/dpos/</loc>
         <lastmod>2023-09-28T22:31:31.360Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -144,6 +137,13 @@
 
     <url>
         <loc>https://decentrawise.com/tags/bp/</loc>
+        <lastmod>2023-09-28T22:31:31.360Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/steem/</loc>
         <lastmod>2023-09-28T22:31:31.360Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
