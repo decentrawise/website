@@ -15,11 +15,11 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Fri, 29 Sep 2023 17:28:58 GMT</pubDate>
+    <pubDate>Fri, 29 Sep 2023 17:32:34 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>decentrawise-podcast-001</title>
+      <title>Decentrawise Podcast</title>
       <link>https://decentrawise.com/podcasts/decentrawise-podcast-001/</link>
       <guid>https://decentrawise.com/podcasts/decentrawise-podcast-001/</guid>
       <pubDate>Fri, 29 Sep 2023 00:00:00 GMT</pubDate>
@@ -386,11 +386,11 @@
       
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
-      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
-      
       <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
       
       <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
+      
+      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
       
       
       <comments>https://decentrawise.com/development/eosio-efficiency-experiments/#disqus_thread</comments>
