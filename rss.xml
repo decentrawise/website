@@ -3,12 +3,12 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>DECENTRAWISE</title>
+    <title>DecentraWise</title>
     <link>https://decentrawise.com/</link>
     
     <image>
       <url>https://decentrawise.com/images/logo.png</url>
-      <title>DECENTRAWISE</title>
+      <title>DecentraWise</title>
       <link>https://decentrawise.com/</link>
     </image>
     
@@ -386,11 +386,11 @@
       
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
+      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
+      
       <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
       
       <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
-      
-      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
       
       
       <comments>https://decentrawise.com/development/eosio-efficiency-experiments/#disqus_thread</comments>
