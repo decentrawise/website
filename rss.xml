@@ -320,9 +320,9 @@
       
       <category domain="https://decentrawise.com/tags/steem/">steem</category>
       
-      <category domain="https://decentrawise.com/tags/witness/">witness</category>
-      
       <category domain="https://decentrawise.com/tags/hive/">hive</category>
+      
+      <category domain="https://decentrawise.com/tags/witness/">witness</category>
       
       
       <comments>https://decentrawise.com/infrastructure/supporting-hive-fork/#disqus_thread</comments>
@@ -386,11 +386,11 @@
       
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
+      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
+      
       <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
       
       <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
-      
-      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
       
       
       <comments>https://decentrawise.com/development/eosio-efficiency-experiments/#disqus_thread</comments>
