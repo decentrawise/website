@@ -15,8 +15,41 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Sun, 01 Oct 2023 16:40:28 GMT</pubDate>
+    <pubDate>Mon, 02 Oct 2023 20:44:31 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Blockchain and Web3 - Why we&#39;re here?</title>
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-002/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-002/</guid>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;DecentraWise-Podcast-002-Blockchain-and-Web3-Why-we’re-here&quot;&gt;&lt;a href=&quot;#DecentraWise-Podcast-002-Blockchain-and-Web3-Why-we’re-here&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+      <comments>https://decentrawise.com/podcasts/decentrawise-podcast-002/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>DecentraWise Podcast Introduction</title>
@@ -656,40 +689,6 @@
       
       
       <comments>https://decentrawise.com/projects/dsound-v0-3/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>DSound presentation at SteemFest 2</title>
-      <link>https://decentrawise.com/talks/dsound-steemfest2/</link>
-      <guid>https://decentrawise.com/talks/dsound-steemfest2/</guid>
-      <pubDate>Thu, 21 Dec 2017 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://d.tube/#!/v/prc/1v7tgnwk&quot;&gt;Original post on DTube&lt;/a&gt;&lt;/sub&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Lisbon-November-2017&quot;&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/talks/">talks</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
-      
-      <category domain="https://decentrawise.com/tags/music/">music</category>
-      
-      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
-      
-      <category domain="https://decentrawise.com/tags/steem/">steem</category>
-      
-      
-      <comments>https://decentrawise.com/talks/dsound-steemfest2/#disqus_thread</comments>
       
     </item>
     
