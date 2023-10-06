@@ -15,8 +15,41 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Mon, 02 Oct 2023 20:44:31 GMT</pubDate>
+    <pubDate>Fri, 06 Oct 2023 19:22:58 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>From Concept to Success #1</title>
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-003/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-003/</guid>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;DecentraWise-Podcast-003-From-Concept-to-Success-1-DecentraWise’s-live-hacking-at-ETHGlobal-ETHOnline-2023-Hackathon&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+      <comments>https://decentrawise.com/podcasts/decentrawise-podcast-003/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Blockchain and Web3 - Why we&#39;re here?</title>
@@ -656,39 +689,6 @@
       
       
       <comments>https://decentrawise.com/talks/imshare-2018-conf/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>DSound v0.3</title>
-      <link>https://decentrawise.com/projects/dsound-v0-3/</link>
-      <guid>https://decentrawise.com/projects/dsound-v0-3/</guid>
-      <pubDate>Thu, 22 Feb 2018 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/projects/">projects</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
-      
-      <category domain="https://decentrawise.com/tags/music/">music</category>
-      
-      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
-      
-      <category domain="https://decentrawise.com/tags/steem/">steem</category>
-      
-      
-      <comments>https://decentrawise.com/projects/dsound-v0-3/#disqus_thread</comments>
       
     </item>
     
