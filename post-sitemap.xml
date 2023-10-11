@@ -9,8 +9,16 @@
 
 
     <url>
+        <loc>https://decentrawise.com/podcasts/decentrawise-podcast-005/</loc>
+        <lastmod>2023-10-11T10:33:57.348Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://decentrawise.com/podcasts/decentrawise-podcast-004/</loc>
-        <lastmod>2023-10-09T19:22:42.434Z</lastmod>
+        <lastmod>2023-10-11T10:28:36.504Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -18,7 +26,15 @@
 
     <url>
         <loc>https://decentrawise.com/podcasts/decentrawise-podcast-003/</loc>
-        <lastmod>2023-10-06T19:22:58.898Z</lastmod>
+        <lastmod>2023-10-11T10:28:32.848Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/podcasts/decentrawise-podcast-001/</loc>
+        <lastmod>2023-10-11T10:23:11.236Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -26,7 +42,7 @@
 
     <url>
         <loc>https://decentrawise.com/podcasts/decentrawise-podcast-002/</loc>
-        <lastmod>2023-10-02T20:44:31.037Z</lastmod>
+        <lastmod>2023-10-11T10:23:03.725Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -35,14 +51,6 @@
     <url>
         <loc>https://decentrawise.com/hackathons/unicode-hackathon-2021/</loc>
         <lastmod>2023-10-02T20:43:15.428Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/podcasts/decentrawise-podcast-001/</loc>
-        <lastmod>2023-10-01T16:40:28.079Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
