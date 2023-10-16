@@ -15,8 +15,41 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Fri, 13 Oct 2023 08:29:12 GMT</pubDate>
+    <pubDate>Mon, 16 Oct 2023 11:33:01 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>From Concept to Success #5</title>
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-007/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-007/</guid>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;DecentraWise-Podcast-006-Smart-contracts-testing-Web3-development-live-at-ETHGlobal-ETHOnline-2023-Hackathon&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+      <comments>https://decentrawise.com/podcasts/decentrawise-podcast-007/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>From Concept to Success #4</title>
@@ -236,9 +269,9 @@
       <category domain="https://decentrawise.com/categories/hackathons/">hackathons</category>
       
       
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
-      
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
       <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
@@ -273,9 +306,9 @@
       <category domain="https://decentrawise.com/categories/hackathons/">hackathons</category>
       
       
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
-      
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
       <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
@@ -312,9 +345,9 @@
       
       <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
       
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
-      
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
       <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
@@ -584,9 +617,9 @@
       
       <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
       
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
-      
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
       <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
@@ -656,39 +689,6 @@
       
       
       <comments>https://decentrawise.com/projects/dsound-v0-4-1/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>DSound presentation at SteemFest 3</title>
-      <link>https://decentrawise.com/talks/dsound-steemfest3/</link>
-      <guid>https://decentrawise.com/talks/dsound-steemfest3/</guid>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h3 id=&quot;Krakow-November-2018&quot;&gt;&lt;a href=&quot;#Krakow-November-2018&quot; class=&quot;headerlink&quot; title=&quot;Kraków, November 2018&quot;&gt;&lt;/a&gt;Kraków, November</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/talks/">talks</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
-      
-      <category domain="https://decentrawise.com/tags/music/">music</category>
-      
-      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
-      
-      <category domain="https://decentrawise.com/tags/steem/">steem</category>
-      
-      
-      <comments>https://decentrawise.com/talks/dsound-steemfest3/#disqus_thread</comments>
       
     </item>
     
