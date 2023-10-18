@@ -15,8 +15,41 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Mon, 16 Oct 2023 11:36:08 GMT</pubDate>
+    <pubDate>Wed, 18 Oct 2023 15:12:28 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>From Concept to Success #6</title>
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-008/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-008/</guid>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;DecentraWise-Podcast-008-Hack-Our-Own-Hack-Web3-development-live-at-ETHGlobal-ETHOnline-2023-Hackathon&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+      <comments>https://decentrawise.com/podcasts/decentrawise-podcast-008/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>From Concept to Success #5</title>
@@ -584,11 +617,11 @@
       
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
-      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
-      
       <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
       
       <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
+      
+      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
       
       
       <comments>https://decentrawise.com/development/eosio-efficiency-experiments/#disqus_thread</comments>
@@ -656,39 +689,6 @@
       
       
       <comments>https://decentrawise.com/projects/dtube-token-sale/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>DSound v0.4.1</title>
-      <link>https://decentrawise.com/projects/dsound-v0-4-1/</link>
-      <guid>https://decentrawise.com/projects/dsound-v0-4-1/</guid>
-      <pubDate>Sat, 08 Dec 2018 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/projects/">projects</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
-      
-      <category domain="https://decentrawise.com/tags/music/">music</category>
-      
-      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
-      
-      <category domain="https://decentrawise.com/tags/steem/">steem</category>
-      
-      
-      <comments>https://decentrawise.com/projects/dsound-v0-4-1/#disqus_thread</comments>
       
     </item>
     
