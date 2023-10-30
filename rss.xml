@@ -15,8 +15,41 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Mon, 23 Oct 2023 22:42:07 GMT</pubDate>
+    <pubDate>Mon, 30 Oct 2023 20:27:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>From Bitcoin&#39;s Scarcity to Web3&#39;s Abundance</title>
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-010/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-010/</guid>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;DecentraWise-Podcast-010-From-Bitcoin’s-Scarcity-to-Web3’s-Abundance-A-Values-Debate&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+      <comments>https://decentrawise.com/podcasts/decentrawise-podcast-010/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>How to REALISTICALLY become a Web3 Developer in 2023</title>
@@ -650,49 +683,14 @@
       
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
+      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
+      
       <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
       
       <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
       
-      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
-      
       
       <comments>https://decentrawise.com/development/eosio-efficiency-experiments/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Finalists of Liquidapps global hackathon 2019</title>
-      <link>https://decentrawise.com/hackathons/finalists-liquidapps-hackathon-2019/</link>
-      <guid>https://decentrawise.com/hackathons/finalists-liquidapps-hackathon-2019/</guid>
-      <pubDate>Mon, 25 Nov 2019 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;We-participated-with-VIGORish-team-and-were-among-the-5-finalists-November-2019&quot;&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/hackathons/">hackathons</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
-      
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
-      
-      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
-      
-      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
-      
-      <category domain="https://decentrawise.com/tags/liquidapps/">liquidapps</category>
-      
-      
-      <comments>https://decentrawise.com/hackathons/finalists-liquidapps-hackathon-2019/#disqus_thread</comments>
       
     </item>
     
