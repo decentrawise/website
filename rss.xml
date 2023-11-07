@@ -15,8 +15,41 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Mon, 30 Oct 2023 20:27:06 GMT</pubDate>
+    <pubDate>Tue, 07 Nov 2023 09:30:23 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Web3 SUPERPOWERS for Humanity</title>
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-011/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-011/</guid>
+      <pubDate>Mon, 06 Nov 2023 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;DecentraWise-Podcast-011-Web3-SUPERPOWERS-for-Humanity-Building-Stronger-Values-and-Tools&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+      <comments>https://decentrawise.com/podcasts/decentrawise-podcast-011/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>From Bitcoin&#39;s Scarcity to Web3&#39;s Abundance</title>
@@ -656,41 +689,6 @@
       
       
       <comments>https://decentrawise.com/infrastructure/steem-protection-soft-fork/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>EOSIO efficiency experiments</title>
-      <link>https://decentrawise.com/development/eosio-efficiency-experiments/</link>
-      <guid>https://decentrawise.com/development/eosio-efficiency-experiments/</guid>
-      <pubDate>Tue, 04 Feb 2020 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;Minimizing-impact-in-CPU-usage-of-multi-index-modify-in-cycles&quot;&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/development/">development</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
-      
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
-      
-      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
-      
-      <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
-      
-      <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
-      
-      
-      <comments>https://decentrawise.com/development/eosio-efficiency-experiments/#disqus_thread</comments>
       
     </item>
     
