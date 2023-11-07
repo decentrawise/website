@@ -9,8 +9,16 @@
 
 
     <url>
+        <loc>https://decentrawise.com/hackathons/ethglobal-lisbon-hackathon-2023/</loc>
+        <lastmod>2023-11-07T10:02:02.497Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://decentrawise.com/hackathons/ethonline-hackathon-2023/</loc>
-        <lastmod>2023-11-07T09:57:10.494Z</lastmod>
+        <lastmod>2023-11-07T10:01:55.199Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -131,14 +139,6 @@
     <url>
         <loc>https://decentrawise.com/hackathons/hackfs-hackathon-2021/</loc>
         <lastmod>2023-09-29T07:51:52.202Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/hackathons/ethglobal-lisbon-hackathon-2023/</loc>
-        <lastmod>2023-09-29T07:51:48.349Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
