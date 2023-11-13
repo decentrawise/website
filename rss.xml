@@ -15,8 +15,41 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Tue, 07 Nov 2023 09:30:44 GMT</pubDate>
+    <pubDate>Mon, 13 Nov 2023 18:43:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>MEV Ethical &quot;Cleanex&quot; &amp; THE UNFAIR ADVANTAGE for Web3 Developers</title>
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-012/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-012/</guid>
+      <pubDate>Mon, 13 Nov 2023 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;DecentraWise-Podcast-011-MEV-Ethical-“Cleanex”-amp-THE-UNFAIR-ADVANTAGE-for-Web3-Developers&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+      <comments>https://decentrawise.com/podcasts/decentrawise-podcast-012/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Web3 SUPERPOWERS for Humanity</title>
@@ -516,11 +549,11 @@
       
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
+      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
+      
       <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
       <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
-      
-      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
       
       <comments>https://decentrawise.com/hackathons/hackfs-hackathon-2021/#disqus_thread</comments>
@@ -656,41 +689,6 @@
       
       
       <comments>https://decentrawise.com/projects/dsound-v0-4-3/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Supporting Hive fork</title>
-      <link>https://decentrawise.com/infrastructure/supporting-hive-fork/</link>
-      <guid>https://decentrawise.com/infrastructure/supporting-hive-fork/</guid>
-      <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/witness-category/@prc/update-witness-nodes-updated-to-v0-23-0-hello-hive-family&quot;&gt;Original post on</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/infrastructure/">infrastructure</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/bp/">bp</category>
-      
-      <category domain="https://decentrawise.com/tags/dpos/">dpos</category>
-      
-      <category domain="https://decentrawise.com/tags/steem/">steem</category>
-      
-      <category domain="https://decentrawise.com/tags/hive/">hive</category>
-      
-      <category domain="https://decentrawise.com/tags/witness/">witness</category>
-      
-      
-      <comments>https://decentrawise.com/infrastructure/supporting-hive-fork/#disqus_thread</comments>
       
     </item>
     
