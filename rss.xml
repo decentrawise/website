@@ -15,8 +15,41 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Mon, 13 Nov 2023 18:47:04 GMT</pubDate>
+    <pubDate>Mon, 20 Nov 2023 18:58:01 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Beyond Overpriced JPEGs</title>
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-013/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-013/</guid>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;DecentraWise-Podcast-013-Beyond-Overpriced-JPEGs-NFTs-and-the-Next-Chapter-in-Digital-Ownership&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+      <comments>https://decentrawise.com/podcasts/decentrawise-podcast-013/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>MEV Ethical &quot;Cleanex&quot; &amp; THE UNFAIR ADVANTAGE for Web3 Developers</title>
@@ -137,9 +170,9 @@
       <category domain="https://decentrawise.com/categories/hackathons/">hackathons</category>
       
       
-      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
-      
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
       <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
@@ -469,9 +502,9 @@
       <category domain="https://decentrawise.com/categories/hackathons/">hackathons</category>
       
       
-      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
-      
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
       <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
@@ -506,9 +539,9 @@
       <category domain="https://decentrawise.com/categories/hackathons/">hackathons</category>
       
       
-      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
-      
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
       <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
@@ -545,9 +578,9 @@
       
       <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
       
-      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
-      
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
       <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
@@ -656,39 +689,6 @@
       
       
       <comments>https://decentrawise.com/development/eosio-scheduler/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>DSound v0.4.3</title>
-      <link>https://decentrawise.com/projects/dsound-v0-4-3/</link>
-      <guid>https://decentrawise.com/projects/dsound-v0-4-3/</guid>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://hive.blog/hive-129959/@dsound/dsound-v0-4-3-hello-hive-new-features-and-strategy&quot;&gt;Original post on</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/projects/">projects</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/dsound/">dsound</category>
-      
-      <category domain="https://decentrawise.com/tags/music/">music</category>
-      
-      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
-      
-      <category domain="https://decentrawise.com/tags/hive/">hive</category>
-      
-      
-      <comments>https://decentrawise.com/projects/dsound-v0-4-3/#disqus_thread</comments>
       
     </item>
     
