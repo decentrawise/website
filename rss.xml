@@ -15,8 +15,41 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Mon, 04 Dec 2023 10:50:06 GMT</pubDate>
+    <pubDate>Mon, 11 Dec 2023 14:46:32 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Embrace the Future</title>
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-016/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-016/</guid>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;DecentraWise-Podcast-016-Embrace-the-Future-Web3-and-the-Transformation-of-the-Internet&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+      <comments>https://decentrawise.com/podcasts/decentrawise-podcast-016/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>The Ultimate Guide to Smart Contracts</title>
@@ -576,9 +609,9 @@
       
       <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
       
-      <category domain="https://decentrawise.com/tags/nft/">nft</category>
-      
       <category domain="https://decentrawise.com/tags/lens/">lens</category>
+      
+      <category domain="https://decentrawise.com/tags/nft/">nft</category>
       
       
       <comments>https://decentrawise.com/hackathons/ethglobal-lisbon-hackathon-2023/#disqus_thread</comments>
@@ -656,39 +689,6 @@
       
       
       <comments>https://decentrawise.com/hackathons/hackfs-hackathon-2021/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Block Producer Candidate Announcement</title>
-      <link>https://decentrawise.com/infrastructure/block-producer-candidate/</link>
-      <guid>https://decentrawise.com/infrastructure/block-producer-candidate/</guid>
-      <pubDate>Mon, 17 Aug 2020 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;EOS-Mainnet-and-other-side-x2F-sister-chains-Block-Producer-Candidate&quot;&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/infrastructure/">infrastructure</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/bp/">bp</category>
-      
-      <category domain="https://decentrawise.com/tags/dpos/">dpos</category>
-      
-      <category domain="https://decentrawise.com/tags/eos/">eos</category>
-      
-      <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
-      
-      
-      <comments>https://decentrawise.com/infrastructure/block-producer-candidate/#disqus_thread</comments>
       
     </item>
     
