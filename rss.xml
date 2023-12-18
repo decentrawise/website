@@ -15,8 +15,41 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Decentralization Experts</description>
-    <pubDate>Mon, 11 Dec 2023 14:46:32 GMT</pubDate>
+    <pubDate>Mon, 18 Dec 2023 16:27:49 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Blockchain Economics 101</title>
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-017/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-017/</guid>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;DecentraWise-Podcast-017-Blockchain-Economics-101-Navigating-Economic-Models-Incentive-Structures-and-Sustainability&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+      <comments>https://decentrawise.com/podcasts/decentrawise-podcast-017/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Embrace the Future</title>
@@ -609,9 +642,9 @@
       
       <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
       
-      <category domain="https://decentrawise.com/tags/lens/">lens</category>
-      
       <category domain="https://decentrawise.com/tags/nft/">nft</category>
+      
+      <category domain="https://decentrawise.com/tags/lens/">lens</category>
       
       
       <comments>https://decentrawise.com/hackathons/ethglobal-lisbon-hackathon-2023/#disqus_thread</comments>
@@ -652,43 +685,6 @@
       
       
       <comments>https://decentrawise.com/hackathons/unicode-hackathon-2021/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Winners of prize at HackFS Hackathon 2021</title>
-      <link>https://decentrawise.com/hackathons/hackfs-hackathon-2021/</link>
-      <guid>https://decentrawise.com/hackathons/hackfs-hackathon-2021/</guid>
-      <pubDate>Sat, 21 Aug 2021 00:00:00 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;We-participated-and-had-a-lot-of-fun-August-2021&quot;&gt;&lt;a href=&quot;#We-participated-and-had-a-lot-of-fun-August-2021&quot; class=&quot;headerlink&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://decentrawise.com/categories/hackathons/">hackathons</category>
-      
-      
-      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
-      
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
-      
-      <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
-      
-      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
-      
-      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
-      
-      <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
-      
-      
-      <comments>https://decentrawise.com/hackathons/hackfs-hackathon-2021/#disqus_thread</comments>
       
     </item>
     
