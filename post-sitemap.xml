@@ -9,8 +9,32 @@
 
 
     <url>
-        <loc>https://decentrawise.com/podcasts/decentrawise-podcast-024/</loc>
-        <lastmod>2024-02-18T15:11:16.147Z</lastmod>
+        <loc>https://decentrawise.com/podcasts/decentrawise-podcast-029/</loc>
+        <lastmod>2024-03-25T10:42:54.512Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/podcasts/decentrawise-podcast-028/</loc>
+        <lastmod>2024-03-25T10:37:47.914Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/podcasts/decentrawise-podcast-027/</loc>
+        <lastmod>2024-03-25T10:36:03.802Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/podcasts/decentrawise-podcast-026/</loc>
+        <lastmod>2024-03-25T10:32:17.346Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -18,7 +42,15 @@
 
     <url>
         <loc>https://decentrawise.com/podcasts/decentrawise-podcast-025/</loc>
-        <lastmod>2024-02-18T15:11:10.538Z</lastmod>
+        <lastmod>2024-03-25T10:28:38.162Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/podcasts/decentrawise-podcast-024/</loc>
+        <lastmod>2024-02-18T15:11:16.147Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
