@@ -10,16 +10,16 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="keywords" content="decentrawise,podcast,decentralization,decentralisation,experts,blockchain,dlt,p2p,peer,peer to peer,development,smart contract,smart-contract,smart,contract,bitcoin,ethereum,solidity,steem,hive,eosio,witness,block producer,block,producer" />
-    <meta name="description" content="Original post on Steem Streaming, Sound Edit, Performance and Layout Improvements. Just one month and such Big News!First of all thanks to all of you who joined this project and made it a big success">
+    <meta name="description" content="Launch of DSound version 0.2 alpha.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="DSound v0.2">
 <meta property="og:url" content="https://decentrawise.com/projects/dsound-v0-2/index.html">
 <meta property="og:site_name" content="DecentraWise">
-<meta property="og:description" content="Original post on Steem Streaming, Sound Edit, Performance and Layout Improvements. Just one month and such Big News!First of all thanks to all of you who joined this project and made it a big success">
+<meta property="og:description" content="Launch of DSound version 0.2 alpha.">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://decentrawise.com/images/dsound-logo-big.png">
 <meta property="article:published_time" content="2017-10-11T00:00:00.000Z">
-<meta property="article:modified_time" content="2023-09-28T22:23:37.369Z">
+<meta property="article:modified_time" content="2024-05-17T10:27:38.139Z">
 <meta property="article:author" content="DecentraWise">
 <meta property="article:tag" content="dsound">
 <meta property="article:tag" content="music">
@@ -242,17 +242,17 @@
             
 
             <p><sup><sub><a target="_blank" rel="noopener" href="https://steemit.com/music/@prc/dsound-v0-2-streaming-sound-edit-performance-and-layout-improvements-just-one-month-and-such-big-news">Original post on Steem</a></sub></sup></p>
-<h1 id="Streaming-Sound-Edit-Performance-and-Layout-Improvements-Just-one-month-and-such-Big-News"><a href="#Streaming-Sound-Edit-Performance-and-Layout-Improvements-Just-one-month-and-such-Big-News" class="headerlink" title="Streaming, Sound Edit, Performance and Layout Improvements. Just one month and such Big News!"></a>Streaming, Sound Edit, Performance and Layout Improvements. Just one month and such Big News!</h1><p>First of all thanks to all of you who joined this project and made it a big success on this 1st Alpha version! :)</p>
+<h2 id="Streaming-Sound-Edit-Performance-and-Layout-Improvements-Just-one-month-and-such-Big-News"><a href="#Streaming-Sound-Edit-Performance-and-Layout-Improvements-Just-one-month-and-such-Big-News" class="headerlink" title="Streaming, Sound Edit, Performance and Layout Improvements. Just one month and such Big News!"></a>Streaming, Sound Edit, Performance and Layout Improvements. Just one month and such Big News!</h2><p>First of all thanks to all of you who joined this project and made it a big success on this 1st Alpha version! :)</p>
 <p>I have to thank you all even more because things didn’t always worked out great. We had a lot of problems related to the performance of the platform or other problems with IPFS sound uploads, but you were always there trying to upload your sounds and giving feedback so that I could take the right steps to solve the issues. Big Thank you guys!</p>
 <center>
 ![](/images/dsound-logo-big.png)
 </center>
 
 <p>Now let’s take a pick of what is there to come on this release…</p>
-<h1 id="DSound-version-0-2"><a href="#DSound-version-0-2" class="headerlink" title="DSound version 0.2"></a>DSound version 0.2</h1><hr>
+<h2 id="DSound-version-0-2"><a href="#DSound-version-0-2" class="headerlink" title="DSound version 0.2"></a>DSound version 0.2</h2><hr>
 <p>This version is FAST! Probably the best news you all can get… :)</p>
 <p>Unfortunately most of the problems with performance were due to IPNS (Inter-Planetary Name System) that allows publishing of web applications to IPFS using names instead of hashes. So I opted to publish to IPFS and to regular centralized web server as well, since the web server will be the most used, we will have significant better performance for normal use, but keep redundancy of publishing to IPFS and IPNS on the side as a backup access.</p>
-<h2 id="Version-0-2-web-addresses"><a href="#Version-0-2-web-addresses" class="headerlink" title="Version 0.2 web addresses"></a>Version 0.2 web addresses</h2><hr>
+<h3 id="Version-0-2-web-addresses"><a href="#Version-0-2-web-addresses" class="headerlink" title="Version 0.2 web addresses"></a>Version 0.2 web addresses</h3><hr>
 <p>The various links to the same app, you probably want to use the first one as it is easier. The others are just backups, just in case… ;)</p>
 <ul>
 <li><p>Web: <a target="_blank" rel="noopener" href="https://dsound.audio/">https://dsound.audio/</a></p>
@@ -263,12 +263,12 @@
 </li>
 </ul>
 <p>Now let’s go ahead and check the new features and fixes…</p>
-<h2 id="Streaming-instead-of-Preloading"><a href="#Streaming-instead-of-Preloading" class="headerlink" title="Streaming instead of Preloading"></a>Streaming instead of Preloading</h2><hr>
+<h3 id="Streaming-instead-of-Preloading"><a href="#Streaming-instead-of-Preloading" class="headerlink" title="Streaming instead of Preloading"></a>Streaming instead of Preloading</h3><hr>
 <p>This one was very important! Many of you guys published podcasts, djsets, recordings, mixtapes, etc. And the way DSound engine was developed it would preload the entire sound before starting the playback, so for big files with 1 up to 4 hours it was a nightmare to wait many minutes before the playback was started…</p>
 <p>The behaviour of the first version was due to many restrictions in the way a web application can manipulate audio in the browser, and I had to write almost an entire new sound engine just for playback, maintaining the other for sound processing and analysis when uploading new sounds…</p>
 <p>But what is important is that you wont have to wait like that anymore!!! :)</p>
 <p>Try it yourself and let me know in the comments your feedback…</p>
-<h2 id="Sound-edit-page"><a href="#Sound-edit-page" class="headerlink" title="Sound edit page"></a>Sound edit page</h2><hr>
+<h3 id="Sound-edit-page"><a href="#Sound-edit-page" class="headerlink" title="Sound edit page"></a>Sound edit page</h3><hr>
 <p><img src="/images/dsound-Edit.png"></p>
 <p>Now you can edit your sounds! :)</p>
 <p>You can change the cover, the sound file, add more things to the description, change tags or genre, modify download or buy links, etc… Of course, as any frontend to STEEM blockchain all of that can be done only during the initial 7 days, because after the sound payout time it will be sealed in archive forever.</p>
@@ -277,25 +277,25 @@
 <p>In the meantime, if you feel like listening to some deep house, you can check out my remix that was showing in the picture above in this link:</p>
 <p><a target="_blank" rel="noopener" href="https://dsound.audio/#/@kolatz/oliver-heldens--shaun-frank-ft-delaney-jane-shades-of-grey-kolatz-remix">https://dsound.audio/#/@kolatz/oliver-heldens--shaun-frank-ft-delaney-jane-shades-of-grey-kolatz-remix</a> </p>
 <p>It’s from last year, but I really like it… And yes, @kolatz is my music alter ego… :)</p>
-<h2 id="Display-of-sound-value-after-payout"><a href="#Display-of-sound-value-after-payout" class="headerlink" title="Display of sound value after payout"></a>Display of sound value after payout</h2><hr>
+<h3 id="Display-of-sound-value-after-payout"><a href="#Display-of-sound-value-after-payout" class="headerlink" title="Display of sound value after payout"></a>Display of sound value after payout</h3><hr>
 <p><img src="/images/dsound-Payout.png"></p>
 <p>This fix was really my bad! I completely forgot that the pending payout eventually would stop being pending… ahahah :D</p>
 <p>But now your sounds will show the payout that they deserved even after the payout time. Much better!</p>
 <p>BTW, did you already listened to some of the tracks of @soundlegion? Great songs! Go ahead and listen to some here:</p>
 <p><a target="_blank" rel="noopener" href="https://dsound.audio/#/@soundlegion">https://dsound.audio/#/@soundlegion</a></p>
-<h2 id="HTML-and-Markdown-in-sound-description-and-comments"><a href="#HTML-and-Markdown-in-sound-description-and-comments" class="headerlink" title="HTML and Markdown in sound description and comments"></a>HTML and Markdown in sound description and comments</h2><hr>
+<h3 id="HTML-and-Markdown-in-sound-description-and-comments"><a href="#HTML-and-Markdown-in-sound-description-and-comments" class="headerlink" title="HTML and Markdown in sound description and comments"></a>HTML and Markdown in sound description and comments</h3><hr>
 <p><img src="/images/dsound-Markdown.png"></p>
 <p>This one was not a very big deal, but it is nice to have. My major worry was security and had to make sure that only some html tags would pass and that markdown would be supported as well. From the security point of view it is taken care, so I decided to give it a try…</p>
 <p>I know it is not perfect yet, there are some situations where the text makes the panel enlarge, pushing stuff off screen, but I’ll fix those issues along the way as people will post more sounds with more html and markdown in their texts. :)</p>
-<h2 id="Sound-duration-displayed-in-the-players"><a href="#Sound-duration-displayed-in-the-players" class="headerlink" title="Sound duration displayed in the players"></a>Sound duration displayed in the players</h2><hr>
+<h3 id="Sound-duration-displayed-in-the-players"><a href="#Sound-duration-displayed-in-the-players" class="headerlink" title="Sound duration displayed in the players"></a>Sound duration displayed in the players</h3><hr>
 <p><img src="/images/dsound-Duration.png"></p>
 <p>See those black pills right after the title of the sound? That’s where you can read the duration of that particular sound. :)</p>
 <p>This one I noticed the need. I always have limited time to listed to podcasts and other shows like @layl , @anarchast and others, so when I finally have some spare time, I need to know if that particular show fits gap on my schedule. And on DSound I couldn’t… Not anymore! Now all of us can see if it is a 1 hour show or 5 minute song right in the feed…</p>
-<h2 id="Many-other-fixes-and-improvements"><a href="#Many-other-fixes-and-improvements" class="headerlink" title="Many other fixes and improvements"></a>Many other fixes and improvements</h2><hr>
+<h3 id="Many-other-fixes-and-improvements"><a href="#Many-other-fixes-and-improvements" class="headerlink" title="Many other fixes and improvements"></a>Many other fixes and improvements</h3><hr>
 <p>I don’t want to bore you with these minor things… </p>
 <p>Many places where the flow wasn’t completely right. Limits of texts, tag sizes and count, internal things and so on…</p>
 <p>All those minors that we step on when going for major developments and we fix right away.</p>
-<h2 id="IPFS-uploads-and-publishing-vs-centralized-web-server"><a href="#IPFS-uploads-and-publishing-vs-centralized-web-server" class="headerlink" title="IPFS uploads and publishing vs centralized web server"></a>IPFS uploads and publishing vs centralized web server</h2><hr>
+<h3 id="IPFS-uploads-and-publishing-vs-centralized-web-server"><a href="#IPFS-uploads-and-publishing-vs-centralized-web-server" class="headerlink" title="IPFS uploads and publishing vs centralized web server"></a>IPFS uploads and publishing vs centralized web server</h3><hr>
 <p>(this may be too techy… maybe it’s time to jump to next topic?)</p>
 <p>Yes, I opted out of the IPNS deployment of DSound application. I tried really hard to find solutions for that problem. I really like IPFS technology, but there are certain things that simply don’t work yet!</p>
 <p>IPNS and web publishing performance are not production ready yet.</p>
@@ -305,7 +305,7 @@
 <p>Another big problem that we had lately was some downtime on IPFS uploads. Configuring IPFS nodes to be used by the public is a very difficult task indeed, so I have to thank @nannal from IPFS Store for his efforts in keeping everything up and running on his side!</p>
 <p>But since the beginning that I envisioned DSound using local IPFS on each user machine. That would be fast like a rocket to upload, and most important of all, the user would have the power in his hand to decide which and for how long the storage of his files would make sense. </p>
 <p>This will be my next major thing to solve… :)</p>
-<h2 id="What’s-next"><a href="#What’s-next" class="headerlink" title="What’s next?"></a>What’s next?</h2><hr>
+<h3 id="What’s-next"><a href="#What’s-next" class="headerlink" title="What’s next?"></a>What’s next?</h3><hr>
 <p>So, the next period I’ll be concentrated in these major topics for DSound:</p>
 <ul>
 <li><p>Local IPFS node helper application: so that all of us can have our own IPFS node easy to install and maintain</p>
@@ -317,11 +317,11 @@
 <li><p>Continue improvements and project roadmap</p>
 </li>
 </ul>
-<h2 id="Final-words"><a href="#Final-words" class="headerlink" title="Final words"></a>Final words</h2><hr>
+<h3 id="Final-words"><a href="#Final-words" class="headerlink" title="Final words"></a>Final words</h3><hr>
 <p>Thanks a lot to everyone that joined this project, uploaded sounds, listens to sounds on DSound and everyone that upvoted, resteemed and passed the word about DSound.</p>
 <p>I strongly believe that this can be a game changer for indie musicians and producers. I want to make it a reality! :)</p>
 <p>For all of you that already tried out, you’ll verify that DSound is improving and so I would ask you all to talk about it to all your friends that may be interested in sound and music. I know that together we’ll make this grow and give hundreds or thousands another way of monetizing their passion… While bringing more content creation to our beloved platform Steemit!</p>
-<h3 id="My-special-thanks-to-these-great-uploaders-for-sharing-their-sounds-on-DSound-please-check-them-out"><a href="#My-special-thanks-to-these-great-uploaders-for-sharing-their-sounds-on-DSound-please-check-them-out" class="headerlink" title="My special thanks to these great uploaders for sharing their sounds on DSound, please check them out:"></a>My special thanks to these great uploaders for sharing their sounds on DSound, please check them out:</h3><ol>
+<h4 id="My-special-thanks-to-these-great-uploaders-for-sharing-their-sounds-on-DSound-please-check-them-out"><a href="#My-special-thanks-to-these-great-uploaders-for-sharing-their-sounds-on-DSound-please-check-them-out" class="headerlink" title="My special thanks to these great uploaders for sharing their sounds on DSound, please check them out:"></a>My special thanks to these great uploaders for sharing their sounds on DSound, please check them out:</h4><ol>
 <li><a target="_blank" rel="noopener" href="https://dsound.audio/@soundlegion">@soundlegion</a></li>
 <li><a target="_blank" rel="noopener" href="https://dsound.audio/@webresultat">@webresultat</a></li>
 <li><a target="_blank" rel="noopener" href="https://dsound.audio/@fivestargroup">@fivestargroup</a></li>
@@ -342,7 +342,7 @@
 
 
 
-    <a data-url="https://decentrawise.com/projects/dsound-v0-2/" data-id="clwai88uu003y6nwd82ukehra" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://decentrawise.com/projects/dsound-v0-2/" data-id="clwal3ea0003vxlwd94dhhh22" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -418,7 +418,7 @@
         "genre": "projects",
         "datePublished": "2017-10-11",
         "dateCreated": "2017-10-11",
-        "dateModified": "2023-09-28",
+        "dateModified": "2024-05-17",
         "url": "https://decentrawise.com/projects/dsound-v0-2/",
         "description": "Original post on Steem
 Streaming, Sound Edit, Performance and Layout Improvements. Just one month and such Big News!First of all thanks to all of you who joined this project and made it a big success ",
@@ -427,10 +427,6 @@ Streaming, Sound Edit, Performance and Layout Improvements. Just one month and s
 </script>
 
 </article>
-
-    <section id="comments">
-    
-    </section>
 
 
 
@@ -533,7 +529,7 @@ Streaming, Sound Edit, Performance and Layout Improvements. Just one month and s
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tags</h3>
         <div class="widget tagcloud">
-            <a href="/tags/blockchain/" style="font-size: 10px;">blockchain</a> <a href="/tags/bp/" style="font-size: 13.75px;">bp</a> <a href="/tags/dapp/" style="font-size: 13.75px;">dapp</a> <a href="/tags/decentralization/" style="font-size: 10px;">decentralization</a> <a href="/tags/decentrawise-podcast/" style="font-size: 20px;">decentrawise podcast</a> <a href="/tags/dpos/" style="font-size: 13.75px;">dpos</a> <a href="/tags/dsound/" style="font-size: 16.25px;">dsound</a> <a href="/tags/dtube/" style="font-size: 10px;">dtube</a> <a href="/tags/efficiency/" style="font-size: 10px;">efficiency</a> <a href="/tags/eos/" style="font-size: 10px;">eos</a> <a href="/tags/eosio/" style="font-size: 15px;">eosio</a> <a href="/tags/ethereum/" style="font-size: 13.75px;">ethereum</a> <a href="/tags/experiment/" style="font-size: 12.5px;">experiment</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hackathon/" style="font-size: 15px;">hackathon</a> <a href="/tags/hive/" style="font-size: 11.25px;">hive</a> <a href="/tags/ipfs/" style="font-size: 17.5px;">ipfs</a> <a href="/tags/lens/" style="font-size: 10px;">lens</a> <a href="/tags/liquidapps/" style="font-size: 10px;">liquidapps</a> <a href="/tags/live-stream/" style="font-size: 20px;">live stream</a> <a href="/tags/music/" style="font-size: 16.25px;">music</a> <a href="/tags/nft/" style="font-size: 11.25px;">nft</a> <a href="/tags/open-source/" style="font-size: 12.5px;">open-source</a> <a href="/tags/panel/" style="font-size: 10px;">panel</a> <a href="/tags/smart-contract/" style="font-size: 16.25px;">smart-contract</a> <a href="/tags/solidity/" style="font-size: 13.75px;">solidity</a> <a href="/tags/steem/" style="font-size: 18.75px;">steem</a> <a href="/tags/token/" style="font-size: 10px;">token</a> <a href="/tags/uniswap/" style="font-size: 10px;">uniswap</a> <a href="/tags/video/" style="font-size: 20px;">video</a> <a href="/tags/witness/" style="font-size: 12.5px;">witness</a> <a href="/tags/youtube/" style="font-size: 20px;">youtube</a>
+            <a href="/tags/blockchain/" style="font-size: 10px;">blockchain</a> <a href="/tags/bp/" style="font-size: 13.75px;">bp</a> <a href="/tags/dapp/" style="font-size: 13.75px;">dapp</a> <a href="/tags/decentralization/" style="font-size: 10px;">decentralization</a> <a href="/tags/decentrawise-podcast/" style="font-size: 20px;">decentrawise podcast</a> <a href="/tags/dpos/" style="font-size: 13.75px;">dpos</a> <a href="/tags/dsound/" style="font-size: 16.25px;">dsound</a> <a href="/tags/dtube/" style="font-size: 10px;">dtube</a> <a href="/tags/efficiency/" style="font-size: 10px;">efficiency</a> <a href="/tags/eos/" style="font-size: 10px;">eos</a> <a href="/tags/eosio/" style="font-size: 15px;">eosio</a> <a href="/tags/ethereum/" style="font-size: 13.75px;">ethereum</a> <a href="/tags/experiment/" style="font-size: 12.5px;">experiment</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hackathon/" style="font-size: 15px;">hackathon</a> <a href="/tags/hive/" style="font-size: 11.25px;">hive</a> <a href="/tags/ipfs/" style="font-size: 17.5px;">ipfs</a> <a href="/tags/liquidapps/" style="font-size: 10px;">liquidapps</a> <a href="/tags/live-stream/" style="font-size: 20px;">live stream</a> <a href="/tags/music/" style="font-size: 16.25px;">music</a> <a href="/tags/nft/" style="font-size: 11.25px;">nft</a> <a href="/tags/open-source/" style="font-size: 12.5px;">open-source</a> <a href="/tags/panel/" style="font-size: 10px;">panel</a> <a href="/tags/smart-contract/" style="font-size: 16.25px;">smart-contract</a> <a href="/tags/solidity/" style="font-size: 13.75px;">solidity</a> <a href="/tags/steem/" style="font-size: 18.75px;">steem</a> <a href="/tags/token/" style="font-size: 10px;">token</a> <a href="/tags/uniswap/" style="font-size: 10px;">uniswap</a> <a href="/tags/video/" style="font-size: 20px;">video</a> <a href="/tags/witness/" style="font-size: 12.5px;">witness</a> <a href="/tags/youtube/" style="font-size: 20px;">youtube</a>
         </div>
     </div>
 

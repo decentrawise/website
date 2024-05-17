@@ -10,16 +10,16 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="keywords" content="decentrawise,podcast,decentralization,decentralisation,experts,blockchain,dlt,p2p,peer,peer to peer,development,smart contract,smart-contract,smart,contract,bitcoin,ethereum,solidity,steem,hive,eosio,witness,block producer,block,producer" />
-    <meta name="description" content="EOSIO Configuration handler pluggable into any contract A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code. Check the code at eosio-config repo Ho">
+    <meta name="description" content="A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="EOSIO Config handler for contracts">
 <meta property="og:url" content="https://decentrawise.com/development/eosio-config/index.html">
 <meta property="og:site_name" content="DecentraWise">
-<meta property="og:description" content="EOSIO Configuration handler pluggable into any contract A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code. Check the code at eosio-config repo Ho">
+<meta property="og:description" content="A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code.">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://decentrawise.com/images/eosio.png">
 <meta property="article:published_time" content="2020-04-10T00:00:00.000Z">
-<meta property="article:modified_time" content="2023-09-28T22:27:12.566Z">
+<meta property="article:modified_time" content="2024-05-17T10:46:40.016Z">
 <meta property="article:author" content="DecentraWise">
 <meta property="article:tag" content="eosio">
 <meta property="article:tag" content="smart-contract">
@@ -241,10 +241,10 @@
 
             
 
-            <h1 id="EOSIO-Configuration-handler-pluggable-into-any-contract"><a href="#EOSIO-Configuration-handler-pluggable-into-any-contract" class="headerlink" title="EOSIO Configuration handler pluggable into any contract"></a>EOSIO Configuration handler pluggable into any contract</h1><p><img src="/images/eosio.png"></p>
+            <h2 id="EOSIO-Configuration-handler-pluggable-into-any-contract"><a href="#EOSIO-Configuration-handler-pluggable-into-any-contract" class="headerlink" title="EOSIO Configuration handler pluggable into any contract"></a>EOSIO Configuration handler pluggable into any contract</h2><p><img src="/images/eosio.png"></p>
 <p>A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code.</p>
 <p>Check the code at <a target="_blank" rel="noopener" href="https://github.com/decentrawise/eosio-config">eosio-config repo</a></p>
-<h2 id="How-it-works"><a href="#How-it-works" class="headerlink" title="How it works"></a>How it works</h2><p>The only thing needed is to plug the config header file. Then on your contract constructor load the singleton config data and on the destructor save it.</p>
+<h3 id="How-it-works"><a href="#How-it-works" class="headerlink" title="How it works"></a>How it works</h3><p>The only thing needed is to plug the config header file. Then on your contract constructor load the singleton config data and on the destructor save it.</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;config.hpp&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> [[eosio::contract]] profile: <span class="keyword">public</span> eosio::contract &#123;</span><br><span class="line"></span><br><span class="line">  config_singleton config;  <span class="comment">// the configuration singleton, do not use directly</span></span><br><span class="line">  config_data cfg;</span><br><span class="line"></span><br><span class="line">  ...</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"></span><br><span class="line">  <span class="built_in">profile</span>(eosio::name receiver, eosio::name code, eosio::datastream&lt;<span class="type">const</span> <span class="type">char</span>*&gt; ds) :</span><br><span class="line">    <span class="built_in">contract</span>(receiver, code, ds),</span><br><span class="line">    <span class="built_in">config</span>(receiver, receiver.value)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="comment">// load config</span></span><br><span class="line">    cfg = config.<span class="built_in">get_or_create</span>(receiver);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  ~<span class="built_in">profile</span>() &#123;</span><br><span class="line">    <span class="comment">// save configuration</span></span><br><span class="line">    config.<span class="built_in">set</span>(cfg, eosio::same_payer);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  [[eosio::action]]</span><br><span class="line">  <span class="type">void</span> ...</span><br></pre></td></tr></table></figure>
 
 <p>Then you just need to add the action to configure your contract… Please refer to the included test contract for a complete working example, like:</p>
@@ -258,7 +258,7 @@
 
 
 
-    <a data-url="https://decentrawise.com/development/eosio-config/" data-id="clwai88uw004j6nwd0hhvc1fe" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://decentrawise.com/development/eosio-config/" data-id="clwal3ea2004lxlwd65eyaymu" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -334,7 +334,7 @@
         "genre": "development",
         "datePublished": "2020-04-10",
         "dateCreated": "2020-04-10",
-        "dateModified": "2023-09-28",
+        "dateModified": "2024-05-17",
         "url": "https://decentrawise.com/development/eosio-config/",
         "description": "EOSIO Configuration handler pluggable into any contract
 A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code.
@@ -345,10 +345,6 @@ Ho",
 </script>
 
 </article>
-
-    <section id="comments">
-    
-    </section>
 
 
 
@@ -451,7 +447,7 @@ Ho",
     <div class="widget-wrap widget-float">
         <h3 class="widget-title">tags</h3>
         <div class="widget tagcloud">
-            <a href="/tags/blockchain/" style="font-size: 10px;">blockchain</a> <a href="/tags/bp/" style="font-size: 13.75px;">bp</a> <a href="/tags/dapp/" style="font-size: 13.75px;">dapp</a> <a href="/tags/decentralization/" style="font-size: 10px;">decentralization</a> <a href="/tags/decentrawise-podcast/" style="font-size: 20px;">decentrawise podcast</a> <a href="/tags/dpos/" style="font-size: 13.75px;">dpos</a> <a href="/tags/dsound/" style="font-size: 16.25px;">dsound</a> <a href="/tags/dtube/" style="font-size: 10px;">dtube</a> <a href="/tags/efficiency/" style="font-size: 10px;">efficiency</a> <a href="/tags/eos/" style="font-size: 10px;">eos</a> <a href="/tags/eosio/" style="font-size: 15px;">eosio</a> <a href="/tags/ethereum/" style="font-size: 13.75px;">ethereum</a> <a href="/tags/experiment/" style="font-size: 12.5px;">experiment</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hackathon/" style="font-size: 15px;">hackathon</a> <a href="/tags/hive/" style="font-size: 11.25px;">hive</a> <a href="/tags/ipfs/" style="font-size: 17.5px;">ipfs</a> <a href="/tags/lens/" style="font-size: 10px;">lens</a> <a href="/tags/liquidapps/" style="font-size: 10px;">liquidapps</a> <a href="/tags/live-stream/" style="font-size: 20px;">live stream</a> <a href="/tags/music/" style="font-size: 16.25px;">music</a> <a href="/tags/nft/" style="font-size: 11.25px;">nft</a> <a href="/tags/open-source/" style="font-size: 12.5px;">open-source</a> <a href="/tags/panel/" style="font-size: 10px;">panel</a> <a href="/tags/smart-contract/" style="font-size: 16.25px;">smart-contract</a> <a href="/tags/solidity/" style="font-size: 13.75px;">solidity</a> <a href="/tags/steem/" style="font-size: 18.75px;">steem</a> <a href="/tags/token/" style="font-size: 10px;">token</a> <a href="/tags/uniswap/" style="font-size: 10px;">uniswap</a> <a href="/tags/video/" style="font-size: 20px;">video</a> <a href="/tags/witness/" style="font-size: 12.5px;">witness</a> <a href="/tags/youtube/" style="font-size: 20px;">youtube</a>
+            <a href="/tags/blockchain/" style="font-size: 10px;">blockchain</a> <a href="/tags/bp/" style="font-size: 13.75px;">bp</a> <a href="/tags/dapp/" style="font-size: 13.75px;">dapp</a> <a href="/tags/decentralization/" style="font-size: 10px;">decentralization</a> <a href="/tags/decentrawise-podcast/" style="font-size: 20px;">decentrawise podcast</a> <a href="/tags/dpos/" style="font-size: 13.75px;">dpos</a> <a href="/tags/dsound/" style="font-size: 16.25px;">dsound</a> <a href="/tags/dtube/" style="font-size: 10px;">dtube</a> <a href="/tags/efficiency/" style="font-size: 10px;">efficiency</a> <a href="/tags/eos/" style="font-size: 10px;">eos</a> <a href="/tags/eosio/" style="font-size: 15px;">eosio</a> <a href="/tags/ethereum/" style="font-size: 13.75px;">ethereum</a> <a href="/tags/experiment/" style="font-size: 12.5px;">experiment</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hackathon/" style="font-size: 15px;">hackathon</a> <a href="/tags/hive/" style="font-size: 11.25px;">hive</a> <a href="/tags/ipfs/" style="font-size: 17.5px;">ipfs</a> <a href="/tags/liquidapps/" style="font-size: 10px;">liquidapps</a> <a href="/tags/live-stream/" style="font-size: 20px;">live stream</a> <a href="/tags/music/" style="font-size: 16.25px;">music</a> <a href="/tags/nft/" style="font-size: 11.25px;">nft</a> <a href="/tags/open-source/" style="font-size: 12.5px;">open-source</a> <a href="/tags/panel/" style="font-size: 10px;">panel</a> <a href="/tags/smart-contract/" style="font-size: 16.25px;">smart-contract</a> <a href="/tags/solidity/" style="font-size: 13.75px;">solidity</a> <a href="/tags/steem/" style="font-size: 18.75px;">steem</a> <a href="/tags/token/" style="font-size: 10px;">token</a> <a href="/tags/uniswap/" style="font-size: 10px;">uniswap</a> <a href="/tags/video/" style="font-size: 20px;">video</a> <a href="/tags/witness/" style="font-size: 12.5px;">witness</a> <a href="/tags/youtube/" style="font-size: 20px;">youtube</a>
         </div>
     </div>
 

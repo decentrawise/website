@@ -865,10 +865,7 @@
       
       <pubDate>Fri, 27 Oct 2023 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;h1 id=&quot;We-participated-and-had-a-lot-of-fun-Oct-2023&quot;&gt;&lt;a href=&quot;#We-participated-and-had-a-lot-of-fun-Oct-2023&quot; class=&quot;headerlink&quot; title=&quot;We</description>
-        
+      <description>We participated and had a lot of fun, Oct 2023.</description>
       
       
       <enclosure url="https://decentrawise.com//images/ethonline-hackathon-2023.jpg" type="image"/>
@@ -888,8 +885,6 @@
       
       <category domain="https://decentrawise.com/tags/nft/">nft</category>
       
-      
-      <comments>https://decentrawise.com/hackathons/ethonline-hackathon-2023/#disqus_thread</comments>
       
     </item>
     
@@ -1182,10 +1177,7 @@
       
       <pubDate>Mon, 15 May 2023 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;h1 id=&quot;We-participated-and-had-a-lot-of-fun-May-2023&quot;&gt;&lt;a href=&quot;#We-participated-and-had-a-lot-of-fun-May-2023&quot; class=&quot;headerlink&quot; title=&quot;We</description>
-        
+      <description>We participated and had a lot of fun, May 2023.</description>
       
       
       <enclosure url="https://decentrawise.com//images/ethglobal-lisbon-hackathon.jpg" type="image"/>
@@ -1205,10 +1197,6 @@
       
       <category domain="https://decentrawise.com/tags/nft/">nft</category>
       
-      <category domain="https://decentrawise.com/tags/lens/">lens</category>
-      
-      
-      <comments>https://decentrawise.com/hackathons/ethglobal-lisbon-hackathon-2023/#disqus_thread</comments>
       
     </item>
     
@@ -1222,10 +1210,7 @@
       
       <pubDate>Fri, 12 Nov 2021 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;h1 id=&quot;We-participated-and-had-a-lot-of-fun-August-2021&quot;&gt;&lt;a href=&quot;#We-participated-and-had-a-lot-of-fun-August-2021&quot; class=&quot;headerlink&quot; tit</description>
-        
+      <description>We participated and had a lot of fun, August 2021.</description>
       
       
       <enclosure url="https://decentrawise.com//images/unicode-hackathon.jpg" type="image"/>
@@ -1248,8 +1233,6 @@
       <category domain="https://decentrawise.com/tags/github/">github</category>
       
       
-      <comments>https://decentrawise.com/hackathons/unicode-hackathon-2021/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1262,10 +1245,7 @@
       
       <pubDate>Sat, 21 Aug 2021 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;h1 id=&quot;We-participated-and-had-a-lot-of-fun-August-2021&quot;&gt;&lt;a href=&quot;#We-participated-and-had-a-lot-of-fun-August-2021&quot; class=&quot;headerlink&quot; tit</description>
-        
+      <description>We participated and had a lot of fun, August 2021.</description>
       
       
       <enclosure url="https://decentrawise.com//images/hackfs-hackathon.jpg" type="image"/>
@@ -1287,8 +1267,6 @@
       
       <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
       
-      
-      <comments>https://decentrawise.com/hackathons/hackfs-hackathon-2021/#disqus_thread</comments>
       
     </item>
     
@@ -1333,10 +1311,7 @@
       
       <pubDate>Fri, 10 Apr 2020 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;h1 id=&quot;EOSIO-Configuration-handler-pluggable-into-any-contract&quot;&gt;&lt;a href=&quot;#EOSIO-Configuration-handler-pluggable-into-any-contract&quot; class=&quot;h</description>
-        
+      <description>A simple way to handle configuration values for EOSIO contracts that fits any pre-existing contract code.</description>
       
       
       <enclosure url="https://decentrawise.com//images/eosio.png" type="image"/>
@@ -1354,8 +1329,6 @@
       
       <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
       
-      
-      <comments>https://decentrawise.com/development/eosio-config/#disqus_thread</comments>
       
     </item>
     
@@ -1369,10 +1342,7 @@
       
       <pubDate>Sun, 05 Apr 2020 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;h1 id=&quot;Plug-and-play-code-that-you-can-plug-to-any-contract&quot;&gt;&lt;a href=&quot;#Plug-and-play-code-that-you-can-plug-to-any-contract&quot; class=&quot;headerl</description>
-        
+      <description>An implementation of a tasks and workers scheduler for EOSIO contracts that can be plugged into any pre-existing contract.</description>
       
       
       <enclosure url="https://decentrawise.com//images/eosio.png" type="image"/>
@@ -1391,8 +1361,6 @@
       <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
       
       
-      <comments>https://decentrawise.com/development/eosio-scheduler/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1405,10 +1373,7 @@
       
       <pubDate>Tue, 31 Mar 2020 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://hive.blog/hive-129959/@dsound/dsound-v0-4-3-hello-hive-new-features-and-strategy&quot;&gt;Original post on Hive&lt;/a&gt;&lt;/s</description>
-        
+      <description>Launch of DSound version 0.4.3 alpha update.</description>
       
       
       <enclosure url="https://decentrawise.com//images/dsound-hive.png" type="image"/>
@@ -1427,8 +1392,6 @@
       <category domain="https://decentrawise.com/tags/hive/">hive</category>
       
       
-      <comments>https://decentrawise.com/projects/dsound-v0-4-3/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1441,10 +1404,7 @@
       
       <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/witness-category/@prc/update-witness-nodes-updated-to-v0-23-0-hello-hive-family&quot;&gt;Original post on </description>
-        
+      <description>DSound moving to Hive Blockchain at a Last Attempt to Survive Justin Sun Takeover.</description>
       
       
       <enclosure url="https://decentrawise.com//images/hive-logo.jpg" type="image"/>
@@ -1465,8 +1425,6 @@
       <category domain="https://decentrawise.com/tags/witness/">witness</category>
       
       
-      <comments>https://decentrawise.com/infrastructure/supporting-hive-fork/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1479,10 +1437,7 @@
       
       <pubDate>Wed, 26 Feb 2020 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/witness-category/@prc/update-witness-nodes-updated-to-v0-22-2&quot;&gt;Original post on Steem&lt;/a&gt;&lt;/sub&gt;&lt;/s</description>
-        
+      <description>Some Thoughts about Steem Takeover by Justin Sun.</description>
       
       
       <enclosure url="https://decentrawise.com//images/steem.png" type="image"/>
@@ -1501,8 +1456,6 @@
       <category domain="https://decentrawise.com/tags/witness/">witness</category>
       
       
-      <comments>https://decentrawise.com/infrastructure/steem-protection-soft-fork/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1515,10 +1468,7 @@
       
       <pubDate>Tue, 04 Feb 2020 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;h1 id=&quot;Minimizing-impact-in-CPU-usage-of-multi-index-modify-in-cycles&quot;&gt;&lt;a href=&quot;#Minimizing-impact-in-CPU-usage-of-multi-index-modify-in-cy</description>
-        
+      <description>We were requested to do an efficiency audit on some EOSIO smart-contract code for a dapp and here are some results.</description>
       
       
       <enclosure url="https://decentrawise.com//images/eosio.png" type="image"/>
@@ -1539,8 +1489,6 @@
       <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
       
       
-      <comments>https://decentrawise.com/development/eosio-efficiency-experiments/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1553,10 +1501,7 @@
       
       <pubDate>Mon, 25 Nov 2019 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;h1 id=&quot;We-participated-with-VIGORish-team-and-were-among-the-5-finalists-November-2019&quot;&gt;&lt;a href=&quot;#We-participated-with-VIGORish-team-and-we</description>
-        
+      <description>We participated with VIGORish team and were among the 5 finalists, November 2019.</description>
       
       
       <enclosure url="https://decentrawise.com//images/liquidapps-hackathon.png" type="image"/>
@@ -1577,8 +1522,6 @@
       <category domain="https://decentrawise.com/tags/liquidapps/">liquidapps</category>
       
       
-      <comments>https://decentrawise.com/hackathons/finalists-liquidapps-hackathon-2019/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1591,10 +1534,7 @@
       
       <pubDate>Sun, 29 Sep 2019 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/dtube/@prc/d-tube-token-sale-why-i-decided-to-buy-some-dtc-in-this-1st-sale-round&quot;&gt;Original post o</description>
-        
+      <description>DTube Token Sale details and why we decided to participate.</description>
       
       
       <enclosure url="https://decentrawise.com//images/dtube-logo-big.png" type="image"/>
@@ -1609,8 +1549,6 @@
       <category domain="https://decentrawise.com/tags/token/">token</category>
       
       
-      <comments>https://decentrawise.com/projects/dtube-token-sale/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1623,10 +1561,7 @@
       
       <pubDate>Sat, 08 Dec 2018 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/dsound/@prc/dsound-v0-4-1-update-to-hivemind-api-and-several-bug-fixes-and-much-more-to-come&quot;&gt;Orig</description>
-        
+      <description>Launch of DSound version 0.4.1 alpha update.</description>
       
       
       <enclosure url="https://decentrawise.com//images/dsound-logo-full.png" type="image"/>
@@ -1645,8 +1580,6 @@
       <category domain="https://decentrawise.com/tags/steem/">steem</category>
       
       
-      <comments>https://decentrawise.com/projects/dsound-v0-4-1/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1659,10 +1592,7 @@
       
       <pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;h3 id=&quot;Krakow-November-2018&quot;&gt;&lt;a href=&quot;#Krakow-November-2018&quot; class=&quot;headerlink&quot; title=&quot;Kraków, November 2018&quot;&gt;&lt;/a&gt;Kraków, November 2018&lt;/h3</description>
-        
+      <description>Creator of DSound (@prc) presentation. If you were not at SteemFest 3, then you can watch it here...</description>
       
       
       <enclosure url="https://decentrawise.com//images/dsound-steemfest3.png" type="image"/>
@@ -1681,8 +1611,6 @@
       <category domain="https://decentrawise.com/tags/steem/">steem</category>
       
       
-      <comments>https://decentrawise.com/talks/dsound-steemfest3/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1695,10 +1623,7 @@
       
       <pubDate>Sun, 04 Nov 2018 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/dsound/@prc/dsound-v0-4-new-ipfs-nodes-spread-globally-instant-playback-higher-curation-votes-post</description>
-        
+      <description>Launch of DSound version 0.4 alpha.</description>
       
       
       <enclosure url="https://decentrawise.com//images/dsound-logo-full.png" type="image"/>
@@ -1717,8 +1642,6 @@
       <category domain="https://decentrawise.com/tags/steem/">steem</category>
       
       
-      <comments>https://decentrawise.com/projects/dsound-v0-4/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1731,10 +1654,7 @@
       
       <pubDate>Sat, 22 Sep 2018 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;h1 id=&quot;We-participated-had-a-lot-of-fun-September-2018&quot;&gt;&lt;a href=&quot;#We-participated-had-a-lot-of-fun-September-2018&quot; class=&quot;headerlink&quot; title</description>
-        
+      <description>We participated had a lot of fun, September 2018.</description>
       
       
       <enclosure url="https://decentrawise.com//images/eosio-london-hackathon-opening.png" type="image"/>
@@ -1753,8 +1673,6 @@
       <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
       
-      <comments>https://decentrawise.com/hackathons/eosio-london-hackathon-2018/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1767,10 +1685,7 @@
       
       <pubDate>Tue, 05 Jun 2018 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;h1 id=&quot;Lisbon-June-2018&quot;&gt;&lt;a href=&quot;#Lisbon-June-2018&quot; class=&quot;headerlink&quot; title=&quot;Lisbon, June 2018&quot;&gt;&lt;/a&gt;Lisbon, June 2018&lt;/h1&gt;&lt;div class=&quot;vid</description>
-        
+      <description>Our Participation at IMSHARE 2018 as Panelist.</description>
       
       
       <enclosure url="https://decentrawise.com//images/imshare-2018.jpg" type="image"/>
@@ -1789,8 +1704,6 @@
       <category domain="https://decentrawise.com/tags/decentralization/">decentralization</category>
       
       
-      <comments>https://decentrawise.com/talks/imshare-2018-conf/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1803,10 +1716,7 @@
       
       <pubDate>Thu, 22 Feb 2018 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/dsound/@prc/dsound-v0-3-fixes-to-upload-improved-validations-new-ipfs-gateway-tags-without-prefix-</description>
-        
+      <description>Launch of DSound version 0.3 alpha.</description>
       
       
       <enclosure url="https://decentrawise.com//images/dsound-logo-big.png" type="image"/>
@@ -1825,8 +1735,6 @@
       <category domain="https://decentrawise.com/tags/steem/">steem</category>
       
       
-      <comments>https://decentrawise.com/projects/dsound-v0-3/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1839,11 +1747,7 @@
       
       <pubDate>Thu, 21 Dec 2017 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://d.tube/#!/v/prc/1v7tgnwk&quot;&gt;Original post on DTube&lt;/a&gt;&lt;/sub&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Lisbon-November-2017&quot;&gt;&lt;a href=&quot;#L</description>
-        
+      <description>DSound Presentation at SteemFest 2 Lisbon, November 2017.</description>
       
       
       <enclosure url="https://decentrawise.com//images/dsound-steemfest2.jpg" type="image"/>
@@ -1862,8 +1766,6 @@
       <category domain="https://decentrawise.com/tags/steem/">steem</category>
       
       
-      <comments>https://decentrawise.com/talks/dsound-steemfest2/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1876,10 +1778,7 @@
       
       <pubDate>Tue, 28 Nov 2017 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/witness-category/@prc/prc-witness-proposal-after-creating-dsound-and-attending-steemfest-2-i-want-</description>
-        
+      <description>Our Proposal as Steem Blockchain Block Producer (Witness).</description>
       
       
       <enclosure url="https://decentrawise.com//images/steem.png" type="image"/>
@@ -1898,8 +1797,6 @@
       <category domain="https://decentrawise.com/tags/witness/">witness</category>
       
       
-      <comments>https://decentrawise.com/infrastructure/steem-prc-witness-proposal/#disqus_thread</comments>
-      
     </item>
     
     <item>
@@ -1912,10 +1809,7 @@
       
       <pubDate>Wed, 11 Oct 2017 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/music/@prc/dsound-v0-2-streaming-sound-edit-performance-and-layout-improvements-just-one-month-and</description>
-        
+      <description>Launch of DSound version 0.2 alpha.</description>
       
       
       <enclosure url="https://decentrawise.com//images/dsound-logo-big.png" type="image"/>
@@ -1933,8 +1827,6 @@
       
       <category domain="https://decentrawise.com/tags/steem/">steem</category>
       
-      
-      <comments>https://decentrawise.com/projects/dsound-v0-2/#disqus_thread</comments>
       
     </item>
     
@@ -1948,10 +1840,7 @@
       
       <pubDate>Fri, 15 Sep 2017 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/music/@prc/dsound-the-launch-what-s-new-now-that-the-1st-alpha-is-closed-and-the-full-decentraliza</description>
-        
+      <description>The official launch of DSound first Alpha version.</description>
       
       
       <enclosure url="https://decentrawise.com//images/dsound-logo-big.png" type="image"/>
@@ -1969,8 +1858,6 @@
       
       <category domain="https://decentrawise.com/tags/steem/">steem</category>
       
-      
-      <comments>https://decentrawise.com/projects/dsound-the-launch/#disqus_thread</comments>
       
     </item>
     
@@ -1984,10 +1871,7 @@
       
       <pubDate>Fri, 08 Sep 2017 00:00:00 GMT</pubDate>
       
-        
-        
-      <description>&lt;p&gt;&lt;sup&gt;&lt;sub&gt;&lt;a href=&quot;https://steemit.com/music/@prc/introducing-dsound-a-decentralized-sound-platform-using-steem-and-ipfs&quot;&gt;Original post o</description>
-        
+      <description>Original Introduction of DSound on Steem and it&#39;s first trial deployment to the real world.</description>
       
       
       <enclosure url="https://decentrawise.com//images/dsound-logo-big.png" type="image"/>
@@ -2005,8 +1889,6 @@
       
       <category domain="https://decentrawise.com/tags/steem/">steem</category>
       
-      
-      <comments>https://decentrawise.com/projects/introducing-dsound/#disqus_thread</comments>
       
     </item>
     
