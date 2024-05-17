@@ -9,22 +9,22 @@
 
 
     <url>
+        <loc>https://decentrawise.com/categories/podcasts/</loc>
+        <lastmod>2024-05-17T09:54:24.202Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://decentrawise.com/categories/team/</loc>
-        <lastmod>2024-05-17T00:57:33.439Z</lastmod>
+        <lastmod>2024-05-17T09:47:03.013Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/categories/infrastructure/</loc>
-        <lastmod>2024-05-17T00:46:46.049Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/categories/podcasts/</loc>
-        <lastmod>2024-05-17T00:34:25.118Z</lastmod>
+        <lastmod>2024-05-17T09:16:54.685Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

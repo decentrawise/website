@@ -3,57 +3,57 @@
 
 
     <url>
-        <loc>https://decentrawise.com/tags/eosio/</loc>
-        <lastmod>2024-05-17T00:46:46.049Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/eos/</loc>
-        <lastmod>2024-05-17T00:46:46.049Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/dpos/</loc>
-        <lastmod>2024-05-17T00:46:46.049Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/tags/bp/</loc>
-        <lastmod>2024-05-17T00:46:46.049Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://decentrawise.com/tags/live-stream/</loc>
-        <lastmod>2024-05-17T00:34:25.118Z</lastmod>
+        <lastmod>2024-05-17T09:54:24.202Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/tags/video/</loc>
-        <lastmod>2024-05-17T00:34:25.118Z</lastmod>
+        <lastmod>2024-05-17T09:54:24.202Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/tags/youtube/</loc>
-        <lastmod>2024-05-17T00:34:25.118Z</lastmod>
+        <lastmod>2024-05-17T09:54:24.202Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/tags/decentrawise-podcast/</loc>
-        <lastmod>2024-05-17T00:34:25.118Z</lastmod>
+        <lastmod>2024-05-17T09:54:24.202Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/eosio/</loc>
+        <lastmod>2024-05-17T09:16:54.685Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/eos/</loc>
+        <lastmod>2024-05-17T09:16:54.685Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/dpos/</loc>
+        <lastmod>2024-05-17T09:16:54.685Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/bp/</loc>
+        <lastmod>2024-05-17T09:16:54.685Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -80,14 +80,14 @@
     </url>
 
     <url>
-        <loc>https://decentrawise.com/tags/smart-contract/</loc>
+        <loc>https://decentrawise.com/tags/hackathon/</loc>
         <lastmod>2023-11-07T10:12:39.329Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://decentrawise.com/tags/hackathon/</loc>
+        <loc>https://decentrawise.com/tags/smart-contract/</loc>
         <lastmod>2023-11-07T10:12:39.329Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
