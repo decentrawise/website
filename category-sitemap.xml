@@ -9,8 +9,22 @@
 
 
     <url>
+        <loc>https://decentrawise.com/categories/team/</loc>
+        <lastmod>2024-05-17T00:57:33.439Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/categories/infrastructure/</loc>
+        <lastmod>2024-05-17T00:46:46.049Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://decentrawise.com/categories/podcasts/</loc>
-        <lastmod>2024-05-13T18:54:13.173Z</lastmod>
+        <lastmod>2024-05-17T00:34:25.118Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -18,13 +32,6 @@
     <url>
         <loc>https://decentrawise.com/categories/hackathons/</loc>
         <lastmod>2023-11-07T10:12:39.329Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/categories/infrastructure/</loc>
-        <lastmod>2023-09-28T22:31:31.360Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -39,13 +46,6 @@
     <url>
         <loc>https://decentrawise.com/categories/development/</loc>
         <lastmod>2023-09-28T22:27:59.051Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://decentrawise.com/categories/team/</loc>
-        <lastmod>2023-09-28T22:22:01.529Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
