@@ -15,8 +15,40 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Building blockchains, smart contracts, dapps and changing the world as we know it...</description>
-    <pubDate>Sun, 19 May 2024 13:20:01 GMT</pubDate>
+    <pubDate>Fri, 24 May 2024 18:36:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      
+      <title>Web3 Primer: Come Build Your Own First NOT SO SMART Contracts with us and Have a Blast!</title>
+      
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-038/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-038/</guid>
+      <pubDate>Mon, 27 May 2024 17:00:00 GMT</pubDate>
+      
+      <source>https://www.youtube.com/watch?v=FvwVVolvkuM</source>
+      
+      
+      <description>In this episode we make an introduction to smart contract development and live code some REALLY NOT that smart contracts along with you, deploy them and interact with them, so that you learn how to build on your own.</description>
+      
+      
+      <enclosure url="https://i.ytimg.com/vi/FvwVVolvkuM/maxresdefault_live.jpg" type="image"/>
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+    </item>
     
     <item>
       
