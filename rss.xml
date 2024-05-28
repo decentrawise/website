@@ -15,8 +15,40 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Building blockchains, smart contracts, dapps and changing the world as we know it...</description>
-    <pubDate>Fri, 24 May 2024 18:36:12 GMT</pubDate>
+    <pubDate>Tue, 28 May 2024 08:05:21 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      
+      <title>Launch YOUR Meme Coin: Build and Deploy it with us in a live coding session!</title>
+      
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-039/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-039/</guid>
+      <pubDate>Mon, 03 Jun 2024 17:00:00 GMT</pubDate>
+      
+      <source>https://www.youtube.com/watch?v=8voNhjw-qI4</source>
+      
+      
+      <description>In this episode we&#39;ll build a Meme Coin from scratch, using Open Zeppelin tools and Remix IDE, and deploy it on a local network and to Sepolia testnet. After this episode you&#39;ll be able to do it all on your own!</description>
+      
+      
+      <enclosure url="https://i.ytimg.com/vi/8voNhjw-qI4/maxresdefault_live.jpg" type="image"/>
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+    </item>
     
     <item>
       
@@ -1357,11 +1389,11 @@
       
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
-      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
-      
       <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
       <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
+      
+      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
       
     </item>
