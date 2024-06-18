@@ -15,8 +15,40 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Building blockchains, smart contracts, dapps and changing the world as we know it...</description>
-    <pubDate>Mon, 17 Jun 2024 16:02:53 GMT</pubDate>
+    <pubDate>Tue, 18 Jun 2024 18:08:36 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      
+      <title>NFTs and IPFS Decentralized Storage: Why that REALLY Matters? Launch your NFTs the RIGHT WAY...</title>
+      
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-041/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-041/</guid>
+      <pubDate>Mon, 24 Jun 2024 17:00:00 GMT</pubDate>
+      
+      <source>https://www.youtube.com/watch?v=hlT3RZCM7w4</source>
+      
+      
+      <description>In this episode we&#39;ll change the NFT Collection from last episode to use IPFS Decentralized Storage, using Open Zeppelin tools and Remix IDE, and deploy it on a local network and to Sepolia testnet, and show it on OpenSea for selling. After this episode you&#39;ll be able to do it all on your own!</description>
+      
+      
+      <enclosure url="https://i.ytimg.com/vi/hlT3RZCM7w4/maxresdefault_live.jpg" type="image"/>
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+    </item>
     
     <item>
       
