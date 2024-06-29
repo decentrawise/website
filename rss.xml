@@ -15,8 +15,40 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Building blockchains, smart contracts, dapps and changing the world as we know it...</description>
-    <pubDate>Tue, 18 Jun 2024 18:08:36 GMT</pubDate>
+    <pubDate>Sat, 29 Jun 2024 07:45:28 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      
+      <title>YOUR OWN Token Airdrop: Learn, Build and Deploy it with us in a live coding session</title>
+      
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-042/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-042/</guid>
+      <pubDate>Mon, 01 Jul 2024 17:00:00 GMT</pubDate>
+      
+      <source>https://www.youtube.com/watch?v=Oqo2TiuLM20</source>
+      
+      
+      <description>In this episode we&#39;ll build a token airdrop contract from scratch, using Open Zeppelin tools and Remix IDE, and deploy it on a local network and to Sepolia testnet, and test it on Metamask. After this episode you&#39;ll be able to do it all on your own!</description>
+      
+      
+      <enclosure url="https://i.ytimg.com/vi/Oqo2TiuLM20/maxresdefault_live.jpg" type="image"/>
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+    </item>
     
     <item>
       
@@ -1667,11 +1699,11 @@
       
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
+      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
+      
       <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
       
       <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
-      
-      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
       
       
     </item>
