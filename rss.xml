@@ -15,8 +15,40 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Building blockchains, smart contracts, dapps and changing the world as we know it...</description>
-    <pubDate>Sat, 29 Jun 2024 07:45:28 GMT</pubDate>
+    <pubDate>Fri, 05 Jul 2024 12:18:28 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      
+      <title>Blockchain Organizations (BORGs): What they are and why they matter? Comparison with DAOs</title>
+      
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-043/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-043/</guid>
+      <pubDate>Mon, 08 Jul 2024 17:00:00 GMT</pubDate>
+      
+      <source>https://www.youtube.com/watch?v=PU_o2uLdS6U</source>
+      
+      
+      <description>In this episode we discuss Blockchain Organizations (BORGs) and compare them with DAOs. Also we go through some case studies of applications of BORGs and why they differ in governance.</description>
+      
+      
+      <enclosure url="https://i.ytimg.com/vi/PU_o2uLdS6U/maxresdefault_live.jpg" type="image"/>
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+    </item>
     
     <item>
       
@@ -1699,11 +1731,11 @@
       
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
+      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
+      
       <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
       
       <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
-      
-      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
       
       
     </item>
