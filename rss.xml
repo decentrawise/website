@@ -15,8 +15,40 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Building blockchains, smart contracts, dapps and changing the world as we know it...</description>
-    <pubDate>Mon, 15 Jul 2024 16:05:57 GMT</pubDate>
+    <pubDate>Mon, 22 Jul 2024 16:21:07 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      
+      <title>Cryptography 101: Cryptographic Basis for Blockchain and Web3 Developers</title>
+      
+      <link>https://decentrawise.com/podcasts/decentrawise-podcast-045/</link>
+      <guid>https://decentrawise.com/podcasts/decentrawise-podcast-045/</guid>
+      <pubDate>Mon, 22 Jul 2024 17:00:00 GMT</pubDate>
+      
+      <source>https://www.youtube.com/watch?v=aloOEsUEha0</source>
+      
+      
+      <description>In this episode we discuss the basics of cryptography required for blockchain and web3 developers.</description>
+      
+      
+      <enclosure url="https://i.ytimg.com/vi/aloOEsUEha0/maxresdefault_live.jpg" type="image"/>
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/podcasts/">podcasts</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/decentrawise-podcast/">decentrawise podcast</category>
+      
+      <category domain="https://decentrawise.com/tags/youtube/">youtube</category>
+      
+      <category domain="https://decentrawise.com/tags/video/">video</category>
+      
+      <category domain="https://decentrawise.com/tags/live-stream/">live stream</category>
+      
+      
+    </item>
     
     <item>
       
