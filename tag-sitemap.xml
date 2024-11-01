@@ -4,42 +4,42 @@
 
     <url>
         <loc>https://decentrawise.com/tags/crypto-assets/</loc>
-        <lastmod>2024-11-01T11:19:57.686Z</lastmod>
+        <lastmod>2024-11-01T11:27:50.325Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/tags/ethereum/</loc>
-        <lastmod>2024-11-01T11:19:57.686Z</lastmod>
+        <lastmod>2024-11-01T11:27:50.325Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/tags/bitcoin/</loc>
-        <lastmod>2024-11-01T11:19:57.686Z</lastmod>
+        <lastmod>2024-11-01T11:27:50.325Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/tags/decentralization/</loc>
-        <lastmod>2024-11-01T11:19:57.686Z</lastmod>
+        <lastmod>2024-11-01T11:27:50.325Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/tags/talk/</loc>
-        <lastmod>2024-11-01T11:19:57.686Z</lastmod>
+        <lastmod>2024-11-01T11:27:50.325Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://decentrawise.com/tags/blockchain/</loc>
-        <lastmod>2024-11-01T11:19:57.686Z</lastmod>
+        <lastmod>2024-11-01T11:27:50.325Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -143,13 +143,6 @@
     </url>
 
     <url>
-        <loc>https://decentrawise.com/tags/smart-contract/</loc>
-        <lastmod>2024-05-17T10:59:59.249Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://decentrawise.com/tags/solidity/</loc>
         <lastmod>2024-05-17T10:59:59.249Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -158,6 +151,13 @@
 
     <url>
         <loc>https://decentrawise.com/tags/hackathon/</loc>
+        <lastmod>2024-05-17T10:59:59.249Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://decentrawise.com/tags/smart-contract/</loc>
         <lastmod>2024-05-17T10:59:59.249Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
