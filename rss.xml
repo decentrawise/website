@@ -15,8 +15,42 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Building blockchains, smart contracts, dapps and changing the world as we know it...</description>
-    <pubDate>Mon, 22 Jul 2024 16:21:07 GMT</pubDate>
+    <pubDate>Fri, 01 Nov 2024 11:19:57 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      
+      <title>Blockchain Talk @ Closer</title>
+      
+      <link>https://decentrawise.com/talks/blockchain-talk-closer-2024/</link>
+      <guid>https://decentrawise.com/talks/blockchain-talk-closer-2024/</guid>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 GMT</pubDate>
+      
+      
+      <description>Talk about Blockchain, Bitcoin, and Crypto-assets.</description>
+      
+      
+      <enclosure url="/images/blockchain-talk-closer-2024.jpg" type="image"/>
+      
+      
+      
+      <category domain="https://decentrawise.com/categories/talks/">talks</category>
+      
+      
+      <category domain="https://decentrawise.com/tags/blockchain/">blockchain</category>
+      
+      <category domain="https://decentrawise.com/tags/talk/">talk</category>
+      
+      <category domain="https://decentrawise.com/tags/decentralization/">decentralization</category>
+      
+      <category domain="https://decentrawise.com/tags/bitcoin/">bitcoin</category>
+      
+      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
+      
+      <category domain="https://decentrawise.com/tags/crypto-assets/">crypto-assets</category>
+      
+      
+    </item>
     
     <item>
       
@@ -1189,13 +1223,13 @@
       <category domain="https://decentrawise.com/categories/hackathons/">hackathons</category>
       
       
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
-      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
-      
       <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
       <category domain="https://decentrawise.com/tags/nft/">nft</category>
       
@@ -1509,13 +1543,13 @@
       <category domain="https://decentrawise.com/categories/hackathons/">hackathons</category>
       
       
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
-      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
-      
       <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
       <category domain="https://decentrawise.com/tags/nft/">nft</category>
       
@@ -1541,13 +1575,13 @@
       <category domain="https://decentrawise.com/categories/hackathons/">hackathons</category>
       
       
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
-      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
-      
       <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
       <category domain="https://decentrawise.com/tags/uniswap/">uniswap</category>
       
@@ -1575,17 +1609,17 @@
       <category domain="https://decentrawise.com/categories/hackathons/">hackathons</category>
       
       
-      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
+      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
       
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      <category domain="https://decentrawise.com/tags/ipfs/">ipfs</category>
       
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
-      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
-      
-      <category domain="https://decentrawise.com/tags/ethereum/">ethereum</category>
-      
       <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
+      
+      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
       
     </item>
@@ -1825,13 +1859,13 @@
       
       <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
       
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
-      
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
-      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
       <category domain="https://decentrawise.com/tags/liquidapps/">liquidapps</category>
+      
+      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
       
     </item>
@@ -1973,9 +2007,9 @@
       
       <category domain="https://decentrawise.com/tags/eosio/">eosio</category>
       
-      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
-      
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
+      
+      <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
       <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
@@ -2001,13 +2035,13 @@
       <category domain="https://decentrawise.com/categories/talks/">talks</category>
       
       
-      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
-      
       <category domain="https://decentrawise.com/tags/blockchain/">blockchain</category>
       
-      <category domain="https://decentrawise.com/tags/panel/">panel</category>
-      
       <category domain="https://decentrawise.com/tags/decentralization/">decentralization</category>
+      
+      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
+      
+      <category domain="https://decentrawise.com/tags/panel/">panel</category>
       
       
     </item>
