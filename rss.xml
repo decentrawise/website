@@ -15,12 +15,12 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Building blockchains, smart contracts, dapps and changing the world as we know it...</description>
-    <pubDate>Fri, 01 Nov 2024 11:27:50 GMT</pubDate>
+    <pubDate>Fri, 01 Nov 2024 11:29:01 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       
-      <title>Blockchain Talk @ Closer</title>
+      <title>Blockchain Talk @ Closer Consulting</title>
       
       <link>https://decentrawise.com/talks/blockchain-talk-closer-2024/</link>
       <guid>https://decentrawise.com/talks/blockchain-talk-closer-2024/</guid>
@@ -1829,11 +1829,11 @@
       
       <category domain="https://decentrawise.com/tags/smart-contract/">smart-contract</category>
       
-      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
-      
       <category domain="https://decentrawise.com/tags/experiment/">experiment</category>
       
       <category domain="https://decentrawise.com/tags/open-source/">open-source</category>
+      
+      <category domain="https://decentrawise.com/tags/efficiency/">efficiency</category>
       
       
     </item>
