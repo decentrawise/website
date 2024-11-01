@@ -15,7 +15,7 @@
     <atom:link href="https://decentrawise.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>Building blockchains, smart contracts, dapps and changing the world as we know it...</description>
-    <pubDate>Fri, 01 Nov 2024 11:29:01 GMT</pubDate>
+    <pubDate>Fri, 01 Nov 2024 11:30:57 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -1617,9 +1617,9 @@
       
       <category domain="https://decentrawise.com/tags/hackathon/">hackathon</category>
       
-      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
-      
       <category domain="https://decentrawise.com/tags/solidity/">solidity</category>
+      
+      <category domain="https://decentrawise.com/tags/dapp/">dapp</category>
       
       
     </item>
